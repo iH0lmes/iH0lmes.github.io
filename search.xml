@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>1337UPCTF2022-Crypto</title>
+    <url>/2022/06/22/1337UPCTF2022-Crypto/</url>
+    <content><![CDATA[<p>但丁的地狱</p>
+<span id="more"></span>
+<h1 id="Dante’s-Inferno"><a href="#Dante’s-Inferno" class="headerlink" title="Dante’s Inferno"></a>Dante’s Inferno</h1><p>​        题目只有一个unknown文件，在其16进制中发现PK字符，猜测是一个压缩包，尝试解压后发现损坏。猜测是缺少头文件，所以便添加一个50 4B 03 04在前面，能提取出一个txt文件，其中有密文：</p>
+<pre><code>Hey there, it&#39;s Ben I forgot the key to unlock my omnitrix help me to decrypt the key.
+
+This was the data Azmuth found in the ROOT of omnitrix :
+
+D&#39;`r_&quot;\!65|&#123;8yTBu-,P0&lt;L&#39;]m7)iE3ffT&quot;b~=+&lt;)([wvo5Vlqping-kjihgfH%cb[`Y&#125;@VUyxXQPUTMLpPOHMFj-,HGF?&gt;bBA:?&gt;7[;:9870v.3,PO/.&#39;K%*)&quot;F&amp;%ed&quot;y~w=uzsr8potml21oQmf,diha`e^$\aZ_^W&#123;[=&lt;XWPOs65KPIHGFjJIHG@?c=B;@?&gt;7[;4981U5.R21q)M-&amp;%I#(&#39;~D$&#123;&quot;y?wv&#123;t:9qYun4rkSonmlkdihg`&amp;d]\aZY&#125;@V[ZYXQuU76LKo2HGFjiCHA@?c=B;@?&gt;7[;4981UT4321q)M&#39;&amp;%$)&quot;!E%e&#123;z@~&#125;_uzs9wvotsrk1onPle+*)a`e^$\aZY&#125;W\[TSwvVUTMLpPIHGLEiIHG@(&gt;baA:^!~&lt;;:921U54t2+*N.&#39;&amp;%*)&quot;FEfe&#123;&quot;y?&gt;v&#123;zsxqp6nVl2pohg-ejib(&#39;_^]b[Z~^@?UZSRvPONr54JImGLKDIBfe(&gt;=&lt;`#&quot;&gt;=65Y987w/43,P0)o-,+$H(&#39;&amp;%|B&quot;!~w|&#123;t:xZpo5Vlqjinmled*Ka`edc\&quot;Z_^]Vz=YXQPtN6LKoO10FKDhHAF?cCBA#&quot;8\65Y987w/43,P*p.-&amp;J*#i&#39;&amp;&#125;C#&quot;!x&gt;|&#123;zyr8ponmrqj0/mfNjibg`_^$b[Z_X]VUySRQPUNr54JImMLEDhHA@dD=B;:^8=6;4X2Vwv4-,+*N(-,%$H(!&amp;&#125;C#&quot;!xwv&lt;zyxZpo5Vrkjongf,jibJ`_^$\aZ_^]VzTYRWVOsSRQJn1MFKJCBf)(&gt;=&lt;`#&quot;8\654XW165.-Q10)(&#39;K+$#G&#39;&amp;fe#&quot;y?&#125;vuzyxq7utsrkj0hgfkjihg`_^$\[ZY&#125;|V[ZSRWPtT6LKJIm0/KDIHAeEDC&lt;;:9]\6Z4z816/4-,P0/.&#39;&amp;%$H(&#39;&amp;%ed&quot;y~w=&#123;tsr8vo5mlqponmf,diba`ed]#&quot;Z_X]V[TxRQVONMLp3INGFEi,HAF?c=&lt;;@9876Z&#123;921U/432+O)o&#39;&amp;%I#(!&amp;%$&#123;A@~&#125;|&#123;ts9qpun4lkpi/glkdcba&#39;_dcbaZY&#125;]\UyS;QVUNrq4JIHMFj-,BGF?cCBA#&quot;8=6Z:98705.-Q1*p.-&amp;JI#&quot;!~&#125;C&#123;&quot;!~&#125;v&lt;tsrqp6Wsl2jinmlkdcba&#39;e^cb[Z~^@?UZSRv98TSLKo2NMFEJIBf)EDC&lt;;_98=6;4X2765.-Q10)o&#39;&amp;%I#i&#39;&amp;&#125;C&#123;&quot;y~w=utyrqp6tsrqSi/g-ediha&#39;eG]#[ZY&#125;@VzTYXWVOs6LKo2NMFKJCBf@ED=a;@9]=&lt;54XW765.-Q1q)ML,%*)&quot;!~&#125;C&#123;&quot;yx&#125;v&lt;;yrwvo5slqpohg-kdchgf_%]\[Z~&#125;@VzZYRWVOsSRQJnN0/EDCg*)E&gt;b&lt;;@?8=6Z:9810T4t2+*N(-,%$H(&#39;gf|Bz!x&#125;|u;srqpon4lTjohg-kjiba&#39;e^c\&quot;!Y^]\[TxXW9ONMLpPOHMFjDIHA@E&gt;b&lt;;:9]=6;492V65.R2+*N.&#39;&amp;+*#G&#39;~%|#&quot;yx&gt;=uzsxwvun43kjohgf,jihgfe^$\[Z_^W&#123;[TYXWVOsSRQJONMLEiCHG@?cb%;@?8\6;492VUTu-2+ONon,+*#G!&amp;&#125;C#&quot;!x&gt;|u;yrwpun4lTjohg-eMib(fe^cb[!Y^]\Uy&lt;;WVONSLpJIHMFKDhU
+</code></pre><p>看了wp才知道原来这是一种编程语言……<strong>Malbolge</strong></p>
+<p><a href="https://malbolge.doleczek.pl/">https://malbolge.doleczek.pl/</a></p>
+<p>用上网站解出密文得到</p>
+<pre><code>ct =  873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013
+</code></pre><p>再尝试开三次方，得到flag</p>
+<pre><code class="lang-python">&gt;&gt;&gt; from Crypto.Util.number import *
+&gt;&gt;&gt; import gmpy2
+&gt;&gt;&gt; gmpy2.iroot(873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013,3)
+(mpz(95579309976104600502240991830192190518846753403800625853612609969212847649926782792317), True)
+&gt;&gt;&gt; long_to_bytes(95579309976104600502240991830192190518846753403800625853612609969212847649926782792317)
+b&#39;1337UP&#123;U_d3CrYPt3D_th3_k3Y_30494762&#125;&#39;
+</code></pre>
+]]></content>
+      <categories>
+        <category>编程语言</category>
+      </categories>
+      <tags>
+        <tag>Crypto</tag>
+        <tag>CTF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>zer0ptsCTF2022</title>
+    <url>/2022/06/22/zer0ptsCTF2022/</url>
+    <content><![CDATA[<p>Anti-Fermat</p>
+<span id="more"></span>
+<div class="note warning"><p>这里是警告。</p></div>
+
+<h2 id="Anti-Fermat"><a href="#Anti-Fermat" class="headerlink" title="Anti-Fermat"></a>Anti-Fermat</h2><h2 id="task"><a href="#task" class="headerlink" title="task"></a>task</h2><pre><code class="lang-python">from Crypto.Util.number import isPrime, getStrongPrime
+from gmpy import next_prime
+from secret import flag
+
+# Anti-Fermat Key Generation
+p = getStrongPrime(1024)
+q = next_prime(q0)
+n = p * q
+e = 65537
+
+# Encryption
+m = int.from_bytes(flag, &#39;big&#39;)
+assert m &lt; n
+c = pow(m, e, n)
+
+print(&#39;n = &#123;&#125;&#39;.format(hex(n)))
+print(&#39;c = &#123;&#125;&#39;.format(hex(c)))
+</code></pre>
+<h2 id="output"><a href="#output" class="headerlink" title="output"></a>output</h2><pre><code class="lang-python">n = 0x1ffc7dc6b9667b0dcd00d6ae92fb34ed0f3d84285364c73fbf6a572c9081931be0b0610464152de7e0468ca7452c738611656f1f9217a944e64ca2b3a89d889ffc06e6503cfec3ccb491e9b6176ec468687bf4763c6591f89e750bf1e4f9d6855752c19de4289d1a7cea33b077bdcda3c84f6f3762dc9d96d2853f94cc688b3c9d8e67386a147524a2b23b1092f0be1aa286f2aa13aafba62604435acbaa79f4e53dea93ae8a22655287f4d2fa95269877991c57da6fdeeb3d46270cd69b6bfa537bfd14c926cf39b94d0f06228313d21ec6be2311f526e6515069dbb1b06fe3cf1f62c0962da2bc98fa4808c201e4efe7a252f9f823e710d6ad2fb974949751
+c = 0x60160bfed79384048d0d46b807322e65c037fa90fac9fd08b512a3931b6dca2a745443a9b90de2fa47aaf8a250287e34563e6b1a6761dc0ccb99cb9d67ae1c9f49699651eafb71a74b097fc0def77cf287010f1e7bd614dccfb411cdccbb84c60830e515c05481769bd95e656d839337d430db66abcd3a869c6348616b78d06eb903f8abd121c851696bd4cb2a1a40a07eea17c4e33c6a1beafb79d881d595472ab6ce3c61d6d62c4ef6fa8903149435c844a3fab9286d212da72b2548f087e37105f4657d5a946afd12b1822ceb99c3b407bb40e21163c1466d116d67c16a2a3a79e5cc9d1f6a1054d6be6731e3cd19abbd9e9b23309f87bfe51a822410a62
+</code></pre>
+<h2 id="solve"><a href="#solve" class="headerlink" title="solve"></a>solve</h2><p>设</p>
+<pre><code class="lang-python">p ^ ((1&lt;&lt;1024)-1) = q0
+</code></pre>
+<p>则</p>
+<pre><code>p + q0 = (1&lt;&lt;1024)-1 = 2**1024 - 1
+</code></pre><p>p是1024bit的素数，q是p的每一位相反数的下一个素数，有:</p>
+<script type="math/tex; mode=display">
+p+q_0=((1<<1024)-1)=2^{1024}-1</script><script type="math/tex; mode=display">
+q_0=2^{1024}-1-p</script><p>我们就可以用$q_0$找到$q$，因为$q$是$q_0$的下一个素数，所以$q&gt;q_0$，即</p>
+<script type="math/tex; mode=display">
+q=q_0 + k=2^{1024}-1-p+k</script><p>所以模数n</p>
+<script type="math/tex; mode=display">
+n=p*q=p*(2^{1024}-1-p+k)</script><p>设$2^{1024}-1=A$，原式等于$p*(A-p+k)$，因式分解为完全平方式</p>
+<script type="math/tex; mode=display">
+p*(A-p+k)=p*A-p^2+p*k=p*(A+k)-p^2</script><script type="math/tex; mode=display">
+n=(\frac{A+k}{2})^2-(\frac{A+k}{2}-p)^2</script><script type="math/tex; mode=display">
+=\frac{(A+k)^2}{4}-(\frac{(A+k)^2}{4}-2*\frac{A+k}{2}*p+p^2)</script><script type="math/tex; mode=display">
+=p*(A+k)-p^2=n</script><p>设$a=\frac{A+k}{2}$，$b=\frac{A+k}{2}-p$，利用费马分解</p>
+<pre><code class="lang-python">from math import isqrt
+import gmpy2
+from Crypto.Util.number import *
+n = 0x1ffc7dc6b9667b0dcd00d6ae92fb34ed0f3d84285364c73fbf6a572c9081931be0b0610464152de7e0468ca7452c738611656f1f9217a944e64ca2b3a89d889ffc06e6503cfec3ccb491e9b6176ec468687bf4763c6591f89e750bf1e4f9d6855752c19de4289d1a7cea33b077bdcda3c84f6f3762dc9d96d2853f94cc688b3c9d8e67386a147524a2b23b1092f0be1aa286f2aa13aafba62604435acbaa79f4e53dea93ae8a22655287f4d2fa95269877991c57da6fdeeb3d46270cd69b6bfa537bfd14c926cf39b94d0f06228313d21ec6be2311f526e6515069dbb1b06fe3cf1f62c0962da2bc98fa4808c201e4efe7a252f9f823e710d6ad2fb974949751
+c = 0x60160bfed79384048d0d46b807322e65c037fa90fac9fd08b512a3931b6dca2a745443a9b90de2fa47aaf8a250287e34563e6b1a6761dc0ccb99cb9d67ae1c9f49699651eafb71a74b097fc0def77cf287010f1e7bd614dccfb411cdccbb84c60830e515c05481769bd95e656d839337d430db66abcd3a869c6348616b78d06eb903f8abd121c851696bd4cb2a1a40a07eea17c4e33c6a1beafb79d881d595472ab6ce3c61d6d62c4ef6fa8903149435c844a3fab9286d212da72b2548f087e37105f4657d5a946afd12b1822ceb99c3b407bb40e21163c1466d116d67c16a2a3a79e5cc9d1f6a1054d6be6731e3cd19abbd9e9b23309f87bfe51a822410a62
+
+a = (2**1024-1) // 2
+&#39;&#39;&#39;
+while True:
+    b1 = a**2 - n
+    b = isqrt(b1)
+    if b*b == a*a - n:
+        print(a+b, a-b)
+    a += 1
+&#39;&#39;&#39;
+p = 153456316755201256456077648680293404551531181234956990242779099773886170192558263224753907666532907469313954439789378399786631549347700474488574017322863270205683350905558827922567834954626909259763623105532668671134932118937640401627676913585506492102157561689678418157863742997375967679975824876706628973287
+q = 26312996731030334316852870398609068810266516659273667030650981383846505612942699907954569655874628551806159440082014957872158219466716148004273413316610854172084542519306657353734384646619184859689459846552337097703218563404822479846236196955320745061192948994907880082083502941103748624859531452917595165959
+phi = (p-1)*(q-1)
+e = 65537
+d = gmpy2.invert(e, phi)
+print(long_to_bytes(gmpy2.powmod(c,d,n)))
+</code></pre>
+<p>output</p>
+<pre><code>b&#39;Good job! Here is the flag:
++-----------------------------------------------------------+
+| zer0pts&#123;F3rm4t,y0ur_m3th0d_n0_l0ng3r_w0rks.y0u_4r3_f1r3d&#125; |
++-----------------------------------------------------------+&#39;
+</code></pre>]]></content>
+      <categories>
+        <category>RSA</category>
+      </categories>
+      <tags>
+        <tag>Crypto</tag>
+        <tag>CTF</tag>
+      </tags>
+  </entry>
+</search>
