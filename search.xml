@@ -3,7 +3,7 @@
   <entry>
     <title>zer0ptsCTF2022</title>
     <url>/2022/06/22/zer0ptsCTF2022/</url>
-    <content><![CDATA[<p>Anti-Fermat</p>
+    <content><![CDATA[<p>一种费马分解</p>
 <span id="more"></span>
 <div class="note warning"><p>这里是警告。</p></div>
 
@@ -85,7 +85,7 @@ print(long_to_bytes(gmpy2.powmod(c,d,n)))
   <entry>
     <title>1337UPCTF2022-Crypto</title>
     <url>/2022/06/22/1337UPCTF2022-Crypto/</url>
-    <content><![CDATA[<p>但丁的地狱</p>
+    <content><![CDATA[<p>奇怪的编程—-但丁地狱</p>
 <span id="more"></span>
 <h1 id="Dante’s-Inferno"><a href="#Dante’s-Inferno" class="headerlink" title="Dante’s Inferno"></a>Dante’s Inferno</h1><p>​        题目只有一个unknown文件，在其16进制中发现PK字符，猜测是一个压缩包，尝试解压后发现损坏。猜测是缺少头文件，所以便添加一个50 4B 03 04在前面，能提取出一个txt文件，其中有密文：</p>
 <pre><code>Hey there, it&#39;s Ben I forgot the key to unlock my omnitrix help me to decrypt the key.
