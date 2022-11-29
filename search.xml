@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1337UPCTF2022-Crypto</title>
+    <url>/2022/06/22/1337UPCTF2022-Crypto/</url>
+    <content><![CDATA[<p>奇怪的编程—-但丁地狱</p>
+<span id="more"></span>
+<h1 id="Dante’s-Inferno"><a href="#Dante’s-Inferno" class="headerlink" title="Dante’s Inferno"></a>Dante’s Inferno</h1><p>​        题目只有一个unknown文件，在其16进制中发现PK字符，猜测是一个压缩包，尝试解压后发现损坏。猜测是缺少头文件，所以便添加一个50 4B 03 04在前面，能提取出一个txt文件，其中有密文：</p>
+<pre><code>Hey there, it&#39;s Ben I forgot the key to unlock my omnitrix help me to decrypt the key.
+
+This was the data Azmuth found in the ROOT of omnitrix :
+
+D&#39;`r_&quot;\!65|&#123;8yTBu-,P0&lt;L&#39;]m7)iE3ffT&quot;b~=+&lt;)([wvo5Vlqping-kjihgfH%cb[`Y&#125;@VUyxXQPUTMLpPOHMFj-,HGF?&gt;bBA:?&gt;7[;:9870v.3,PO/.&#39;K%*)&quot;F&amp;%ed&quot;y~w=uzsr8potml21oQmf,diha`e^$\aZ_^W&#123;[=&lt;XWPOs65KPIHGFjJIHG@?c=B;@?&gt;7[;4981U5.R21q)M-&amp;%I#(&#39;~D$&#123;&quot;y?wv&#123;t:9qYun4rkSonmlkdihg`&amp;d]\aZY&#125;@V[ZYXQuU76LKo2HGFjiCHA@?c=B;@?&gt;7[;4981UT4321q)M&#39;&amp;%$)&quot;!E%e&#123;z@~&#125;_uzs9wvotsrk1onPle+*)a`e^$\aZY&#125;W\[TSwvVUTMLpPIHGLEiIHG@(&gt;baA:^!~&lt;;:921U54t2+*N.&#39;&amp;%*)&quot;FEfe&#123;&quot;y?&gt;v&#123;zsxqp6nVl2pohg-ejib(&#39;_^]b[Z~^@?UZSRvPONr54JImGLKDIBfe(&gt;=&lt;`#&quot;&gt;=65Y987w/43,P0)o-,+$H(&#39;&amp;%|B&quot;!~w|&#123;t:xZpo5Vlqjinmled*Ka`edc\&quot;Z_^]Vz=YXQPtN6LKoO10FKDhHAF?cCBA#&quot;8\65Y987w/43,P*p.-&amp;J*#i&#39;&amp;&#125;C#&quot;!x&gt;|&#123;zyr8ponmrqj0/mfNjibg`_^$b[Z_X]VUySRQPUNr54JImMLEDhHA@dD=B;:^8=6;4X2Vwv4-,+*N(-,%$H(!&amp;&#125;C#&quot;!xwv&lt;zyxZpo5Vrkjongf,jibJ`_^$\aZ_^]VzTYRWVOsSRQJn1MFKJCBf)(&gt;=&lt;`#&quot;8\654XW165.-Q10)(&#39;K+$#G&#39;&amp;fe#&quot;y?&#125;vuzyxq7utsrkj0hgfkjihg`_^$\[ZY&#125;|V[ZSRWPtT6LKJIm0/KDIHAeEDC&lt;;:9]\6Z4z816/4-,P0/.&#39;&amp;%$H(&#39;&amp;%ed&quot;y~w=&#123;tsr8vo5mlqponmf,diba`ed]#&quot;Z_X]V[TxRQVONMLp3INGFEi,HAF?c=&lt;;@9876Z&#123;921U/432+O)o&#39;&amp;%I#(!&amp;%$&#123;A@~&#125;|&#123;ts9qpun4lkpi/glkdcba&#39;_dcbaZY&#125;]\UyS;QVUNrq4JIHMFj-,BGF?cCBA#&quot;8=6Z:98705.-Q1*p.-&amp;JI#&quot;!~&#125;C&#123;&quot;!~&#125;v&lt;tsrqp6Wsl2jinmlkdcba&#39;e^cb[Z~^@?UZSRv98TSLKo2NMFEJIBf)EDC&lt;;_98=6;4X2765.-Q10)o&#39;&amp;%I#i&#39;&amp;&#125;C&#123;&quot;y~w=utyrqp6tsrqSi/g-ediha&#39;eG]#[ZY&#125;@VzTYXWVOs6LKo2NMFKJCBf@ED=a;@9]=&lt;54XW765.-Q1q)ML,%*)&quot;!~&#125;C&#123;&quot;yx&#125;v&lt;;yrwvo5slqpohg-kdchgf_%]\[Z~&#125;@VzZYRWVOsSRQJnN0/EDCg*)E&gt;b&lt;;@?8=6Z:9810T4t2+*N(-,%$H(&#39;gf|Bz!x&#125;|u;srqpon4lTjohg-kjiba&#39;e^c\&quot;!Y^]\[TxXW9ONMLpPOHMFjDIHA@E&gt;b&lt;;:9]=6;492V65.R2+*N.&#39;&amp;+*#G&#39;~%|#&quot;yx&gt;=uzsxwvun43kjohgf,jihgfe^$\[Z_^W&#123;[TYXWVOsSRQJONMLEiCHG@?cb%;@?8\6;492VUTu-2+ONon,+*#G!&amp;&#125;C#&quot;!x&gt;|u;yrwpun4lTjohg-eMib(fe^cb[!Y^]\Uy&lt;;WVONSLpJIHMFKDhU
+</code></pre><p>看了wp才知道原来这是一种编程语言……<strong>Malbolge</strong></p>
+<p><a href="https://malbolge.doleczek.pl/">https://malbolge.doleczek.pl/</a></p>
+<p>用上网站解出密文得到</p>
+<pre><code>ct =  873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013
+</code></pre><p>再尝试开三次方，得到flag</p>
+<pre><code class="lang-python">&gt;&gt;&gt; from Crypto.Util.number import *
+&gt;&gt;&gt; import gmpy2
+&gt;&gt;&gt; gmpy2.iroot(873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013,3)
+(mpz(95579309976104600502240991830192190518846753403800625853612609969212847649926782792317), True)
+&gt;&gt;&gt; long_to_bytes(95579309976104600502240991830192190518846753403800625853612609969212847649926782792317)
+b&#39;1337UP&#123;U_d3CrYPt3D_th3_k3Y_30494762&#125;&#39;
+</code></pre>
+]]></content>
+      <categories>
+        <category>编程语言</category>
+      </categories>
+      <tags>
+        <tag>Crypto</tag>
+        <tag>CTF</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>zer0ptsCTF2022</title>
     <url>/2022/06/22/zer0ptsCTF2022/</url>
     <content><![CDATA[<p>一种费马分解</p>
 <span id="more"></span>
-<div class="note warning"><p>这里是警告。</p></div>
+<div class="note warning"><p></p></div>
 
 <h2 id="Anti-Fermat"><a href="#Anti-Fermat" class="headerlink" title="Anti-Fermat"></a>Anti-Fermat</h2><h2 id="task"><a href="#task" class="headerlink" title="task"></a>task</h2><pre><code class="lang-python">from Crypto.Util.number import isPrime, getStrongPrime
 from gmpy import next_prime
@@ -83,41 +115,11 @@ print(long_to_bytes(gmpy2.powmod(c,d,n)))
       </tags>
   </entry>
   <entry>
-    <title>1337UPCTF2022-Crypto</title>
-    <url>/2022/06/22/1337UPCTF2022-Crypto/</url>
-    <content><![CDATA[<p>奇怪的编程—-但丁地狱</p>
-<span id="more"></span>
-<h1 id="Dante’s-Inferno"><a href="#Dante’s-Inferno" class="headerlink" title="Dante’s Inferno"></a>Dante’s Inferno</h1><p>​        题目只有一个unknown文件，在其16进制中发现PK字符，猜测是一个压缩包，尝试解压后发现损坏。猜测是缺少头文件，所以便添加一个50 4B 03 04在前面，能提取出一个txt文件，其中有密文：</p>
-<pre><code>Hey there, it&#39;s Ben I forgot the key to unlock my omnitrix help me to decrypt the key.
-
-This was the data Azmuth found in the ROOT of omnitrix :
-
-D&#39;`r_&quot;\!65|&#123;8yTBu-,P0&lt;L&#39;]m7)iE3ffT&quot;b~=+&lt;)([wvo5Vlqping-kjihgfH%cb[`Y&#125;@VUyxXQPUTMLpPOHMFj-,HGF?&gt;bBA:?&gt;7[;:9870v.3,PO/.&#39;K%*)&quot;F&amp;%ed&quot;y~w=uzsr8potml21oQmf,diha`e^$\aZ_^W&#123;[=&lt;XWPOs65KPIHGFjJIHG@?c=B;@?&gt;7[;4981U5.R21q)M-&amp;%I#(&#39;~D$&#123;&quot;y?wv&#123;t:9qYun4rkSonmlkdihg`&amp;d]\aZY&#125;@V[ZYXQuU76LKo2HGFjiCHA@?c=B;@?&gt;7[;4981UT4321q)M&#39;&amp;%$)&quot;!E%e&#123;z@~&#125;_uzs9wvotsrk1onPle+*)a`e^$\aZY&#125;W\[TSwvVUTMLpPIHGLEiIHG@(&gt;baA:^!~&lt;;:921U54t2+*N.&#39;&amp;%*)&quot;FEfe&#123;&quot;y?&gt;v&#123;zsxqp6nVl2pohg-ejib(&#39;_^]b[Z~^@?UZSRvPONr54JImGLKDIBfe(&gt;=&lt;`#&quot;&gt;=65Y987w/43,P0)o-,+$H(&#39;&amp;%|B&quot;!~w|&#123;t:xZpo5Vlqjinmled*Ka`edc\&quot;Z_^]Vz=YXQPtN6LKoO10FKDhHAF?cCBA#&quot;8\65Y987w/43,P*p.-&amp;J*#i&#39;&amp;&#125;C#&quot;!x&gt;|&#123;zyr8ponmrqj0/mfNjibg`_^$b[Z_X]VUySRQPUNr54JImMLEDhHA@dD=B;:^8=6;4X2Vwv4-,+*N(-,%$H(!&amp;&#125;C#&quot;!xwv&lt;zyxZpo5Vrkjongf,jibJ`_^$\aZ_^]VzTYRWVOsSRQJn1MFKJCBf)(&gt;=&lt;`#&quot;8\654XW165.-Q10)(&#39;K+$#G&#39;&amp;fe#&quot;y?&#125;vuzyxq7utsrkj0hgfkjihg`_^$\[ZY&#125;|V[ZSRWPtT6LKJIm0/KDIHAeEDC&lt;;:9]\6Z4z816/4-,P0/.&#39;&amp;%$H(&#39;&amp;%ed&quot;y~w=&#123;tsr8vo5mlqponmf,diba`ed]#&quot;Z_X]V[TxRQVONMLp3INGFEi,HAF?c=&lt;;@9876Z&#123;921U/432+O)o&#39;&amp;%I#(!&amp;%$&#123;A@~&#125;|&#123;ts9qpun4lkpi/glkdcba&#39;_dcbaZY&#125;]\UyS;QVUNrq4JIHMFj-,BGF?cCBA#&quot;8=6Z:98705.-Q1*p.-&amp;JI#&quot;!~&#125;C&#123;&quot;!~&#125;v&lt;tsrqp6Wsl2jinmlkdcba&#39;e^cb[Z~^@?UZSRv98TSLKo2NMFEJIBf)EDC&lt;;_98=6;4X2765.-Q10)o&#39;&amp;%I#i&#39;&amp;&#125;C&#123;&quot;y~w=utyrqp6tsrqSi/g-ediha&#39;eG]#[ZY&#125;@VzTYXWVOs6LKo2NMFKJCBf@ED=a;@9]=&lt;54XW765.-Q1q)ML,%*)&quot;!~&#125;C&#123;&quot;yx&#125;v&lt;;yrwvo5slqpohg-kdchgf_%]\[Z~&#125;@VzZYRWVOsSRQJnN0/EDCg*)E&gt;b&lt;;@?8=6Z:9810T4t2+*N(-,%$H(&#39;gf|Bz!x&#125;|u;srqpon4lTjohg-kjiba&#39;e^c\&quot;!Y^]\[TxXW9ONMLpPOHMFjDIHA@E&gt;b&lt;;:9]=6;492V65.R2+*N.&#39;&amp;+*#G&#39;~%|#&quot;yx&gt;=uzsxwvun43kjohgf,jihgfe^$\[Z_^W&#123;[TYXWVOsSRQJONMLEiCHG@?cb%;@?8\6;492VUTu-2+ONon,+*#G!&amp;&#125;C#&quot;!x&gt;|u;yrwpun4lTjohg-eMib(fe^cb[!Y^]\Uy&lt;;WVONSLpJIHMFKDhU
-</code></pre><p>看了wp才知道原来这是一种编程语言……<strong>Malbolge</strong></p>
-<p><a href="https://malbolge.doleczek.pl/">https://malbolge.doleczek.pl/</a></p>
-<p>用上网站解出密文得到</p>
-<pre><code>ct =  873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013
-</code></pre><p>再尝试开三次方，得到flag</p>
-<pre><code class="lang-python">&gt;&gt;&gt; from Crypto.Util.number import *
-&gt;&gt;&gt; import gmpy2
-&gt;&gt;&gt; gmpy2.iroot(873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013,3)
-(mpz(95579309976104600502240991830192190518846753403800625853612609969212847649926782792317), True)
-&gt;&gt;&gt; long_to_bytes(95579309976104600502240991830192190518846753403800625853612609969212847649926782792317)
-b&#39;1337UP&#123;U_d3CrYPt3D_th3_k3Y_30494762&#125;&#39;
-</code></pre>
-]]></content>
-      <categories>
-        <category>编程语言</category>
-      </categories>
-      <tags>
-        <tag>Crypto</tag>
-        <tag>CTF</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>DAS八月挑战赛——Crypto</title>
     <url>/2021/09/15/DAS%E5%85%AB%E6%9C%88%E6%8C%91%E6%88%98%E8%B5%9B/</url>
-    <content><![CDATA[<h1 id="easymath"><a href="#easymath" class="headerlink" title="easymath"></a>easymath</h1><h2 id="task"><a href="#task" class="headerlink" title="task"></a>task</h2><pre><code>assert(len(open(&#39;flag.txt&#39;, &#39;rb&#39;).read()) &lt; 50)
+    <content><![CDATA[<p>DAS八月</p>
+<span id="more"></span>
+<h1 id="easymath"><a href="#easymath" class="headerlink" title="easymath"></a>easymath</h1><h2 id="task"><a href="#task" class="headerlink" title="task"></a>task</h2><pre><code>assert(len(open(&#39;flag.txt&#39;, &#39;rb&#39;).read()) &lt; 50)
 assert(str(int.from_bytes(open(&#39;flag.txt&#39;, &#39;rb&#39;).read(), byteorder=&#39;big&#39;) &lt;&lt; 10000).endswith(&#39;1862790884563160582365888530869690397667546628710795031544304378154769559410473276482265448754388655981091313419549689169381115573539422545933044902527020209259938095466283008&#39;))
 </code></pre><h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>题目中给了两个断言。</p>
 <p>1.flag的长度小于50。</p>
