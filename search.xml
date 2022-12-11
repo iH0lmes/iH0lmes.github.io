@@ -654,4 +654,119 @@ def jigsawPuzzleQrcode():
         <tag>CTF</tag>
       </tags>
   </entry>
+  <entry>
+    <title>我的世界服务器搭建</title>
+    <url>/2022/12/10/MC%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<p>我的世界服务器搭建，今天也是一个特别的日子。</p>
+<span id="more"></span>
+<h2 id="换源"><a href="#换源" class="headerlink" title="换源"></a>换源</h2><p>全部替换</p>
+<p>etc/apt/sources.list</p>
+<pre><code>deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+
+# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
+</code></pre><h2 id="更新软件列表"><a href="#更新软件列表" class="headerlink" title="更新软件列表"></a>更新软件列表</h2><pre><code class="lang-shell">apt update
+</code></pre>
+<h3 id="可能会遇到的问题"><a href="#可能会遇到的问题" class="headerlink" title="可能会遇到的问题"></a>可能会遇到的问题</h3><pre><code class="lang-shell">E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal Release&#39; does not have a Release file.
+N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-updates Release&#39; does not have a Release file.
+N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-backports Release&#39; does not have a Release file.
+N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-security Release&#39; does not have a Release file.
+N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+</code></pre>
+<p>因为默认的源是http 的，但是准备使用的镜像源是https的，所以需要额外的安装有关HTTPS的包</p>
+<pre><code>sudo apt install apt-transport-https
+sudo apt install ca-certificates
+</code></pre><p>再次使用</p>
+<pre><code>apt update
+</code></pre><p>没有报错</p>
+<pre><code class="lang-shell">Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+275 packages can be upgraded. Run &#39;apt list --upgradable&#39; to see them.
+</code></pre>
+<h2 id="安装java"><a href="#安装java" class="headerlink" title="安装java"></a>安装java</h2><p>搜索并安装最新版的java</p>
+<pre><code>apt search openjdk
+apt install openjdk-17-jdk -y
+</code></pre><h2 id="安装MC服务端"><a href="#安装MC服务端" class="headerlink" title="安装MC服务端"></a>安装MC服务端</h2><pre><code>网址：https://mcversions.net/
+</code></pre><p>找到最新的Stable Releases稳定版本下载，这里现在是1.19.3</p>
+<pre><code>https://mcversions.net/download/1.19.3
+</code></pre><p>右键Server jar获取链接，稍后使用</p>
+<pre><code>https://piston-data.mojang.com/v1/objects/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/server.jar
+</code></pre><p>在服务器当前目录下创建一个文件夹</p>
+<pre><code>mkdir mcserver
+cd mcserver
+</code></pre><p>在此文件夹下下载服务端</p>
+<pre><code>wget https://piston-data.mojang.com/v1/objects/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/server.jar
+</code></pre><h2 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h2><p>在当前目录下使用</p>
+<pre><code>java -jar server.jar nogui
+</code></pre><p>第一次运行会有如下提示，需要同意eula条款</p>
+<pre><code>[16:35:43] [ServerMain/INFO]: Building unoptimized datafixer
+[16:35:48] [ServerMain/ERROR]: Failed to load properties from file: server.properties
+[16:35:48] [ServerMain/WARN]: Failed to load eula.txt
+[16:35:48] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+</code></pre><p>修改eula.txt</p>
+<pre><code>#Sat Dec 10 16:35:48 CST 2022
+eula=true
+</code></pre><p>再次运行启动命令，生成世界（过程可能会有点慢）</p>
+<pre><code>[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
+[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
+[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
+[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
+[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 96%
+[16:40:36] [Server thread/INFO]: Time elapsed: 101788 ms
+[16:40:36] [Server thread/INFO]: Done (120.154s)! For help, type &quot;help&quot;
+</code></pre><p>生成完毕</p>
+<h2 id="一些设置"><a href="#一些设置" class="headerlink" title="一些设置"></a>一些设置</h2><h3 id="给自己管理员权限"><a href="#给自己管理员权限" class="headerlink" title="给自己管理员权限"></a>给自己管理员权限</h3><p>现在登录游戏，端口号默认是25565，在服务端</p>
+<pre><code>op [名字]
+</code></pre><h3 id="将服务挂在后台"><a href="#将服务挂在后台" class="headerlink" title="将服务挂在后台"></a>将服务挂在后台</h3><h4 id="方法一：nohup"><a href="#方法一：nohup" class="headerlink" title="方法一：nohup"></a><strong>方法一：nohup</strong></h4><p>将进程挂在后台</p>
+<pre><code>nohup java -jar server.jar nogui &amp;
+</code></pre><h4 id="方法二：screen"><a href="#方法二：screen" class="headerlink" title="方法二：screen"></a><strong>方法二：screen</strong></h4><pre><code>apt-get install screen
+screen -S mc
+java -jar server.jar nogui
+</code></pre><p>等待服务器启动，按<strong>Ctrl+A+D</strong>退出窗口</p>
+<p>查看窗口</p>
+<pre><code>screen -ls
+
+There is a screen on:
+        272617.mc       (12/11/2022 11:28:47 AM)        (Detached)
+1 Socket in /run/screen/S-root.
+</code></pre><p>打开窗口</p>
+<pre><code>screen -r mc
+screen -r 272617.mc
+screen -r 272617
+</code></pre><p>删除窗口</p>
+<pre><code>screen -S mc -X quit
+</code></pre>]]></content>
+      <categories>
+        <category>Game</category>
+      </categories>
+      <tags>
+        <tag>Minecraft</tag>
+      </tags>
+  </entry>
 </search>
