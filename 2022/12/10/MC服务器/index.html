@@ -256,7 +256,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>4.8k</span>
+              <span>4.9k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -279,107 +279,48 @@
 <span id="more"></span>
 <h2 id="换源"><a href="#换源" class="headerlink" title="换源"></a>换源</h2><p>全部替换</p>
 <p>etc/apt/sources.list</p>
-<pre><code>deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
-
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
-
-# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
-</code></pre><h2 id="更新软件列表"><a href="#更新软件列表" class="headerlink" title="更新软件列表"></a>更新软件列表</h2><pre><code class="lang-shell">apt update
-</code></pre>
-<h3 id="可能会遇到的问题"><a href="#可能会遇到的问题" class="headerlink" title="可能会遇到的问题"></a>可能会遇到的问题</h3><pre><code class="lang-shell">E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal Release&#39; does not have a Release file.
-N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-updates Release&#39; does not have a Release file.
-N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-backports Release&#39; does not have a Release file.
-N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-security Release&#39; does not have a Release file.
-N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-</code></pre>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">deb http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal main restricted universe multiverse</span><br><span class="line">deb-src http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal main restricted universe multiverse</span><br><span class="line">deb http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-security main restricted universe multiverse</span><br><span class="line">deb-src http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-security main restricted universe multiverse</span><br><span class="line">deb http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-updates main restricted universe multiverse</span><br><span class="line">deb-src http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-updates main restricted universe multiverse</span><br><span class="line">deb http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-proposed main restricted universe multiverse</span><br><span class="line">deb-src http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-proposed main restricted universe multiverse</span><br><span class="line">deb http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-backports main restricted universe multiverse</span><br><span class="line">deb-src http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-backports main restricted universe multiverse</span><br><span class="line"></span><br><span class="line">deb https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/ubuntu/</span> focal main restricted universe multiverse</span><br><span class="line"><span class="comment"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse</span></span><br><span class="line">deb https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/ubuntu/</span> focal-updates main restricted universe multiverse</span><br><span class="line"><span class="comment"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse</span></span><br><span class="line">deb https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/ubuntu/</span> focal-backports main restricted universe multiverse</span><br><span class="line"><span class="comment"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse</span></span><br><span class="line">deb https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/ubuntu/</span> focal-security main restricted universe multiverse</span><br><span class="line"><span class="comment"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span></span><br><span class="line"><span class="comment"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span></span><br></pre></td></tr></table></figure>
+<h2 id="更新软件列表"><a href="#更新软件列表" class="headerlink" title="更新软件列表"></a>更新软件列表</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt update</span><br></pre></td></tr></table></figure>
+<h3 id="可能会遇到的问题"><a href="#可能会遇到的问题" class="headerlink" title="可能会遇到的问题"></a>可能会遇到的问题</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">E: The repository &#x27;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal Release&#x27; does not have a Release file.</span><br><span class="line">N: Updating from such a repository can&#x27;t be done securely, and is therefore disabled by default.</span><br><span class="line">N: See apt-secure(8) manpage for repository creation and user configuration details.</span><br><span class="line">E: The repository &#x27;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-updates Release&#x27; does not have a Release file.</span><br><span class="line">N: Updating from such a repository can&#x27;t be done securely, and is therefore disabled by default.</span><br><span class="line">N: See apt-secure(8) manpage for repository creation and user configuration details.</span><br><span class="line">E: The repository &#x27;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-backports Release&#x27; does not have a Release file.</span><br><span class="line">N: Updating from such a repository can&#x27;t be done securely, and is therefore disabled by default.</span><br><span class="line">N: See apt-secure(8) manpage for repository creation and user configuration details.</span><br><span class="line">E: The repository &#x27;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-security Release&#x27; does not have a Release file.</span><br><span class="line">N: Updating from such a repository can&#x27;t be done securely, and is therefore disabled by default.</span><br><span class="line">N: See apt-secure(8) manpage for repository creation and user configuration details.</span><br></pre></td></tr></table></figure>
 <p>因为默认的源是http 的，但是准备使用的镜像源是https的，所以需要额外的安装有关HTTPS的包</p>
-<pre><code>sudo apt install apt-transport-https
-sudo apt install ca-certificates
-</code></pre><p>再次使用</p>
-<pre><code>apt update
-</code></pre><p>没有报错</p>
-<pre><code class="lang-shell">Reading package lists... Done
-Building dependency tree       
-Reading state information... Done
-275 packages can be upgraded. Run &#39;apt list --upgradable&#39; to see them.
-</code></pre>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt <span class="keyword">install</span> apt-transport-https</span><br><span class="line">sudo apt <span class="keyword">install</span> ca-certificates</span><br></pre></td></tr></table></figure>
+<p>再次使用</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">apt update</span></span><br></pre></td></tr></table></figure>
+<p>没有报错</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Reading package lists... Done</span><br><span class="line">Building dependency tree       </span><br><span class="line">Reading state information... Done</span><br><span class="line">275 packages can be upgraded. Run &#x27;apt list --upgradable&#x27; to see them.</span><br></pre></td></tr></table></figure>
 <h2 id="安装java"><a href="#安装java" class="headerlink" title="安装java"></a>安装java</h2><p>搜索并安装最新版的java</p>
-<pre><code>apt search openjdk
-apt install openjdk-17-jdk -y
-</code></pre><h2 id="安装MC服务端"><a href="#安装MC服务端" class="headerlink" title="安装MC服务端"></a>安装MC服务端</h2><pre><code>网址：https://mcversions.net/
-</code></pre><p>找到最新的Stable Releases稳定版本下载，这里现在是1.19.3</p>
-<pre><code>https://mcversions.net/download/1.19.3
-</code></pre><p>右键Server jar获取链接，稍后使用</p>
-<pre><code>https://piston-data.mojang.com/v1/objects/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/server.jar
-</code></pre><p>在服务器当前目录下创建一个文件夹</p>
-<pre><code>mkdir mcserver
-cd mcserver
-</code></pre><p>在此文件夹下下载服务端</p>
-<pre><code>wget https://piston-data.mojang.com/v1/objects/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/server.jar
-</code></pre><h2 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h2><p>在当前目录下使用</p>
-<pre><code>java -jar server.jar nogui
-</code></pre><p>第一次运行会有如下提示，需要同意eula条款</p>
-<pre><code>[16:35:43] [ServerMain/INFO]: Building unoptimized datafixer
-[16:35:48] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-[16:35:48] [ServerMain/WARN]: Failed to load eula.txt
-[16:35:48] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
-</code></pre><p>修改eula.txt</p>
-<pre><code>#Sat Dec 10 16:35:48 CST 2022
-eula=true
-</code></pre><p>再次运行启动命令，生成世界（过程可能会有点慢）</p>
-<pre><code>[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
-[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
-[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
-[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
-[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 96%
-[16:40:36] [Server thread/INFO]: Time elapsed: 101788 ms
-[16:40:36] [Server thread/INFO]: Done (120.154s)! For help, type &quot;help&quot;
-</code></pre><p>生成完毕</p>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">apt search openjdk</span><br><span class="line">apt <span class="keyword">install </span>openjdk<span class="number">-17</span>-<span class="keyword">jdk </span>-y</span><br></pre></td></tr></table></figure>
+<h2 id="安装MC服务端"><a href="#安装MC服务端" class="headerlink" title="安装MC服务端"></a>安装MC服务端</h2><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">网址：https:<span class="regexp">//m</span>cversions.net/</span><br></pre></td></tr></table></figure>
+<p>找到最新的Stable Releases稳定版本下载，这里现在是1.19.3</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="regexp">//m</span>cversions.net<span class="regexp">/download/</span><span class="number">1.19</span>.<span class="number">3</span></span><br></pre></td></tr></table></figure>
+<p>右键Server jar获取链接，稍后使用</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="regexp">//</span>piston-data.mojang.com<span class="regexp">/v1/</span>objects<span class="regexp">/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/</span>server.jar</span><br></pre></td></tr></table></figure>
+<p>在服务器当前目录下创建一个文件夹</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> mcserver</span><br><span class="line"><span class="built_in">cd</span> mcserver</span><br></pre></td></tr></table></figure>
+<p>在此文件夹下下载服务端</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https:<span class="regexp">//</span>piston-data.mojang.com<span class="regexp">/v1/</span>objects<span class="regexp">/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/</span>server.jar</span><br></pre></td></tr></table></figure>
+<h2 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h2><p>在当前目录下使用</p>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">java </span>-<span class="keyword">jar </span>server.<span class="keyword">jar </span>nogui</span><br></pre></td></tr></table></figure>
+<p>第一次运行会有如下提示，需要同意eula条款</p>
+<figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[<span class="number">16</span>:<span class="number">35</span>:<span class="number">43</span>] [ServerMain/<span class="keyword">INFO</span>]: Building unoptimized datafixer</span><br><span class="line">[<span class="number">16</span>:<span class="number">35</span>:<span class="number">48</span>] [ServerMain/ERROR]: Failed <span class="keyword">to</span> <span class="keyword">load</span> properties <span class="keyword">from</span> file: <span class="keyword">server</span>.properties</span><br><span class="line">[<span class="number">16</span>:<span class="number">35</span>:<span class="number">48</span>] [ServerMain/WARN]: Failed <span class="keyword">to</span> <span class="keyword">load</span> eula.txt</span><br><span class="line">[<span class="number">16</span>:<span class="number">35</span>:<span class="number">48</span>] [ServerMain/<span class="keyword">INFO</span>]: You need <span class="keyword">to</span> agree <span class="keyword">to</span> the EULA <span class="keyword">in</span> <span class="keyword">order</span> <span class="keyword">to</span> run the <span class="keyword">server</span>. Go <span class="keyword">to</span> eula.txt <span class="keyword">for</span> more <span class="keyword">info</span>.</span><br></pre></td></tr></table></figure>
+<p>修改eula.txt</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#Sat Dec 10 16:35:48 CST 2022</span></span><br><span class="line"><span class="attr">eula</span>=<span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p>再次运行启动命令，生成世界（过程可能会有点慢）</p>
+<figure class="highlight prolog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">33</span>] [<span class="symbol">Worker</span>-<span class="symbol">Main</span><span class="number">-7</span>/<span class="symbol">INFO</span>]: <span class="symbol">Preparing</span> spawn area: <span class="number">76</span><span class="comment">%</span></span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">33</span>] [<span class="symbol">Worker</span>-<span class="symbol">Main</span><span class="number">-7</span>/<span class="symbol">INFO</span>]: <span class="symbol">Preparing</span> spawn area: <span class="number">76</span><span class="comment">%</span></span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">33</span>] [<span class="symbol">Worker</span>-<span class="symbol">Main</span><span class="number">-7</span>/<span class="symbol">INFO</span>]: <span class="symbol">Preparing</span> spawn area: <span class="number">76</span><span class="comment">%</span></span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">33</span>] [<span class="symbol">Worker</span>-<span class="symbol">Main</span><span class="number">-7</span>/<span class="symbol">INFO</span>]: <span class="symbol">Preparing</span> spawn area: <span class="number">76</span><span class="comment">%</span></span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">33</span>] [<span class="symbol">Worker</span>-<span class="symbol">Main</span><span class="number">-7</span>/<span class="symbol">INFO</span>]: <span class="symbol">Preparing</span> spawn area: <span class="number">96</span><span class="comment">%</span></span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">36</span>] [<span class="symbol">Server</span> thread/<span class="symbol">INFO</span>]: <span class="symbol">Time</span> elapsed: <span class="number">101788</span> ms</span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">36</span>] [<span class="symbol">Server</span> thread/<span class="symbol">INFO</span>]: <span class="symbol">Done</span> (<span class="number">120.154</span>s)! <span class="symbol">For</span> help, type <span class="string">&quot;help&quot;</span></span><br></pre></td></tr></table></figure>
+<p>生成完毕</p>
 <h2 id="一些设置"><a href="#一些设置" class="headerlink" title="一些设置"></a>一些设置</h2><h3 id="给自己管理员权限"><a href="#给自己管理员权限" class="headerlink" title="给自己管理员权限"></a>给自己管理员权限</h3><p>现在登录游戏，端口号默认是25565，在服务端</p>
-<pre><code>op [名字]
-</code></pre><h3 id="将服务挂在后台"><a href="#将服务挂在后台" class="headerlink" title="将服务挂在后台"></a>将服务挂在后台</h3><h4 id="方法一：nohup"><a href="#方法一：nohup" class="headerlink" title="方法一：nohup"></a><strong>方法一：nohup</strong></h4><p>将进程挂在后台</p>
-<pre><code>nohup java -jar server.jar nogui &amp;
-</code></pre><h4 id="方法二：screen"><a href="#方法二：screen" class="headerlink" title="方法二：screen"></a><strong>方法二：screen</strong></h4><pre><code>apt-get install screen
-screen -S mc
-java -jar server.jar nogui
-</code></pre><p>等待服务器启动，按<strong>Ctrl+A+D</strong>退出窗口</p>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">op</span><span class="meta"> [名字]</span></span><br></pre></td></tr></table></figure>
+<h3 id="将服务挂在后台"><a href="#将服务挂在后台" class="headerlink" title="将服务挂在后台"></a>将服务挂在后台</h3><h4 id="方法一：nohup"><a href="#方法一：nohup" class="headerlink" title="方法一：nohup"></a><strong>方法一：nohup</strong></h4><p>将进程挂在后台</p>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nohup <span class="keyword">java </span>-<span class="keyword">jar </span>server.<span class="keyword">jar </span>nogui &amp;</span><br></pre></td></tr></table></figure>
+<h4 id="方法二：screen"><a href="#方法二：screen" class="headerlink" title="方法二：screen"></a><strong>方法二：screen</strong></h4><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">apt-get <span class="keyword">install </span><span class="keyword">screen</span></span><br><span class="line"><span class="keyword"></span><span class="keyword">screen </span>-S mc</span><br><span class="line"><span class="keyword">java </span>-<span class="keyword">jar </span>server.<span class="keyword">jar </span>nogui</span><br></pre></td></tr></table></figure>
+<p>等待服务器启动，按<strong>Ctrl+A+D</strong>退出窗口</p>
 <p>查看窗口</p>
-<pre><code>screen -ls
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">screen</span> -ls</span><br><span class="line"></span><br><span class="line"><span class="attribute">There</span> is a screen <span class="literal">on</span>:</span><br><span class="line">        <span class="attribute">272617</span>.mc       (<span class="number">12</span>/<span class="number">11</span>/<span class="number">2022</span> <span class="number">11</span>:<span class="number">28</span>:<span class="number">47</span> AM)        (Detached)</span><br><span class="line"><span class="attribute">1</span> Socket in /run/screen/S-root.</span><br></pre></td></tr></table></figure>
+<p>打开窗口</p>
+<figure class="highlight gauss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">screen</span> -r mc</span><br><span class="line"><span class="keyword">screen</span> -r <span class="number">272617.</span>mc</span><br><span class="line"><span class="keyword">screen</span> -r <span class="number">272617</span></span><br></pre></td></tr></table></figure>
+<p>删除窗口</p>
+<figure class="highlight cos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -<span class="keyword">S</span> mc -<span class="keyword">X</span> <span class="keyword">quit</span></span><br></pre></td></tr></table></figure>
 
-There is a screen on:
-        272617.mc       (12/11/2022 11:28:47 AM)        (Detached)
-1 Socket in /run/screen/S-root.
-</code></pre><p>打开窗口</p>
-<pre><code>screen -r mc
-screen -r 272617.mc
-screen -r 272617
-</code></pre><p>删除窗口</p>
-<pre><code>screen -S mc -X quit
-</code></pre>
     </div>
 
     
@@ -530,13 +471,13 @@ screen -r 272617
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">36k</span>
+    <span title="站点总字数">37k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">32 分钟</span>
+    <span title="站点阅读时长">33 分钟</span>
 </div>
 
 

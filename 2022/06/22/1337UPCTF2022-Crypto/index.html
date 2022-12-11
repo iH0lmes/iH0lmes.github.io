@@ -29,7 +29,7 @@
 <meta property="og:description" content="奇怪的编程—-但丁地狱">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-21T23:47:17.716Z">
-<meta property="article:modified_time" content="2022-06-24T11:19:07.575Z">
+<meta property="article:modified_time" content="2022-11-29T08:03:23.048Z">
 <meta property="article:author" content="iH0lmes">
 <meta property="article:tag" content="Crypto">
 <meta property="article:tag" content="CTF">
@@ -232,7 +232,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-06-24 19:19:07" itemprop="dateModified" datetime="2022-06-24T19:19:07+08:00">2022-06-24</time>
+                <time title="修改时间：2022-11-29 16:03:23" itemprop="dateModified" datetime="2022-11-29T16:03:23+08:00">2022-11-29</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -279,23 +279,13 @@
         <p>奇怪的编程—-但丁地狱</p>
 <span id="more"></span>
 <h1 id="Dante’s-Inferno"><a href="#Dante’s-Inferno" class="headerlink" title="Dante’s Inferno"></a>Dante’s Inferno</h1><p>​        题目只有一个unknown文件，在其16进制中发现PK字符，猜测是一个压缩包，尝试解压后发现损坏。猜测是缺少头文件，所以便添加一个50 4B 03 04在前面，能提取出一个txt文件，其中有密文：</p>
-<pre><code>Hey there, it&#39;s Ben I forgot the key to unlock my omnitrix help me to decrypt the key.
-
-This was the data Azmuth found in the ROOT of omnitrix :
-
-D&#39;`r_&quot;\!65|&#123;8yTBu-,P0&lt;L&#39;]m7)iE3ffT&quot;b~=+&lt;)([wvo5Vlqping-kjihgfH%cb[`Y&#125;@VUyxXQPUTMLpPOHMFj-,HGF?&gt;bBA:?&gt;7[;:9870v.3,PO/.&#39;K%*)&quot;F&amp;%ed&quot;y~w=uzsr8potml21oQmf,diha`e^$\aZ_^W&#123;[=&lt;XWPOs65KPIHGFjJIHG@?c=B;@?&gt;7[;4981U5.R21q)M-&amp;%I#(&#39;~D$&#123;&quot;y?wv&#123;t:9qYun4rkSonmlkdihg`&amp;d]\aZY&#125;@V[ZYXQuU76LKo2HGFjiCHA@?c=B;@?&gt;7[;4981UT4321q)M&#39;&amp;%$)&quot;!E%e&#123;z@~&#125;_uzs9wvotsrk1onPle+*)a`e^$\aZY&#125;W\[TSwvVUTMLpPIHGLEiIHG@(&gt;baA:^!~&lt;;:921U54t2+*N.&#39;&amp;%*)&quot;FEfe&#123;&quot;y?&gt;v&#123;zsxqp6nVl2pohg-ejib(&#39;_^]b[Z~^@?UZSRvPONr54JImGLKDIBfe(&gt;=&lt;`#&quot;&gt;=65Y987w/43,P0)o-,+$H(&#39;&amp;%|B&quot;!~w|&#123;t:xZpo5Vlqjinmled*Ka`edc\&quot;Z_^]Vz=YXQPtN6LKoO10FKDhHAF?cCBA#&quot;8\65Y987w/43,P*p.-&amp;J*#i&#39;&amp;&#125;C#&quot;!x&gt;|&#123;zyr8ponmrqj0/mfNjibg`_^$b[Z_X]VUySRQPUNr54JImMLEDhHA@dD=B;:^8=6;4X2Vwv4-,+*N(-,%$H(!&amp;&#125;C#&quot;!xwv&lt;zyxZpo5Vrkjongf,jibJ`_^$\aZ_^]VzTYRWVOsSRQJn1MFKJCBf)(&gt;=&lt;`#&quot;8\654XW165.-Q10)(&#39;K+$#G&#39;&amp;fe#&quot;y?&#125;vuzyxq7utsrkj0hgfkjihg`_^$\[ZY&#125;|V[ZSRWPtT6LKJIm0/KDIHAeEDC&lt;;:9]\6Z4z816/4-,P0/.&#39;&amp;%$H(&#39;&amp;%ed&quot;y~w=&#123;tsr8vo5mlqponmf,diba`ed]#&quot;Z_X]V[TxRQVONMLp3INGFEi,HAF?c=&lt;;@9876Z&#123;921U/432+O)o&#39;&amp;%I#(!&amp;%$&#123;A@~&#125;|&#123;ts9qpun4lkpi/glkdcba&#39;_dcbaZY&#125;]\UyS;QVUNrq4JIHMFj-,BGF?cCBA#&quot;8=6Z:98705.-Q1*p.-&amp;JI#&quot;!~&#125;C&#123;&quot;!~&#125;v&lt;tsrqp6Wsl2jinmlkdcba&#39;e^cb[Z~^@?UZSRv98TSLKo2NMFEJIBf)EDC&lt;;_98=6;4X2765.-Q10)o&#39;&amp;%I#i&#39;&amp;&#125;C&#123;&quot;y~w=utyrqp6tsrqSi/g-ediha&#39;eG]#[ZY&#125;@VzTYXWVOs6LKo2NMFKJCBf@ED=a;@9]=&lt;54XW765.-Q1q)ML,%*)&quot;!~&#125;C&#123;&quot;yx&#125;v&lt;;yrwvo5slqpohg-kdchgf_%]\[Z~&#125;@VzZYRWVOsSRQJnN0/EDCg*)E&gt;b&lt;;@?8=6Z:9810T4t2+*N(-,%$H(&#39;gf|Bz!x&#125;|u;srqpon4lTjohg-kjiba&#39;e^c\&quot;!Y^]\[TxXW9ONMLpPOHMFjDIHA@E&gt;b&lt;;:9]=6;492V65.R2+*N.&#39;&amp;+*#G&#39;~%|#&quot;yx&gt;=uzsxwvun43kjohgf,jihgfe^$\[Z_^W&#123;[TYXWVOsSRQJONMLEiCHG@?cb%;@?8\6;492VUTu-2+ONon,+*#G!&amp;&#125;C#&quot;!x&gt;|u;yrwpun4lTjohg-eMib(fe^cb[!Y^]\Uy&lt;;WVONSLpJIHMFKDhU
-</code></pre><p>看了wp才知道原来这是一种编程语言……<strong>Malbolge</strong></p>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">Hey</span> there, it&#x27;s Ben I forgot the key to unlock my omnitrix help me to decrypt the key.</span><br><span class="line"></span><br><span class="line"><span class="attribute">This</span> was the data Azmuth found in the ROOT of omnitrix :</span><br><span class="line"></span><br><span class="line"><span class="attribute">D</span>&#x27;`r_<span class="string">&quot;\!65|&#123;8yTBu-,P0&lt;L&#x27;]m7)iE3ffT&quot;</span>b~=+&lt;)([wvo5Vlqping-kjihgfH%cb[`Y&#125;@VUyxXQPUTMLpPOHMFj-,HGF?&gt;bBA:?&gt;<span class="number">7</span>[;:<span class="number">9870</span>v.<span class="number">3</span>,PO/.&#x27;K%*)<span class="string">&quot;F&amp;%ed&quot;</span>y~w=uzsr8potml21oQmf,diha`e^$\aZ_^W&#123;[=&lt;XWPOs65KPIHGFjJIHG@?c=B;@?&gt;<span class="number">7</span>[;<span class="number">4981</span>U5.R21q)M-&amp;%I#(&#x27;~D<span class="variable">$&#123;&quot;y?wv&#123;t:9qYun4rkSonmlkdihg`&amp;d]\aZY&#125;</span>@V[ZYXQuU76LKo2HGFjiCHA@?c=B;@?&gt;<span class="number">7</span>[;<span class="number">4981</span>UT4321q)M&#x27;&amp;%$)<span class="string">&quot;!E%e&#123;z@~&#125;_uzs9wvotsrk1onPle+*)a`e^$\aZY&#125;W\[TSwvVUTMLpPIHGLEiIHG@(&gt;baA:^!~&lt;;:921U54t2+*N.&#x27;&amp;%*)&quot;</span>FEfe&#123;<span class="string">&quot;y?&gt;v&#123;zsxqp6nVl2pohg-ejib(&#x27;_^]b[Z~^@?UZSRvPONr54JImGLKDIBfe(&gt;=&lt;`#&quot;</span>&gt;=<span class="number">65</span>Y987w/<span class="number">43</span>,P0)o-,+$H(&#x27;&amp;%|B<span class="string">&quot;!~w|&#123;t:xZpo5Vlqjinmled*Ka`edc\&quot;Z_^]Vz=YXQPtN6LKoO10FKDhHAF?cCBA#&quot;</span><span class="number">8</span>\<span class="number">65</span>Y987w/<span class="number">43</span>,P*p.-&amp;J*#i&#x27;&amp;&#125;C#<span class="string">&quot;!x&gt;|&#123;zyr8ponmrqj0/mfNjibg`_^$b[Z_X]VUySRQPUNr54JImMLEDhHA@dD=B;:^8=6;4X2Vwv4-,+*N(-,%$H(!&amp;&#125;C#&quot;</span>!xwv&lt;zyxZpo5Vrkjongf,jibJ`_^$\aZ_^]VzTYRWVOsSRQJn1MFKJCBf)(&gt;=&lt;`#<span class="string">&quot;8\654XW165.-Q10)(&#x27;K+$#G&#x27;&amp;fe#&quot;</span>y?&#125;vuzyxq7utsrkj0hgfkjihg`_^$\[ZY&#125;|V[ZSRWPtT6LKJIm0/KDIHAeEDC&lt;;:<span class="number">9</span>]\<span class="number">6</span>Z4z816/<span class="number">4</span>-,P0/.&#x27;&amp;%$H(&#x27;&amp;%ed<span class="string">&quot;y~w=&#123;tsr8vo5mlqponmf,diba`ed]#&quot;</span>Z_X]V[TxRQVONMLp3INGFEi,HAF?c=&lt;;@<span class="number">9876</span>Z&#123;<span class="number">921</span>U/<span class="number">432</span>+O)o&#x27;&amp;%I#(!&amp;%<span class="variable">$&#123;A@~&#125;</span>|&#123;ts9qpun4lkpi/glkdcba&#x27;_dcbaZY&#125;]\UyS;QVUNrq4JIHMFj-,BGF?cCBA#<span class="string">&quot;8=6Z:98705.-Q1*p.-&amp;JI#&quot;</span>!~&#125;C&#123;<span class="string">&quot;!~&#125;v&lt;tsrqp6Wsl2jinmlkdcba&#x27;e^cb[Z~^@?UZSRv98TSLKo2NMFEJIBf)EDC&lt;;_98=6;4X2765.-Q10)o&#x27;&amp;%I#i&#x27;&amp;&#125;C&#123;&quot;</span>y~w=utyrqp6tsrqSi/g-ediha&#x27;eG]#[ZY&#125;@VzTYXWVOs6LKo2NMFKJCBf@ED=a;@<span class="number">9</span>]=&lt;<span class="number">54</span>XW765.-Q1q)ML,%*)<span class="string">&quot;!~&#125;C&#123;&quot;</span>yx&#125;v&lt;;yrwvo5slqpohg-kdchgf_%]\[Z~&#125;@VzZYRWVOsSRQJnN0/EDCg*)E&gt;b&lt;;@?<span class="number">8</span>=<span class="number">6</span>Z:<span class="number">9810</span>T4t2+*N(-,%$H(&#x27;gf|Bz!x&#125;|u;srqpon4lTjohg-kjiba&#x27;e^c\<span class="string">&quot;!Y^]\[TxXW9ONMLpPOHMFjDIHA@E&gt;b&lt;;:9]=6;492V65.R2+*N.&#x27;&amp;+*#G&#x27;~%|#&quot;</span>yx&gt;=uzsxwvun43kjohgf,jihgfe^$\[Z_^W&#123;[TYXWVOsSRQJONMLEiCHG@?cb%;@?<span class="number">8</span>\<span class="number">6</span>;<span class="number">492</span>VUTu-<span class="number">2</span>+ONon,+*#G!&amp;&#125;C#<span class="string">&quot;!x&gt;|u;yrwpun4lTjohg-eMib(fe^cb[!Y^]\Uy&lt;;WVONSLpJIHMFKDhU</span></span><br></pre></td></tr></table></figure>
+<p>看了wp才知道原来这是一种编程语言……<strong>Malbolge</strong></p>
 <p><a target="_blank" rel="noopener" href="https://malbolge.doleczek.pl/">https://malbolge.doleczek.pl/</a></p>
 <p>用上网站解出密文得到</p>
-<pre><code>ct =  873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013
-</code></pre><p>再尝试开三次方，得到flag</p>
-<pre><code class="lang-python">&gt;&gt;&gt; from Crypto.Util.number import *
-&gt;&gt;&gt; import gmpy2
-&gt;&gt;&gt; gmpy2.iroot(873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013,3)
-(mpz(95579309976104600502240991830192190518846753403800625853612609969212847649926782792317), True)
-&gt;&gt;&gt; long_to_bytes(95579309976104600502240991830192190518846753403800625853612609969212847649926782792317)
-b&#39;1337UP&#123;U_d3CrYPt3D_th3_k3Y_30494762&#125;&#39;
-</code></pre>
+<figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">ct</span> <span class="operator">=</span>  <span class="number">873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013</span></span><br></pre></td></tr></table></figure>
+<p>再尝试开三次方，得到flag</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">from</span> Crypto.Util.number <span class="keyword">import</span> *</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> gmpy2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>gmpy2.iroot(<span class="number">873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013</span>,<span class="number">3</span>)</span><br><span class="line">(mpz(<span class="number">95579309976104600502240991830192190518846753403800625853612609969212847649926782792317</span>), <span class="literal">True</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>long_to_bytes(<span class="number">95579309976104600502240991830192190518846753403800625853612609969212847649926782792317</span>)</span><br><span class="line"><span class="string">b&#x27;1337UP&#123;U_d3CrYPt3D_th3_k3Y_30494762&#125;&#x27;</span></span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -451,13 +441,13 @@ b&#39;1337UP&#123;U_d3CrYPt3D_th3_k3Y_30494762&#125;&#39;
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">36k</span>
+    <span title="站点总字数">37k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">32 分钟</span>
+    <span title="站点阅读时长">33 分钟</span>
 </div>
 
 

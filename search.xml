@@ -6,23 +6,13 @@
     <content><![CDATA[<p>奇怪的编程—-但丁地狱</p>
 <span id="more"></span>
 <h1 id="Dante’s-Inferno"><a href="#Dante’s-Inferno" class="headerlink" title="Dante’s Inferno"></a>Dante’s Inferno</h1><p>​        题目只有一个unknown文件，在其16进制中发现PK字符，猜测是一个压缩包，尝试解压后发现损坏。猜测是缺少头文件，所以便添加一个50 4B 03 04在前面，能提取出一个txt文件，其中有密文：</p>
-<pre><code>Hey there, it&#39;s Ben I forgot the key to unlock my omnitrix help me to decrypt the key.
-
-This was the data Azmuth found in the ROOT of omnitrix :
-
-D&#39;`r_&quot;\!65|&#123;8yTBu-,P0&lt;L&#39;]m7)iE3ffT&quot;b~=+&lt;)([wvo5Vlqping-kjihgfH%cb[`Y&#125;@VUyxXQPUTMLpPOHMFj-,HGF?&gt;bBA:?&gt;7[;:9870v.3,PO/.&#39;K%*)&quot;F&amp;%ed&quot;y~w=uzsr8potml21oQmf,diha`e^$\aZ_^W&#123;[=&lt;XWPOs65KPIHGFjJIHG@?c=B;@?&gt;7[;4981U5.R21q)M-&amp;%I#(&#39;~D$&#123;&quot;y?wv&#123;t:9qYun4rkSonmlkdihg`&amp;d]\aZY&#125;@V[ZYXQuU76LKo2HGFjiCHA@?c=B;@?&gt;7[;4981UT4321q)M&#39;&amp;%$)&quot;!E%e&#123;z@~&#125;_uzs9wvotsrk1onPle+*)a`e^$\aZY&#125;W\[TSwvVUTMLpPIHGLEiIHG@(&gt;baA:^!~&lt;;:921U54t2+*N.&#39;&amp;%*)&quot;FEfe&#123;&quot;y?&gt;v&#123;zsxqp6nVl2pohg-ejib(&#39;_^]b[Z~^@?UZSRvPONr54JImGLKDIBfe(&gt;=&lt;`#&quot;&gt;=65Y987w/43,P0)o-,+$H(&#39;&amp;%|B&quot;!~w|&#123;t:xZpo5Vlqjinmled*Ka`edc\&quot;Z_^]Vz=YXQPtN6LKoO10FKDhHAF?cCBA#&quot;8\65Y987w/43,P*p.-&amp;J*#i&#39;&amp;&#125;C#&quot;!x&gt;|&#123;zyr8ponmrqj0/mfNjibg`_^$b[Z_X]VUySRQPUNr54JImMLEDhHA@dD=B;:^8=6;4X2Vwv4-,+*N(-,%$H(!&amp;&#125;C#&quot;!xwv&lt;zyxZpo5Vrkjongf,jibJ`_^$\aZ_^]VzTYRWVOsSRQJn1MFKJCBf)(&gt;=&lt;`#&quot;8\654XW165.-Q10)(&#39;K+$#G&#39;&amp;fe#&quot;y?&#125;vuzyxq7utsrkj0hgfkjihg`_^$\[ZY&#125;|V[ZSRWPtT6LKJIm0/KDIHAeEDC&lt;;:9]\6Z4z816/4-,P0/.&#39;&amp;%$H(&#39;&amp;%ed&quot;y~w=&#123;tsr8vo5mlqponmf,diba`ed]#&quot;Z_X]V[TxRQVONMLp3INGFEi,HAF?c=&lt;;@9876Z&#123;921U/432+O)o&#39;&amp;%I#(!&amp;%$&#123;A@~&#125;|&#123;ts9qpun4lkpi/glkdcba&#39;_dcbaZY&#125;]\UyS;QVUNrq4JIHMFj-,BGF?cCBA#&quot;8=6Z:98705.-Q1*p.-&amp;JI#&quot;!~&#125;C&#123;&quot;!~&#125;v&lt;tsrqp6Wsl2jinmlkdcba&#39;e^cb[Z~^@?UZSRv98TSLKo2NMFEJIBf)EDC&lt;;_98=6;4X2765.-Q10)o&#39;&amp;%I#i&#39;&amp;&#125;C&#123;&quot;y~w=utyrqp6tsrqSi/g-ediha&#39;eG]#[ZY&#125;@VzTYXWVOs6LKo2NMFKJCBf@ED=a;@9]=&lt;54XW765.-Q1q)ML,%*)&quot;!~&#125;C&#123;&quot;yx&#125;v&lt;;yrwvo5slqpohg-kdchgf_%]\[Z~&#125;@VzZYRWVOsSRQJnN0/EDCg*)E&gt;b&lt;;@?8=6Z:9810T4t2+*N(-,%$H(&#39;gf|Bz!x&#125;|u;srqpon4lTjohg-kjiba&#39;e^c\&quot;!Y^]\[TxXW9ONMLpPOHMFjDIHA@E&gt;b&lt;;:9]=6;492V65.R2+*N.&#39;&amp;+*#G&#39;~%|#&quot;yx&gt;=uzsxwvun43kjohgf,jihgfe^$\[Z_^W&#123;[TYXWVOsSRQJONMLEiCHG@?cb%;@?8\6;492VUTu-2+ONon,+*#G!&amp;&#125;C#&quot;!x&gt;|u;yrwpun4lTjohg-eMib(fe^cb[!Y^]\Uy&lt;;WVONSLpJIHMFKDhU
-</code></pre><p>看了wp才知道原来这是一种编程语言……<strong>Malbolge</strong></p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">Hey</span> there, it&#x27;s Ben I forgot the key to unlock my omnitrix help me to decrypt the key.</span><br><span class="line"></span><br><span class="line"><span class="attribute">This</span> was the data Azmuth found in the ROOT of omnitrix :</span><br><span class="line"></span><br><span class="line"><span class="attribute">D</span>&#x27;`r_<span class="string">&quot;\!65|&#123;8yTBu-,P0&lt;L&#x27;]m7)iE3ffT&quot;</span>b~=+&lt;)([wvo5Vlqping-kjihgfH%cb[`Y&#125;@VUyxXQPUTMLpPOHMFj-,HGF?&gt;bBA:?&gt;<span class="number">7</span>[;:<span class="number">9870</span>v.<span class="number">3</span>,PO/.&#x27;K%*)<span class="string">&quot;F&amp;%ed&quot;</span>y~w=uzsr8potml21oQmf,diha`e^$\aZ_^W&#123;[=&lt;XWPOs65KPIHGFjJIHG@?c=B;@?&gt;<span class="number">7</span>[;<span class="number">4981</span>U5.R21q)M-&amp;%I#(&#x27;~D<span class="variable">$&#123;&quot;y?wv&#123;t:9qYun4rkSonmlkdihg`&amp;d]\aZY&#125;</span>@V[ZYXQuU76LKo2HGFjiCHA@?c=B;@?&gt;<span class="number">7</span>[;<span class="number">4981</span>UT4321q)M&#x27;&amp;%$)<span class="string">&quot;!E%e&#123;z@~&#125;_uzs9wvotsrk1onPle+*)a`e^$\aZY&#125;W\[TSwvVUTMLpPIHGLEiIHG@(&gt;baA:^!~&lt;;:921U54t2+*N.&#x27;&amp;%*)&quot;</span>FEfe&#123;<span class="string">&quot;y?&gt;v&#123;zsxqp6nVl2pohg-ejib(&#x27;_^]b[Z~^@?UZSRvPONr54JImGLKDIBfe(&gt;=&lt;`#&quot;</span>&gt;=<span class="number">65</span>Y987w/<span class="number">43</span>,P0)o-,+$H(&#x27;&amp;%|B<span class="string">&quot;!~w|&#123;t:xZpo5Vlqjinmled*Ka`edc\&quot;Z_^]Vz=YXQPtN6LKoO10FKDhHAF?cCBA#&quot;</span><span class="number">8</span>\<span class="number">65</span>Y987w/<span class="number">43</span>,P*p.-&amp;J*#i&#x27;&amp;&#125;C#<span class="string">&quot;!x&gt;|&#123;zyr8ponmrqj0/mfNjibg`_^$b[Z_X]VUySRQPUNr54JImMLEDhHA@dD=B;:^8=6;4X2Vwv4-,+*N(-,%$H(!&amp;&#125;C#&quot;</span>!xwv&lt;zyxZpo5Vrkjongf,jibJ`_^$\aZ_^]VzTYRWVOsSRQJn1MFKJCBf)(&gt;=&lt;`#<span class="string">&quot;8\654XW165.-Q10)(&#x27;K+$#G&#x27;&amp;fe#&quot;</span>y?&#125;vuzyxq7utsrkj0hgfkjihg`_^$\[ZY&#125;|V[ZSRWPtT6LKJIm0/KDIHAeEDC&lt;;:<span class="number">9</span>]\<span class="number">6</span>Z4z816/<span class="number">4</span>-,P0/.&#x27;&amp;%$H(&#x27;&amp;%ed<span class="string">&quot;y~w=&#123;tsr8vo5mlqponmf,diba`ed]#&quot;</span>Z_X]V[TxRQVONMLp3INGFEi,HAF?c=&lt;;@<span class="number">9876</span>Z&#123;<span class="number">921</span>U/<span class="number">432</span>+O)o&#x27;&amp;%I#(!&amp;%<span class="variable">$&#123;A@~&#125;</span>|&#123;ts9qpun4lkpi/glkdcba&#x27;_dcbaZY&#125;]\UyS;QVUNrq4JIHMFj-,BGF?cCBA#<span class="string">&quot;8=6Z:98705.-Q1*p.-&amp;JI#&quot;</span>!~&#125;C&#123;<span class="string">&quot;!~&#125;v&lt;tsrqp6Wsl2jinmlkdcba&#x27;e^cb[Z~^@?UZSRv98TSLKo2NMFEJIBf)EDC&lt;;_98=6;4X2765.-Q10)o&#x27;&amp;%I#i&#x27;&amp;&#125;C&#123;&quot;</span>y~w=utyrqp6tsrqSi/g-ediha&#x27;eG]#[ZY&#125;@VzTYXWVOs6LKo2NMFKJCBf@ED=a;@<span class="number">9</span>]=&lt;<span class="number">54</span>XW765.-Q1q)ML,%*)<span class="string">&quot;!~&#125;C&#123;&quot;</span>yx&#125;v&lt;;yrwvo5slqpohg-kdchgf_%]\[Z~&#125;@VzZYRWVOsSRQJnN0/EDCg*)E&gt;b&lt;;@?<span class="number">8</span>=<span class="number">6</span>Z:<span class="number">9810</span>T4t2+*N(-,%$H(&#x27;gf|Bz!x&#125;|u;srqpon4lTjohg-kjiba&#x27;e^c\<span class="string">&quot;!Y^]\[TxXW9ONMLpPOHMFjDIHA@E&gt;b&lt;;:9]=6;492V65.R2+*N.&#x27;&amp;+*#G&#x27;~%|#&quot;</span>yx&gt;=uzsxwvun43kjohgf,jihgfe^$\[Z_^W&#123;[TYXWVOsSRQJONMLEiCHG@?cb%;@?<span class="number">8</span>\<span class="number">6</span>;<span class="number">492</span>VUTu-<span class="number">2</span>+ONon,+*#G!&amp;&#125;C#<span class="string">&quot;!x&gt;|u;yrwpun4lTjohg-eMib(fe^cb[!Y^]\Uy&lt;;WVONSLpJIHMFKDhU</span></span><br></pre></td></tr></table></figure>
+<p>看了wp才知道原来这是一种编程语言……<strong>Malbolge</strong></p>
 <p><a href="https://malbolge.doleczek.pl/">https://malbolge.doleczek.pl/</a></p>
 <p>用上网站解出密文得到</p>
-<pre><code>ct =  873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013
-</code></pre><p>再尝试开三次方，得到flag</p>
-<pre><code class="lang-python">&gt;&gt;&gt; from Crypto.Util.number import *
-&gt;&gt;&gt; import gmpy2
-&gt;&gt;&gt; gmpy2.iroot(873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013,3)
-(mpz(95579309976104600502240991830192190518846753403800625853612609969212847649926782792317), True)
-&gt;&gt;&gt; long_to_bytes(95579309976104600502240991830192190518846753403800625853612609969212847649926782792317)
-b&#39;1337UP&#123;U_d3CrYPt3D_th3_k3Y_30494762&#125;&#39;
-</code></pre>
+<figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">ct</span> <span class="operator">=</span>  <span class="number">873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013</span></span><br></pre></td></tr></table></figure>
+<p>再尝试开三次方，得到flag</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">from</span> Crypto.Util.number <span class="keyword">import</span> *</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> gmpy2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>gmpy2.iroot(<span class="number">873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013</span>,<span class="number">3</span>)</span><br><span class="line">(mpz(<span class="number">95579309976104600502240991830192190518846753403800625853612609969212847649926782792317</span>), <span class="literal">True</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>long_to_bytes(<span class="number">95579309976104600502240991830192190518846753403800625853612609969212847649926782792317</span>)</span><br><span class="line"><span class="string">b&#x27;1337UP&#123;U_d3CrYPt3D_th3_k3Y_30494762&#125;&#x27;</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>编程语言</category>
@@ -33,84 +23,42 @@ b&#39;1337UP&#123;U_d3CrYPt3D_th3_k3Y_30494762&#125;&#39;
       </tags>
   </entry>
   <entry>
-    <title>zer0ptsCTF2022</title>
-    <url>/2022/06/22/zer0ptsCTF2022/</url>
-    <content><![CDATA[<p>一种费马分解</p>
+    <title>2022安洵杯</title>
+    <url>/2022/11/29/2022%E5%AE%89%E6%B4%B5%E6%9D%AF/</url>
+    <content><![CDATA[<p>三道密码＋一道misc 记录</p>
 <span id="more"></span>
-<div class="note warning"><p></p></div>
-
-<h2 id="Anti-Fermat"><a href="#Anti-Fermat" class="headerlink" title="Anti-Fermat"></a>Anti-Fermat</h2><h2 id="task"><a href="#task" class="headerlink" title="task"></a>task</h2><pre><code class="lang-python">from Crypto.Util.number import isPrime, getStrongPrime
-from gmpy import next_prime
-from secret import flag
-
-# Anti-Fermat Key Generation
-p = getStrongPrime(1024)
-q = next_prime(q0)
-n = p * q
-e = 65537
-
-# Encryption
-m = int.from_bytes(flag, &#39;big&#39;)
-assert m &lt; n
-c = pow(m, e, n)
-
-print(&#39;n = &#123;&#125;&#39;.format(hex(n)))
-print(&#39;c = &#123;&#125;&#39;.format(hex(c)))
-</code></pre>
-<h2 id="output"><a href="#output" class="headerlink" title="output"></a>output</h2><pre><code class="lang-python">n = 0x1ffc7dc6b9667b0dcd00d6ae92fb34ed0f3d84285364c73fbf6a572c9081931be0b0610464152de7e0468ca7452c738611656f1f9217a944e64ca2b3a89d889ffc06e6503cfec3ccb491e9b6176ec468687bf4763c6591f89e750bf1e4f9d6855752c19de4289d1a7cea33b077bdcda3c84f6f3762dc9d96d2853f94cc688b3c9d8e67386a147524a2b23b1092f0be1aa286f2aa13aafba62604435acbaa79f4e53dea93ae8a22655287f4d2fa95269877991c57da6fdeeb3d46270cd69b6bfa537bfd14c926cf39b94d0f06228313d21ec6be2311f526e6515069dbb1b06fe3cf1f62c0962da2bc98fa4808c201e4efe7a252f9f823e710d6ad2fb974949751
-c = 0x60160bfed79384048d0d46b807322e65c037fa90fac9fd08b512a3931b6dca2a745443a9b90de2fa47aaf8a250287e34563e6b1a6761dc0ccb99cb9d67ae1c9f49699651eafb71a74b097fc0def77cf287010f1e7bd614dccfb411cdccbb84c60830e515c05481769bd95e656d839337d430db66abcd3a869c6348616b78d06eb903f8abd121c851696bd4cb2a1a40a07eea17c4e33c6a1beafb79d881d595472ab6ce3c61d6d62c4ef6fa8903149435c844a3fab9286d212da72b2548f087e37105f4657d5a946afd12b1822ceb99c3b407bb40e21163c1466d116d67c16a2a3a79e5cc9d1f6a1054d6be6731e3cd19abbd9e9b23309f87bfe51a822410a62
-</code></pre>
-<h2 id="solve"><a href="#solve" class="headerlink" title="solve"></a>solve</h2><p>设</p>
-<pre><code class="lang-python">p ^ ((1&lt;&lt;1024)-1) = q0
-</code></pre>
-<p>则</p>
-<pre><code>p + q0 = (1&lt;&lt;1024)-1 = 2**1024 - 1
-</code></pre><p>p是1024bit的素数，q是p的每一位相反数的下一个素数，有:</p>
-<script type="math/tex; mode=display">
-p+q_0=((1<<1024)-1)=2^{1024}-1</script><script type="math/tex; mode=display">
-q_0=2^{1024}-1-p</script><p>我们就可以用$q_0$找到$q$，因为$q$是$q_0$的下一个素数，所以$q&gt;q_0$，即</p>
-<script type="math/tex; mode=display">
-q=q_0 + k=2^{1024}-1-p+k</script><p>所以模数n</p>
-<script type="math/tex; mode=display">
-n=p*q=p*(2^{1024}-1-p+k)</script><p>设$2^{1024}-1=A$，原式等于$p*(A-p+k)$，因式分解为完全平方式</p>
-<script type="math/tex; mode=display">
-p*(A-p+k)=p*A-p^2+p*k=p*(A+k)-p^2</script><script type="math/tex; mode=display">
-n=(\frac{A+k}{2})^2-(\frac{A+k}{2}-p)^2</script><script type="math/tex; mode=display">
-=\frac{(A+k)^2}{4}-(\frac{(A+k)^2}{4}-2*\frac{A+k}{2}*p+p^2)</script><script type="math/tex; mode=display">
-=p*(A+k)-p^2=n</script><p>设$a=\frac{A+k}{2}$，$b=\frac{A+k}{2}-p$，利用费马分解</p>
-<pre><code class="lang-python">from math import isqrt
-import gmpy2
-from Crypto.Util.number import *
-n = 0x1ffc7dc6b9667b0dcd00d6ae92fb34ed0f3d84285364c73fbf6a572c9081931be0b0610464152de7e0468ca7452c738611656f1f9217a944e64ca2b3a89d889ffc06e6503cfec3ccb491e9b6176ec468687bf4763c6591f89e750bf1e4f9d6855752c19de4289d1a7cea33b077bdcda3c84f6f3762dc9d96d2853f94cc688b3c9d8e67386a147524a2b23b1092f0be1aa286f2aa13aafba62604435acbaa79f4e53dea93ae8a22655287f4d2fa95269877991c57da6fdeeb3d46270cd69b6bfa537bfd14c926cf39b94d0f06228313d21ec6be2311f526e6515069dbb1b06fe3cf1f62c0962da2bc98fa4808c201e4efe7a252f9f823e710d6ad2fb974949751
-c = 0x60160bfed79384048d0d46b807322e65c037fa90fac9fd08b512a3931b6dca2a745443a9b90de2fa47aaf8a250287e34563e6b1a6761dc0ccb99cb9d67ae1c9f49699651eafb71a74b097fc0def77cf287010f1e7bd614dccfb411cdccbb84c60830e515c05481769bd95e656d839337d430db66abcd3a869c6348616b78d06eb903f8abd121c851696bd4cb2a1a40a07eea17c4e33c6a1beafb79d881d595472ab6ce3c61d6d62c4ef6fa8903149435c844a3fab9286d212da72b2548f087e37105f4657d5a946afd12b1822ceb99c3b407bb40e21163c1466d116d67c16a2a3a79e5cc9d1f6a1054d6be6731e3cd19abbd9e9b23309f87bfe51a822410a62
-
-a = (2**1024-1) // 2
-&#39;&#39;&#39;
-while True:
-    b1 = a**2 - n
-    b = isqrt(b1)
-    if b*b == a*a - n:
-        print(a+b, a-b)
-    a += 1
-&#39;&#39;&#39;
-p = 153456316755201256456077648680293404551531181234956990242779099773886170192558263224753907666532907469313954439789378399786631549347700474488574017322863270205683350905558827922567834954626909259763623105532668671134932118937640401627676913585506492102157561689678418157863742997375967679975824876706628973287
-q = 26312996731030334316852870398609068810266516659273667030650981383846505612942699907954569655874628551806159440082014957872158219466716148004273413316610854172084542519306657353734384646619184859689459846552337097703218563404822479846236196955320745061192948994907880082083502941103748624859531452917595165959
-phi = (p-1)*(q-1)
-e = 65537
-d = gmpy2.invert(e, phi)
-print(long_to_bytes(gmpy2.powmod(c,d,n)))
-</code></pre>
-<p>output</p>
-<pre><code>b&#39;Good job! Here is the flag:
-+-----------------------------------------------------------+
-| zer0pts&#123;F3rm4t,y0ur_m3th0d_n0_l0ng3r_w0rks.y0u_4r3_f1r3d&#125; |
-+-----------------------------------------------------------+&#39;
-</code></pre>]]></content>
+<h1 id="2022安洵杯"><a href="#2022安洵杯" class="headerlink" title="2022安洵杯"></a>2022安洵杯</h1><h1 id="1-Cry1"><a href="#1-Cry1" class="headerlink" title="1.Cry1"></a>1.Cry1</h1><p>签到题，nc连接之后猜对数字即可得到flag。</p>
+<h1 id="2-Cry2"><a href="#2-Cry2" class="headerlink" title="2.Cry2"></a>2.Cry2</h1><p>AES 128位填充攻击，在ECB模式下相同块加密得到相同的密文。更改每次填充的iMessage长度，并修改输入的最后一位，按位进行攻击。得到flag的后16位，以此作为Key，AES_ECB模式解第一个密文块得到flag。</p>
+<h2 id="exp"><a href="#exp" class="headerlink" title="exp"></a>exp</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding:utf-8 -*-</span></span><br><span class="line"><span class="keyword">from</span> pwn <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">import</span> string</span><br><span class="line"><span class="keyword">from</span> hashlib <span class="keyword">import</span> sha256</span><br><span class="line"><span class="keyword">from</span> Crypto.Cipher <span class="keyword">import</span> AES</span><br><span class="line"><span class="keyword">import</span> itertools</span><br><span class="line"><span class="comment"># context.log_level = &#x27;debug&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">decrypt</span>(<span class="params">key, message</span>):</span><br><span class="line">    aes = AES.new(key, AES.MODE_ECB)</span><br><span class="line">    <span class="keyword">return</span> aes.decrypt(message)</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">Proof</span>(<span class="params">broke, Hash</span>):</span><br><span class="line">    <span class="keyword">assert</span> <span class="built_in">len</span>(broke) == <span class="number">16</span> <span class="keyword">and</span> <span class="built_in">len</span>(Hash) == <span class="number">64</span></span><br><span class="line">    shaTable = string.ascii_letters + string.digits</span><br><span class="line">    <span class="keyword">for</span> ii <span class="keyword">in</span> itertools.permutations(shaTable, <span class="number">4</span>):</span><br><span class="line">        x = <span class="string">&#x27;&#x27;</span>.join(ii)</span><br><span class="line">        s = x + broke</span><br><span class="line">        <span class="keyword">if</span> sha256(s.encode()).hexdigest() == Hash:</span><br><span class="line">            <span class="keyword">return</span> x</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">main</span>():</span><br><span class="line">    table = string.ascii_letters + string.digits</span><br><span class="line">    r = remote(<span class="string">&#x27;120.78.131.38&#x27;</span>, <span class="number">10086</span>)</span><br><span class="line">    data1 = r.recvuntil(<span class="string">b&#x27;Give Me XXXX:\n&#x27;</span>)</span><br><span class="line">    flag1, flag2 = <span class="string">b&#x27;&#x27;</span>, <span class="string">b&#x27;&#x27;</span></span><br><span class="line">    x = (Proof(data1[<span class="number">14</span>:<span class="number">30</span>].decode(), data1[<span class="number">32</span>:<span class="number">96</span>].decode())).encode()</span><br><span class="line">    r.sendline(x)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">23</span>, <span class="number">3</span>, -<span class="number">1</span>):</span><br><span class="line">        r.recv()</span><br><span class="line">        sendMessage = <span class="string">b&#x27;*&#x27;</span> * i</span><br><span class="line">        r.sendline(sendMessage)</span><br><span class="line">        a = r.recv()</span><br><span class="line">        ecbCipher = <span class="built_in">str</span>(a)[<span class="number">25</span>:-<span class="number">4</span>][<span class="number">32</span>:<span class="number">64</span>]</span><br><span class="line">        flag1 = a[<span class="number">23</span>:-<span class="number">2</span>]</span><br><span class="line">        <span class="keyword">for</span> guess <span class="keyword">in</span> table:</span><br><span class="line">            r.recv()</span><br><span class="line">            r.sendline(sendMessage + flag2 + guess.encode())</span><br><span class="line">            b = r.recv()</span><br><span class="line">            <span class="keyword">if</span> <span class="built_in">str</span>(b)[<span class="number">25</span>:-<span class="number">2</span>][<span class="number">32</span>:<span class="number">64</span>] == ecbCipher:</span><br><span class="line">                flag2 += guess.encode()</span><br><span class="line">                <span class="keyword">break</span></span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">len</span>(flag2) == <span class="number">15</span>:</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">    <span class="built_in">print</span>(flag2)</span><br><span class="line">    flag2 = flag2 + <span class="string">b&#x27;&#125;&#x27;</span></span><br><span class="line">    flag1 = decrypt(flag2, binascii.unhexlify(flag1))</span><br><span class="line">    <span class="built_in">print</span>(flag1[:<span class="number">8</span>]+flag2)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">b&#x27;IDl8FuWPu01RHZt&#x27;</span></span><br><span class="line"><span class="string">b&#x27;D0g3&#123;o7sIDl8FuWPu01RHZt&#125;&#x27;</span></span><br></pre></td></tr></table></figure>
+<h1 id="3-Cry3"><a href="#3-Cry3" class="headerlink" title="3.Cry3"></a>3.Cry3</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">aes = AES.new(key, AES.MODE_CBC, iv=<span class="string">b&#x27;\x00&#x27;</span> * AES.block_size)</span><br></pre></td></tr></table></figure>
+<p>CBC模式下，初始向量IV为0，可知为CBC MAC消息认证，将mac与第一明文块异或，由</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">sMen = msg + xor(<span class="built_in">bytes</span>.fromhex(mac), b1) + b2</span><br></pre></td></tr></table></figure>
+<p>得到的发送数据sMen，经过CBC MAC认证后得到的消息认证码MAC与msg的相同，即可绕过认证。得到一组由RSA加密得到的密文，是在e不互素下的共模攻击。</p>
+<h2 id="exp-1"><a href="#exp-1" class="headerlink" title="exp"></a>exp</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> itertools</span><br><span class="line"><span class="keyword">import</span> string</span><br><span class="line"><span class="keyword">from</span> hashlib <span class="keyword">import</span> sha256</span><br><span class="line"><span class="keyword">import</span> gmpy2</span><br><span class="line"><span class="keyword">from</span> Crypto.Util.number <span class="keyword">import</span> long_to_bytes</span><br><span class="line"><span class="keyword">from</span> pwn <span class="keyword">import</span> remote, context, xor</span><br><span class="line"><span class="keyword">from</span> Crypto.Util.Padding <span class="keyword">import</span> pad</span><br><span class="line"></span><br><span class="line"><span class="comment"># context.log_level = &#x27;debug&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">Proof</span>(<span class="params">broke, Hash</span>):</span><br><span class="line">    <span class="keyword">assert</span> <span class="built_in">len</span>(broke) == <span class="number">16</span> <span class="keyword">and</span> <span class="built_in">len</span>(Hash) == <span class="number">64</span></span><br><span class="line">    shaTable = string.ascii_letters + string.digits</span><br><span class="line">    <span class="keyword">for</span> ii <span class="keyword">in</span> itertools.permutations(shaTable, <span class="number">4</span>):</span><br><span class="line">        x = <span class="string">&#x27;&#x27;</span>.join(ii)</span><br><span class="line">        s = x + broke</span><br><span class="line">        <span class="keyword">if</span> sha256(s.encode()).hexdigest() == Hash:</span><br><span class="line">            <span class="keyword">return</span> x</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">exgcd</span>(<span class="params">a, b</span>):</span><br><span class="line">    <span class="keyword">if</span> b == <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>, <span class="number">0</span>, a</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        x, y, gcd = exgcd(b, a % b)</span><br><span class="line">        x, y = y, (x - (a // b) * y)</span><br><span class="line">        <span class="keyword">return</span> x, y, gcd</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">cbcMAC</span>():</span><br><span class="line">    p = remote(<span class="string">&quot;120.78.131.38&quot;</span>, <span class="number">10010</span>)</span><br><span class="line">    data1 = p.recvuntil(<span class="string">b&#x27;Give Me XXXX:\n&#x27;</span>)</span><br><span class="line">    x = (Proof(data1[<span class="number">14</span>:<span class="number">30</span>].decode(), data1[<span class="number">32</span>:<span class="number">96</span>].decode())).encode()</span><br><span class="line">    p.sendline(x)</span><br><span class="line">    data2 = p.recvuntil(<span class="string">b&#x27;--&gt; &#x27;</span>).decode()</span><br><span class="line">    mac = data2.strip()[-<span class="number">36</span>:-<span class="number">4</span>]</span><br><span class="line">    msg = <span class="string">&#x27;Whitfield__Diffie&#x27;</span></span><br><span class="line">    b1, b2 = msg[:<span class="number">16</span>].encode(), msg[<span class="number">16</span>:].encode()  <span class="comment"># first block</span></span><br><span class="line">    msg = pad(msg.encode(), <span class="number">16</span>)</span><br><span class="line">    sMen = msg + xor(<span class="built_in">bytes</span>.fromhex(mac), b1) + b2</span><br><span class="line">    p.send(sMen)</span><br><span class="line">    p.recvuntil(<span class="string">b&#x27;penetrated.\n&#x27;</span>)</span><br><span class="line">    c = p.recvuntil(<span class="string">b&#x27;)&#x27;</span>)</span><br><span class="line">    <span class="keyword">return</span> c[<span class="number">34</span>:]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">sameMod</span>():</span><br><span class="line">    c = cbcMAC().decode()[<span class="number">1</span>:-<span class="number">1</span>].split(<span class="string">&#x27;, &#x27;</span>)</span><br><span class="line">    cipher = [<span class="built_in">int</span>(i) <span class="keyword">for</span> i <span class="keyword">in</span> c]</span><br><span class="line">    n, e1, e2, e3, c1, c2, c3 = cipher[<span class="number">0</span>], cipher[<span class="number">1</span>], cipher[<span class="number">2</span>], cipher[<span class="number">3</span>], cipher[<span class="number">4</span>], cipher[<span class="number">5</span>], cipher[<span class="number">6</span>]</span><br><span class="line">    a = gmpy2.gcd(e1, e2)</span><br><span class="line">    b = gmpy2.gcd(e1, e3)</span><br><span class="line">    c = gmpy2.gcd(e2, e3)</span><br><span class="line"></span><br><span class="line">    x1 = exgcd(b, c)</span><br><span class="line">    C1 = gmpy2.powmod(c1, x1[<span class="number">0</span>], n) * gmpy2.powmod(c2, x1[<span class="number">1</span>], n) % n</span><br><span class="line"></span><br><span class="line">    x2 = exgcd(a, b)</span><br><span class="line">    C2 = gmpy2.powmod(c2, x2[<span class="number">0</span>], n) * gmpy2.powmod(c3, x2[<span class="number">1</span>], n) % n</span><br><span class="line"></span><br><span class="line">    x3 = exgcd(a, c)</span><br><span class="line">    flag = gmpy2.powmod(C1, x3[<span class="number">0</span>], n) * gmpy2.powmod(C2, x3[<span class="number">1</span>], n) % n</span><br><span class="line">    <span class="built_in">print</span>(long_to_bytes(flag))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    sameMod()</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">b&#x27;D0g3&#123;New_3ra_@f_PK_Crypt0graphy_1976&#125;&#x27;</span></span><br></pre></td></tr></table></figure>
+<h1 id="4-Redcoast"><a href="#4-Redcoast" class="headerlink" title="4.Redcoast"></a>4.Redcoast</h1><p>将文件中二进制转十六进制得到开头有504b，可知为一个压缩包</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;Signal.txt&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    data = f.read()</span><br><span class="line">    data = <span class="built_in">hex</span>(<span class="built_in">int</span>(data, <span class="number">2</span>))[<span class="number">2</span>:]</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;Misc1.txt&#x27;</span>, <span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> ff:</span><br><span class="line">        ff.write(data)</span><br></pre></td></tr></table></figure>
+<p>压缩包中有625张黑白图片，将其转为25*25的一张大图，得到二维码</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image</span><br><span class="line"><span class="keyword">import</span> binascii</span><br><span class="line"><span class="keyword">import</span> base64</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">jigsawPuzzleQrcode</span>():</span><br><span class="line">    makeImg = Image.new(<span class="string">&#x27;RGB&#x27;</span>, (<span class="number">2500</span>, <span class="number">2500</span>), <span class="string">&#x27;white&#x27;</span>)</span><br><span class="line">    n = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">25</span>):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">25</span>):</span><br><span class="line">            block = Image.<span class="built_in">open</span>(<span class="string">f&#x27;./Misc1/<span class="subst">&#123;n&#125;</span>.png&#x27;</span>)</span><br><span class="line">            makeImg.paste(block, (<span class="number">100</span> * j, <span class="number">100</span> * i))</span><br><span class="line">            n += <span class="number">1</span></span><br><span class="line">    makeImg.save(<span class="string">&#x27;Misc.png&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>扫描二维码得出压缩包的key</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">&#x27;--&gt;key: 187J3X1&amp;DX3906@!&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>解压得到</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">6956424f5277304b47676f414141414e5355684555674141424c414141414c7543414941414141784633676c4141454141456c45515652346e4f7a39615a416c323345654350714e3557365a575a6c563966616465414165466749677851556b52413546456f3855745a41745571316c724e57537a5a417a6d6d6c744c636d6d6532784d317461746f566d62716257775255317a4e4771526f6b67516f41434b424e6b434b59674e63594e4553534146415149496b414378764b336571337056575a6c3574316a752f50414</span><br></pre></td></tr></table></figure>
+<p>解16进制得到开头为iVB，可知为base64的png文件</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="string">b&#x27;iVBORw0KGgoAAAANSUhEUgAABLAAAALuCAIAAAAxF3glAAEAAElEQVR4nOz9aZAl23EeCPqN5W6ZWZlV9fadeAAeFgIgxQUkRA5FEo8UtZAtUq1lrNWSzZAzmmltLcmme2xM1tatoVmbqbWwRU1zNGqRokgQoACKBNkCKYgNcYNESSAFAQIIkACxvK3eq3pVWZl5t1ju&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>写脚本得到图片</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">BaseToPng</span>():</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;png.txt&#x27;</span>, <span class="string">&#x27;rb&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        base64png = f.read().decode()</span><br><span class="line">        base64data = binascii.unhexlify(base64png)</span><br><span class="line">        imgdata = base64.b64decode(base64data)</span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;flag.png&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> ff:</span><br><span class="line">            ff.write(imgdata)</span><br></pre></td></tr></table></figure>
+<p>得到一张三体中的图片，可以看到图中有很多像素点不对，图片为RGB模式，读取每个像素点，将其转为ASCII码</p>
+<p><img src="https://cdn.jsdelivr.net/gh/iH0lmes/img_data/img/flag.png" alt=""></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">readRGB</span>():</span><br><span class="line">    img = Image.<span class="built_in">open</span>(<span class="string">&#x27;flag.png&#x27;</span>)</span><br><span class="line">    pixel = []</span><br><span class="line">    imgSize = img.size</span><br><span class="line">    x, y = imgSize[<span class="number">0</span>], imgSize[<span class="number">1</span>]  <span class="comment"># (x1200, y750)</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(y):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(x):</span><br><span class="line">            pixel.append(img.getpixel((j, i)))</span><br><span class="line">    message = <span class="string">&#x27;&#x27;</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> pixel:</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> i:</span><br><span class="line">            message += <span class="built_in">chr</span>(j)</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;flag.txt&#x27;</span>, <span class="string">&#x27;a&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        f.write(message)</span><br><span class="line">        f.close()</span><br></pre></td></tr></table></figure>
+<p>得到flag</p>
+<figure class="highlight vbnet"><table><tr><td class="code"><pre><span class="line">Ye Wenjie<span class="comment">&#x27;s heart beats hard, like a string about to break. The black fog begins to appear in front of her. She uses her last energy to persist. Before everything goes into the eternal darkness, she wants to see the sunset of the Red Bank Base again. In the western sky, the setting sun, which is sinking in the sea of clouds, seems to be melting, and the sun&#x27;s blood diffuses in the sea of clouds and sky, reflecting a large piece of magnificent blood red. &quot;This is the sunset of mankind...D0g3&#123;W3Lc0Me_T@_E4rth!!&#125;&quot; said Ye Wenjie gently.</span></span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
-        <category>RSA</category>
+        <category>CTF</category>
       </categories>
       <tags>
-        <tag>Crypto</tag>
         <tag>CTF</tag>
       </tags>
   </entry>
@@ -119,17 +67,14 @@ print(long_to_bytes(gmpy2.powmod(c,d,n)))
     <url>/2021/09/15/DAS%E5%85%AB%E6%9C%88%E6%8C%91%E6%88%98%E8%B5%9B/</url>
     <content><![CDATA[<p>DAS八月</p>
 <span id="more"></span>
-<h1 id="easymath"><a href="#easymath" class="headerlink" title="easymath"></a>easymath</h1><h2 id="task"><a href="#task" class="headerlink" title="task"></a>task</h2><pre><code>assert(len(open(&#39;flag.txt&#39;, &#39;rb&#39;).read()) &lt; 50)
-assert(str(int.from_bytes(open(&#39;flag.txt&#39;, &#39;rb&#39;).read(), byteorder=&#39;big&#39;) &lt;&lt; 10000).endswith(&#39;1862790884563160582365888530869690397667546628710795031544304378154769559410473276482265448754388655981091313419549689169381115573539422545933044902527020209259938095466283008&#39;))
-</code></pre><h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>题目中给了两个断言。</p>
+<h1 id="easymath"><a href="#easymath" class="headerlink" title="easymath"></a>easymath</h1><h2 id="task"><a href="#task" class="headerlink" title="task"></a>task</h2><figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">assert(len(open(&#x27;flag.txt&#x27;, &#x27;rb&#x27;).read()) &lt; <span class="number">50</span>)</span><br><span class="line">assert(str(int.from_bytes(open(&#x27;flag.txt&#x27;, &#x27;rb&#x27;).read(), byteorder=&#x27;big&#x27;) &lt;&lt; <span class="number">10000</span>).endswith(&#x27;<span class="number">18627908845631</span><span class="number">60582365888530</span><span class="number">86969039766754</span><span class="number">66287107950315</span><span class="number">44304378154769</span><span class="number">55941047327648</span><span class="number">22654487543886</span><span class="number">55981091313419</span><span class="number">54968916938111</span><span class="number">55735394225459</span><span class="number">33044902527020</span><span class="number">20925993809546</span><span class="number">628300</span>8&#x27;))</span><br></pre></td></tr></table></figure>
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>题目中给了两个断言。</p>
 <p>1.flag的长度小于50。</p>
 <p>2.int.from_bytes()函数，是将字符串按照 ascii 码转换成数字。flag转成数字后，再向左移10000，相当于乘以2的10000次方。所以flag的变换就是：</p>
-<pre><code>flag * (2 ** 10000) % (10 ** 175) = 1862790884563160582365888530869690397667546628710795031544304378154769559410473276482265448754388655981091313419549689169381115573539422545933044902527020209259938095466283008
-</code></pre><p>这里为什么要与 (10 ** 175) 取余呢？，因为最后结尾的数字有175位。举个例子吧</p>
-<pre><code>例如有一个数15239971，那么要得到9971，则模10 ** 4
-&gt;&gt;&gt; 15239971 % 10**4
-9971
-</code></pre><h2 id="公式化"><a href="#公式化" class="headerlink" title="公式化"></a>公式化</h2><p>我们设 m = 10 ** 175，余数为r = 186….，则有公式</p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">flag</span> * (<span class="number">2</span> ** <span class="number">10000</span>) % (<span class="number">10</span> ** <span class="number">175</span>) = <span class="number">1862790884563160582365888530869690397667546628710795031544304378154769559410473276482265448754388655981091313419549689169381115573539422545933044902527020209259938095466283008</span></span><br></pre></td></tr></table></figure>
+<p>这里为什么要与 (10 ** 175) 取余呢？，因为最后结尾的数字有175位。举个例子吧</p>
+<figure class="highlight dns"><table><tr><td class="code"><pre><span class="line">例如有一个数<span class="number">15239971</span>，那么要得到<span class="number">9971</span>，则模<span class="number">10</span> ** <span class="number">4</span></span><br><span class="line">&gt;&gt;&gt; <span class="number">15239971</span> % <span class="number">10</span>**<span class="number">4</span></span><br><span class="line"><span class="number">9971</span></span><br></pre></td></tr></table></figure>
+<h2 id="公式化"><a href="#公式化" class="headerlink" title="公式化"></a>公式化</h2><p>我们设 m = 10 ** 175，余数为r = 186….，则有公式</p>
 <script type="math/tex; mode=display">
 flag*2^{10000} \bmod m=r</script><p>也就是</p>
 <script type="math/tex; mode=display">
@@ -137,8 +82,8 @@ flag*2^{10000}\equiv r\pmod {m}</script><p>同余运算具有同乘性，即两�
 <script type="math/tex; mode=display">
 flag\equiv2^{-10000}*r\pmod{m}</script><h3 id="推论"><a href="#推论" class="headerlink" title="推论"></a>推论</h3><script type="math/tex; mode=display">
 若a*b\bmod n=1,则\frac{c}{a}\bmod n=c*b\bmod n</script><p>factor分解r</p>
-<pre><code>r = 2**178  *  3**2  *  11  *  17  *  31  *  8843778227  *  1368909866633  *  7697795491925421534326846035539558013670970987086177576096701910889341822028986308208879914949
-</code></pre><h3 id="化简"><a href="#化简" class="headerlink" title="化简"></a>化简</h3><p>设$r=2^{175}*y$ ，k为除数，则</p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">r</span> = <span class="number">2</span>**<span class="number">178</span>  *  <span class="number">3</span>**<span class="number">2</span>  *  <span class="number">11</span>  *  <span class="number">17</span>  *  <span class="number">31</span>  *  <span class="number">8843778227</span>  *  <span class="number">1368909866633</span>  *  <span class="number">7697795491925421534326846035539558013670970987086177576096701910889341822028986308208879914949</span></span><br></pre></td></tr></table></figure>
+<h3 id="化简"><a href="#化简" class="headerlink" title="化简"></a>化简</h3><p>设$r=2^{175}*y$ ，k为除数，则</p>
 <script type="math/tex; mode=display">
 flag*2^{10000} \bmod m=2^{175}*y</script><script type="math/tex; mode=display">
 flag*2^{10000}=k*10^{175}+2^{175}*y</script><script type="math/tex; mode=display">
@@ -150,81 +95,21 @@ flag*2^{9825}\bmod 5^{175}=y</script><script type="math/tex; mode=display">
 flag\equiv2^{-9825}*y\pmod {5^{175}}</script><script type="math/tex; mode=display">
 flag\bmod 5^{175}=2^{-9825}*y\bmod 5^{175}</script><h3 id="求取逆元"><a href="#求取逆元" class="headerlink" title="求取逆元"></a>求取逆元</h3><script type="math/tex; mode=display">
 flag*2^{9825}\bmod 5^{175}=y</script><p>因为</p>
-<pre><code>&gt;&gt;&gt; import gmpy2
-&gt;&gt;&gt; gmpy2.gcd(2**9825,5**175)
-mpz(1)    #互素
-&gt;&gt;&gt; gmpy2.invert(2**9825,5**175)
-mpz(37060642858830709134940196867045973227403060275045262619551322094165830229956154872900603295338708950615820792866958796943)
-</code></pre><p>所以存在逆元d，则</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt; import gmpy2</span><br><span class="line">&gt;&gt;&gt; gmpy2<span class="selector-class">.gcd</span>(<span class="number">2</span>**<span class="number">9825</span>,<span class="number">5</span>**<span class="number">175</span>)</span><br><span class="line"><span class="function"><span class="title">mpz</span><span class="params">(<span class="number">1</span>)</span></span>	#互素</span><br><span class="line">&gt;&gt;&gt; gmpy2<span class="selector-class">.invert</span>(<span class="number">2</span>**<span class="number">9825</span>,<span class="number">5</span>**<span class="number">175</span>)</span><br><span class="line"><span class="function"><span class="title">mpz</span><span class="params">(<span class="number">37060642858830709134940196867045973227403060275045262619551322094165830229956154872900603295338708950615820792866958796943</span>)</span></span></span><br></pre></td></tr></table></figure>
+<p>所以存在逆元d，则</p>
 <script type="math/tex; mode=display">
 d*flag*2^{9825}\bmod 5^{175}=y*d</script><script type="math/tex; mode=display">
 d*2^{9825}\bmod 5^{175}=1</script><script type="math/tex; mode=display">
 flag\bmod 5^{175}=y*d</script><script type="math/tex; mode=display">
-flag\equiv y*d\pmod {5^{175}}</script><h2 id="exp"><a href="#exp" class="headerlink" title="exp"></a>exp</h2><pre><code>&gt;&gt;&gt; import gmpy2
-&gt;&gt;&gt; from Crypto.Util.number import *
-&gt;&gt;&gt; d = gmpy2.invert(2**9825,5**175)
-&gt;&gt;&gt; r = 1862790884563160582365888530869690397667546628710795031544304378154769559410473276482265448754388655981091313419549689169381115573539422545933044902527020209259938095466283008
-&gt;&gt;&gt; y = r // 2**175
-&gt;&gt;&gt; flag = (y*d)%(5**175)
-&gt;&gt;&gt; print(long_to_bytes(flag))
-b&#39;flag&#123;90ee7e8df270bf5133a95ff904a059b8&#125;&#39;
-</code></pre><p>另一种，当$r=2^{178}*y$ </p>
-<pre><code>&gt;&gt;&gt; import gmpy2
-&gt;&gt;&gt; from Crypto.Util.number import *
-&gt;&gt;&gt; gmpy2.gcd(2**9822,5**175)
-mpz(1)
-&gt;&gt;&gt; d = gmpy2.invert(2**9822,5**175)
-&gt;&gt;&gt; r = 1862790884563160582365888530869690397667546628710795031544304378154769559410473276482265448754388655981091313419549689169381115573539422545933044902527020209259938095466283008
-&gt;&gt;&gt; y = r // 2**178
-&gt;&gt;&gt; flag = (y*d)%(5**175)
-&gt;&gt;&gt; print(long_to_bytes(flag))
-b&#39;flag&#123;90ee7e8df270bf5133a95ff904a059b8&#125;&#39;
-</code></pre><h1 id="let’s-play-with-rsa"><a href="#let’s-play-with-rsa" class="headerlink" title="let’s play with rsa~"></a>let’s play with rsa~</h1><h2 id="task-1"><a href="#task-1" class="headerlink" title="task"></a>task</h2><pre><code>from sympy import isprime,nextprime
-from Crypto.Util.number import getPrime as getprime ,long_to_bytes,bytes_to_long,inverse
-flag=&#39;flag&#123;***************&#125;&#39;
-
-def play():
-    p=getprime(1024)
-    q=getprime(1024)
-
-    n=p*q
-    e=65537
-
-    print &quot;Hello,let&#39;s play rsa~\n&quot;
-    print &#39;Now,I make some numbers,wait a second\n&#39;
-    n1=getprime(200)
-    n2=getprime(200)
-    number=n1*n2
-    print &quot;Ok,i will send two numbers to you,one of them was encoded.\n&quot;
-    print &quot;Encode n1:%d,\n&quot;%(pow(n1,e,n))
-    print &quot;And n2:%d.\n&quot;%n2
-
-    print &quot;Information that can now be made public:the public key (n,e):(%d,%d)\n&quot;%(n,e)
-    while True:
-        try:
-            c=int(raw_input(&quot;ok,now,tell me the value of the number (encode it for safe):&quot;))
-        except:
-            print &quot;Sorry,the input is illeagal, and the integer is accept~&quot;
-        else:
-            break
-    d=inverse(e,(p-1)*(q-1))
-    m=pow(c,d,n)
-    if m==number:
-        print &quot;It&#39;s easy and interesting,didn&#39;t it?\n&quot;
-        print &quot;This is the gift for you :&quot;+flag
-    else:
-        print &quot;Emmmmm,there is something wrong, bye~\n&quot;
-
-if __name__ == &#39;__main__&#39;:
-    play()
-</code></pre><h3 id="分析-1"><a href="#分析-1" class="headerlink" title="分析"></a>分析</h3><p>已知</p>
-<pre><code>设c1 = pow(n1,e,n) #也就是题目给的n1
-n2 
-n = p*q 
-e
-</code></pre><p>输入</p>
-<pre><code>需要输入c，使 pow(c,d,n) == n1 * n2，输出flag
-</code></pre><script type="math/tex; mode=display">
+flag\equiv y*d\pmod {5^{175}}</script><h2 id="exp"><a href="#exp" class="headerlink" title="exp"></a>exp</h2><figure class="highlight python-repl"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python"><span class="keyword">import</span> gmpy2</span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python"><span class="keyword">from</span> Crypto.Util.number <span class="keyword">import</span> *</span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python">d = gmpy2.invert(<span class="number">2</span>**<span class="number">9825</span>,<span class="number">5</span>**<span class="number">175</span>)</span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python">r = <span class="number">1862790884563160582365888530869690397667546628710795031544304378154769559410473276482265448754388655981091313419549689169381115573539422545933044902527020209259938095466283008</span></span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python">y = r // <span class="number">2</span>**<span class="number">175</span></span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python">flag = (y*d)%(<span class="number">5</span>**<span class="number">175</span>)</span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python"><span class="built_in">print</span>(long_to_bytes(flag))</span></span><br><span class="line">b&#x27;flag&#123;90ee7e8df270bf5133a95ff904a059b8&#125;&#x27;</span><br></pre></td></tr></table></figure>
+<p>另一种，当$r=2^{178}*y$ </p>
+<figure class="highlight python-repl"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python"><span class="keyword">import</span> gmpy2</span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python"><span class="keyword">from</span> Crypto.Util.number <span class="keyword">import</span> *</span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python">gmpy2.gcd(<span class="number">2</span>**<span class="number">9822</span>,<span class="number">5</span>**<span class="number">175</span>)</span></span><br><span class="line">mpz(1)</span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python">d = gmpy2.invert(<span class="number">2</span>**<span class="number">9822</span>,<span class="number">5</span>**<span class="number">175</span>)</span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python">r = <span class="number">1862790884563160582365888530869690397667546628710795031544304378154769559410473276482265448754388655981091313419549689169381115573539422545933044902527020209259938095466283008</span></span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python">y = r // <span class="number">2</span>**<span class="number">178</span></span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python">flag = (y*d)%(<span class="number">5</span>**<span class="number">175</span>)</span></span><br><span class="line"><span class="meta prompt_">&gt;&gt;&gt;</span> <span class="language-python"><span class="built_in">print</span>(long_to_bytes(flag))</span></span><br><span class="line">b&#x27;flag&#123;90ee7e8df270bf5133a95ff904a059b8&#125;&#x27;</span><br></pre></td></tr></table></figure>
+<h1 id="let’s-play-with-rsa"><a href="#let’s-play-with-rsa" class="headerlink" title="let’s play with rsa~"></a>let’s play with rsa~</h1><h2 id="task-1"><a href="#task-1" class="headerlink" title="task"></a>task</h2><figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> sympy import isprime,nextprime</span><br><span class="line"><span class="keyword">from</span> Crypto.Util.number import getPrime as getprime ,long_to_bytes,bytes_to_long,inverse</span><br><span class="line"><span class="attribute">flag</span>=<span class="string">&#x27;flag&#123;***************&#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">def play():</span><br><span class="line">    <span class="attribute">p</span>=getprime(1024)</span><br><span class="line">    <span class="attribute">q</span>=getprime(1024)</span><br><span class="line"></span><br><span class="line">    <span class="attribute">n</span>=p*q</span><br><span class="line">    <span class="attribute">e</span>=65537</span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span> <span class="string">&quot;Hello,let&#x27;s play rsa~\n&quot;</span></span><br><span class="line">    <span class="built_in">print</span> <span class="string">&#x27;Now,I make some numbers,wait a second\n&#x27;</span></span><br><span class="line">    <span class="attribute">n1</span>=getprime(200)</span><br><span class="line">    <span class="attribute">n2</span>=getprime(200)</span><br><span class="line">    <span class="attribute">number</span>=n1*n2</span><br><span class="line">    <span class="built_in">print</span> <span class="string">&quot;Ok,i will send two numbers to you,one of them was encoded.\n&quot;</span></span><br><span class="line">    <span class="built_in">print</span> <span class="string">&quot;Encode n1:%d,\n&quot;</span>%(pow(n1,e,n))</span><br><span class="line">    <span class="built_in">print</span> <span class="string">&quot;And n2:%d.\n&quot;</span>%n2</span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span> <span class="string">&quot;Information that can now be made public:the public key (n,e):(%d,%d)\n&quot;</span>%(n,e)</span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        try:</span><br><span class="line">            <span class="attribute">c</span>=int(raw_input(&quot;ok,now,tell me the value of the number (encode it <span class="keyword">for</span> safe):<span class="string">&quot;))</span></span><br><span class="line"><span class="string">        except:</span></span><br><span class="line"><span class="string">            print &quot;</span>Sorry,the input is illeagal, <span class="keyword">and</span> the integer is accept~<span class="string">&quot;</span></span><br><span class="line"><span class="string">        else:</span></span><br><span class="line"><span class="string">            break</span></span><br><span class="line"><span class="string">    d=inverse(e,(p-1)*(q-1))</span></span><br><span class="line"><span class="string">    m=pow(c,d,n)</span></span><br><span class="line"><span class="string">    if m==number:</span></span><br><span class="line"><span class="string">        print &quot;</span>It<span class="string">&#x27;s easy and interesting,didn&#x27;</span>t it?\n<span class="string">&quot;</span></span><br><span class="line"><span class="string">        print &quot;</span>This is the gift <span class="keyword">for</span> you :<span class="string">&quot;+flag</span></span><br><span class="line"><span class="string">    else:</span></span><br><span class="line"><span class="string">        print &quot;</span>Emmmmm,there is something wrong, bye~\n<span class="string">&quot;</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">if __name__ == &#x27;__main__&#x27;:</span></span><br><span class="line"><span class="string">    play()</span></span><br></pre></td></tr></table></figure>
+<h3 id="分析-1"><a href="#分析-1" class="headerlink" title="分析"></a>分析</h3><p>已知</p>
+<figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">设c1 = <span class="built_in">pow</span>(n1,e,n) <span class="meta">#也就是题目给的n1</span></span><br><span class="line">n2 </span><br><span class="line">n = p*q </span><br><span class="line">e </span><br></pre></td></tr></table></figure>
+<p>输入</p>
+<figure class="highlight gcode"><table><tr><td class="code"><pre><span class="line">需要输入c，使 pow<span class="comment">(c,d,n)</span> == <span class="symbol">n1</span> * <span class="symbol">n2</span>，输出flag</span><br></pre></td></tr></table></figure>
+<script type="math/tex; mode=display">
 n_1^e\bmod n=c_1</script><script type="math/tex; mode=display">
 c^d\bmod n=m=n_1*n_2</script><script type="math/tex; mode=display">
 m^e\bmod n=c</script><p>所以</p>
@@ -236,150 +121,14 @@ c=(n_1^e*n_2^e)\bmod n=[(n_1^e\bmod n)*(n_2^e\bmod n)]\bmod n</script><p>是不�
 <script type="math/tex; mode=display">
 c=(n_1^e*n_2^e)\bmod n=[c_1*(n_2^e\bmod n)]\bmod n</script><p>再看右边，所有元素都已知，就可求出c。</p>
 <p>连接靶机后得到</p>
-<pre><code>Hello,let&#39;s play rsa~
-
-Now,I make some numbers,wait a second
-
-Ok,i will send two numbers to you,one of them was encoded.
-
-Encode n1:8376791106482697829711147586692200645635184453040045083271123167200707038248236396536348140340518796059731874971878526224777862300117802953920357747143070687810386450866536158065770762570650777242160269100694490279188695780815776485119413634359709949150518964977449880837775970609411574837512895309365643688926709933140442311944479849113437719589286285950764842970198696290790449130233994554934908238744835735002465329706260591844313367329424800475241661867799451485833014927407681144636335846114414025304957405121091582935931103028775776569357522336330242950425986315856197537276112626301293445718699724196297682185,
-
-And n2:817883629056426050889438610854875115586179937771656074400107.
-
-Information that can now be made public:the public key (n,e):(13475893246019200526091823650015055343164746229114982225382998718395258496493335819701532437931495199933283208899632902172717042195817220122646531409471061579781043978874356877015075531305060207031649158677550815089443281555745462081575684649933055598782621405102035073547847532774639601550099126107397178418161551833236207136664494575827542000472294724331914970722717280831228386528286268380664940136556717152461282937806690036827024679335088085174810766659221367543805959223074889847255035741245716207232342358634860906871835975384224274661257971415414381791941757056816757602556453057153431925455762662343516721367,65537)
-
-ok,now,tell me the value of the number (encode it for safe):
-</code></pre><p>输入正确答案后</p>
-<pre><code>Hello,let&#39;s play rsa~
-
-Now,I make some numbers,wait a second
-
-Ok,i will send two numbers to you,one of them was encoded.
-
-Encode n1:8376791106482697829711147586692200645635184453040045083271123167200707038248236396536348140340518796059731874971878526224777862300117802953920357747143070687810386450866536158065770762570650777242160269100694490279188695780815776485119413634359709949150518964977449880837775970609411574837512895309365643688926709933140442311944479849113437719589286285950764842970198696290790449130233994554934908238744835735002465329706260591844313367329424800475241661867799451485833014927407681144636335846114414025304957405121091582935931103028775776569357522336330242950425986315856197537276112626301293445718699724196297682185,
-
-And n2:817883629056426050889438610854875115586179937771656074400107.
-
-Information that can now be made public:the public key (n,e):(13475893246019200526091823650015055343164746229114982225382998718395258496493335819701532437931495199933283208899632902172717042195817220122646531409471061579781043978874356877015075531305060207031649158677550815089443281555745462081575684649933055598782621405102035073547847532774639601550099126107397178418161551833236207136664494575827542000472294724331914970722717280831228386528286268380664940136556717152461282937806690036827024679335088085174810766659221367543805959223074889847255035741245716207232342358634860906871835975384224274661257971415414381791941757056816757602556453057153431925455762662343516721367,65537)
-
-ok,now,tell me the value of the number (encode it for safe):7481369497397329771618615543492535042492443949142942219865805966049582039102101643321663991800009307651917950428571853510578829741525413947958313785100279146988733501606001554513370663175617575435885090220742017778553038491917205767777664222949010418169039002022379731305760779557787693683338172703429133334057627981161030322439877140649309618654396262076012479739382814264326334087208167316991755811954640734537705378458522211438973062235520352518287955967533790084985716240645176274417277471107449220932722474064093965893815035518447498732021556606359943586552784921784611360739503416306054501304204890559818145327
-It&#39;s easy and interesting,didn&#39;t it?
-
-This is the gift for you :flag&#123;eca6741f-2746-4983-8e33-4c539570b885&#125;Hello,let&#39;s play rsa~
-
-Now,I make some numbers,wait a second
-
-Ok,i will send two numbers to you,one of them was encoded.
-
-Encode n1:8376791106482697829711147586692200645635184453040045083271123167200707038248236396536348140340518796059731874971878526224777862300117802953920357747143070687810386450866536158065770762570650777242160269100694490279188695780815776485119413634359709949150518964977449880837775970609411574837512895309365643688926709933140442311944479849113437719589286285950764842970198696290790449130233994554934908238744835735002465329706260591844313367329424800475241661867799451485833014927407681144636335846114414025304957405121091582935931103028775776569357522336330242950425986315856197537276112626301293445718699724196297682185,
-
-And n2:817883629056426050889438610854875115586179937771656074400107.
-
-Information that can now be made public:the public key (n,e):(13475893246019200526091823650015055343164746229114982225382998718395258496493335819701532437931495199933283208899632902172717042195817220122646531409471061579781043978874356877015075531305060207031649158677550815089443281555745462081575684649933055598782621405102035073547847532774639601550099126107397178418161551833236207136664494575827542000472294724331914970722717280831228386528286268380664940136556717152461282937806690036827024679335088085174810766659221367543805959223074889847255035741245716207232342358634860906871835975384224274661257971415414381791941757056816757602556453057153431925455762662343516721367,65537)
-
-ok,now,tell me the value of the number (encode it for safe):7481369497397329771618615543492535042492443949142942219865805966049582039102101643321663991800009307651917950428571853510578829741525413947958313785100279146988733501606001554513370663175617575435885090220742017778553038491917205767777664222949010418169039002022379731305760779557787693683338172703429133334057627981161030322439877140649309618654396262076012479739382814264326334087208167316991755811954640734537705378458522211438973062235520352518287955967533790084985716240645176274417277471107449220932722474064093965893815035518447498732021556606359943586552784921784611360739503416306054501304204890559818145327
-It&#39;s easy and interesting,didn&#39;t it?
-
-This is the gift for you :flag&#123;eca6741f-2746-4983-8e33-4c539570b885&#125;
-</code></pre><h2 id="exp-1"><a href="#exp-1" class="headerlink" title="exp"></a>exp</h2><pre><code>n2 =817883629056426050889438610854875115586179937771656074400107
-n =13475893246019200526091823650015055343164746229114982225382998718395258496493335819701532437931495199933283208899632902172717042195817220122646531409471061579781043978874356877015075531305060207031649158677550815089443281555745462081575684649933055598782621405102035073547847532774639601550099126107397178418161551833236207136664494575827542000472294724331914970722717280831228386528286268380664940136556717152461282937806690036827024679335088085174810766659221367543805959223074889847255035741245716207232342358634860906871835975384224274661257971415414381791941757056816757602556453057153431925455762662343516721367
-e =65537
-c1 =8376791106482697829711147586692200645635184453040045083271123167200707038248236396536348140340518796059731874971878526224777862300117802953920357747143070687810386450866536158065770762570650777242160269100694490279188695780815776485119413634359709949150518964977449880837775970609411574837512895309365643688926709933140442311944479849113437719589286285950764842970198696290790449130233994554934908238744835735002465329706260591844313367329424800475241661867799451485833014927407681144636335846114414025304957405121091582935931103028775776569357522336330242950425986315856197537276112626301293445718699724196297682185
-c = (c1*(n2**e)%n)%n
-print(c)
-</code></pre><h1 id="ezRSA"><a href="#ezRSA" class="headerlink" title="ezRSA"></a>ezRSA</h1><h2 id="task-2"><a href="#task-2" class="headerlink" title="task"></a>task</h2><pre><code>from secret import flag
-from Crypto.Util.number import *
-from random import getrandbits
-from hashlib import sha256
-
-class EzRsa:
-    def __init__(self):
-        self.E = 0x10001
-        self.P = getPrime(1024)
-        self.Q = getPrime(1024)
-        while GCD((self.P-1)*(self.Q-1), self.E) != 1:
-            self.Q = getPrime(1024)
-        self.N = self.P*self.Q
-
-    def encrypt(self):
-        f = getrandbits(32)
-        c = pow(f, self.E, self.N)
-        return (f, c)
-
-    def encrypt_flag(self, flag):
-        f = bytes_to_long(flag)
-        c = pow(f, self.E, self.N)
-        return c
-
-def proof():
-    seed = getrandbits(32)
-    print(seed)
-    sha = sha256(str(seed).encode()).hexdigest()#将seed进行sha256加密
-    print(f&quot;sha256(&#123;seed&gt;&gt;18&#125;...).hexdigest() = &#123;sha&#125;&quot;)
-    sha_i = input(&quot;plz enter seed: &quot;)
-    if sha256(sha_i.encode()).hexdigest() != sha:
-        exit(0)
-
-if __name__ == &quot;__main__&quot;:
-    proof()
-    print(&quot;welcome to EzRsa&quot;)
-    print(&quot;&quot;&quot;
-    1. Get flag
-    2. Encrypt
-    3. Insert
-    4. Exit
-    &quot;&quot;&quot;)
-    A = EzRsa()
-    coin = 5
-    while coin &gt; 0:
-        choose = input(&quot;&gt; &quot;)
-        if choose == &quot;1&quot;:
-            print(
-                f&quot;pow(flag,e,n) = &#123;A.encrypt_flag(flag)&#125;\ne = 0x10001&quot;)
-            exit(0)
-        elif choose == &quot;2&quot;:
-            f, c = A.encrypt()
-            print(f&quot;plain = &#123;f&#125;\ncipher = &#123;c&#125;&quot;)
-            coin -= 1
-        elif choose == &quot;3&quot;:
-            q = getrandbits(1024)
-            n = A.P*q
-            f = getrandbits(32)
-            c = pow(f, 0x10001, n)
-            print(f&quot;plain = &#123;f&#125;\ncipher = &#123;c&#125;&quot;)
-            coin -= 1
-        elif choose == &quot;4&quot;:
-            print(&quot;bye~&quot;)
-        else:
-            print(&quot;wrong input&quot;)
-    print(&quot;Now you get the flag right?&quot;)
-</code></pre><h3 id="分析-2"><a href="#分析-2" class="headerlink" title="分析"></a>分析</h3><p>连接靶机</p>
-<pre><code>3920672166
-sha256(14956...).hexdigest() = 4f97152f2314a3267380e3a736c7b83642c665e0b7ce4735aa58f153165c03a8
-plz enter seed: 3920672166
-welcome to EzRsa
-
-    1. Get flag
-    2. Encrypt
-    3. Insert
-    4. Exit
-
-&gt; 2
-plain = 246172596    #f1 N=P*Q c1=pow(f1, E, N)
-cipher = 10173233764406169095899483354963164571737209784008701622335544928694259063855518018704769921525166009249126681224283840128044370905317577973950303992043749468525570047970338729747081004025643131749570347673777168867709262619232591961400442015821054455787154014989512204495733006844568897192918774690658866146310997606018573720337022125940979650505605308894992728509291235175469398004506434879836506552302171990021309618235906862685991344063877849627585878246567505089830151036166885190902668104134461995296503098876736843810806165642362870222973336497293214313805248517763740264632510733197696485690344651088941929152
-&gt; 2    
-plain = 1625353687    #f2 N=P*Q c2=pow(f2, E, N)
-cipher = 12307584975251008411516787731127057807459606148509564084565235331743959393183926255630699543466181645936984428560120544513772238200891009720751041149318752451164580269097210103342551596366092114461811872647728479216808541966617422679765592022060940058856123807698152639126817576541773740289677169367448433499272854918536954953586829556954898997330873611935553127971629608674277626930145539545752160151113674651634185742437848591314779194625067525110624869286078410977406348316939155625181843174226781998931484808400662628812790184706505753694785130261133992233308165253423676907297761585356002589809511257085134236964
-&gt; 3
-plain = 1535865823    #f3 N=P*q1 c3=pow(f3, 0x10001, N)
-cipher = 5616148217702256813794782016282980002529311657904079448102815350827300993213449299006217890376411480585190233723226978006569715343730543373265994884145037587800253418834041446705167175279746103443102685952718602721464856421481096427552716126453841320699769465067611503421803643702426542935539828009090722947255684407777585314577198743093794188613266146795749296649916546057006799507388720568391067773154094194812970556251176281392083962949437562134531212873820606542551630047805282566962382807038103089098675388219245954070941558343858135476221921795190935468334759042551978239277293268509286506173756116737043936943
-&gt; 3
-plain = 1806634535    #f4 N=P*q2 c4=pow(f4, 0x10001, N)
-cipher = 1427709639342522954034253242140207749627023419576583331730127575462062495420567697255676374994381638227840222684605853556198230028477711368795852167093005987576867345915879259532923389327437262878433999411334625993538741920567821778777971634816928563383696587344978185954409805177042287392341975793514392686090415420796326167619282928611766169354655318528679241861479684193583683513186645781523448313877362554888036649202783338675136799061464085846904925026432714698611256763637705540929617439668980881972979779903418025094476825847712169957276029258203376181771818942998146920133314293800851161421416836951302303785
-&gt; 1
-pow(flag,e,n) = 7660616915748658759372848886104469196651926239822942076995644477738724166975848721917259876106979567511672242425196380649367137611601528140465592052571663722864145442933465949602304530816238877079912508461818866021771870602248273656899938554330192447982057520436958060107921356390766845123076457239058840505970721528034331057342412446177706634527511924482698967109095424775131001113765235898191627354250140417118522771203515918975157123189261089037479427068251466167776458422443579472966565395255293992193547180546786143992999938350618040069485840155303775801800121282206941241276065528410190257291809049557518583367
-e = 0x10001        #c=pow(flag, E, N) N=P*Q
-</code></pre><h3 id="化简-1"><a href="#化简-1" class="headerlink" title="化简"></a>化简</h3><p>1.通过1、2可知，其中只有N未知，所以求N</p>
+<figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">Hello,let&#x27;s play rsa~</span><br><span class="line"></span><br><span class="line">Now,I make some numbers,wait a second</span><br><span class="line"></span><br><span class="line">Ok,i will send two numbers to you,one of them was encoded.</span><br><span class="line"></span><br><span class="line">Encode n1:<span class="number">83767911064826</span><span class="number">97829711147586</span><span class="number">69220064563518</span><span class="number">44530400450832</span><span class="number">71123167200707</span><span class="number">03824823639653</span><span class="number">63481403405187</span><span class="number">96059731874971</span><span class="number">87852622477786</span><span class="number">23001178029539</span><span class="number">20357747143070</span><span class="number">68781038645086</span><span class="number">65361580657707</span><span class="number">62570650777242</span><span class="number">16026910069449</span><span class="number">02791886957808</span><span class="number">15776485119413</span><span class="number">63435970994915</span><span class="number">05189649774498</span><span class="number">80837775970609</span><span class="number">41157483751289</span><span class="number">53093656436889</span><span class="number">26709933140442</span><span class="number">31194447984911</span><span class="number">34377195892862</span><span class="number">85950764842970</span><span class="number">19869629079044</span><span class="number">91302339945549</span><span class="number">34908238744835</span><span class="number">73500246532970</span><span class="number">62605918443133</span><span class="number">67329424800475</span><span class="number">24166186779945</span><span class="number">14858330149274</span><span class="number">07681144636335</span><span class="number">84611441402530</span><span class="number">49574051210915</span><span class="number">82935931103028</span><span class="number">77577656935752</span><span class="number">23363302429504</span><span class="number">25986315856197</span><span class="number">53727611262630</span><span class="number">12934457186997</span><span class="number">24196297682185</span>,</span><br><span class="line"></span><br><span class="line">And n2:<span class="number">81788362905642</span><span class="number">60508894386108</span><span class="number">54875115586179</span><span class="number">93777165607440</span><span class="number">0107</span>.</span><br><span class="line"></span><br><span class="line">Information that can now be made public:the public key (n,e):(<span class="number">13475893246019</span><span class="number">20052609182365</span><span class="number">00150553431647</span><span class="number">46229114982225</span><span class="number">38299871839525</span><span class="number">84964933358197</span><span class="number">01532437931495</span><span class="number">19993328320889</span><span class="number">96329021727170</span><span class="number">42195817220122</span><span class="number">64653140947106</span><span class="number">15797810439788</span><span class="number">74356877015075</span><span class="number">53130506020703</span><span class="number">16491586775508</span><span class="number">15089443281555</span><span class="number">74546208157568</span><span class="number">46499330555987</span><span class="number">82621405102035</span><span class="number">07354784753277</span><span class="number">46396015500991</span><span class="number">26107397178418</span><span class="number">16155183323620</span><span class="number">71366644945758</span><span class="number">27542000472294</span><span class="number">72433191497072</span><span class="number">27172808312283</span><span class="number">86528286268380</span><span class="number">66494013655671</span><span class="number">71524612829378</span><span class="number">06690036827024</span><span class="number">67933508808517</span><span class="number">48107666592213</span><span class="number">67543805959223</span><span class="number">07488984725503</span><span class="number">57412457162072</span><span class="number">32342358634860</span><span class="number">90687183597538</span><span class="number">42242746612579</span><span class="number">71415414381791</span><span class="number">94175705681675</span><span class="number">76025564530571</span><span class="number">53431925455762</span><span class="number">66234351672136</span>7,<span class="number">6553</span>7)</span><br><span class="line"></span><br><span class="line">ok,now,tell me the value of the number (encode it for safe):</span><br></pre></td></tr></table></figure>
+<p>输入正确答案后</p>
+<figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">Hello,let&#x27;s play rsa~</span><br><span class="line"></span><br><span class="line">Now,I make some numbers,wait a second</span><br><span class="line"></span><br><span class="line">Ok,i will send two numbers to you,one of them was encoded.</span><br><span class="line"></span><br><span class="line">Encode n1:<span class="number">83767911064826</span><span class="number">97829711147586</span><span class="number">69220064563518</span><span class="number">44530400450832</span><span class="number">71123167200707</span><span class="number">03824823639653</span><span class="number">63481403405187</span><span class="number">96059731874971</span><span class="number">87852622477786</span><span class="number">23001178029539</span><span class="number">20357747143070</span><span class="number">68781038645086</span><span class="number">65361580657707</span><span class="number">62570650777242</span><span class="number">16026910069449</span><span class="number">02791886957808</span><span class="number">15776485119413</span><span class="number">63435970994915</span><span class="number">05189649774498</span><span class="number">80837775970609</span><span class="number">41157483751289</span><span class="number">53093656436889</span><span class="number">26709933140442</span><span class="number">31194447984911</span><span class="number">34377195892862</span><span class="number">85950764842970</span><span class="number">19869629079044</span><span class="number">91302339945549</span><span class="number">34908238744835</span><span class="number">73500246532970</span><span class="number">62605918443133</span><span class="number">67329424800475</span><span class="number">24166186779945</span><span class="number">14858330149274</span><span class="number">07681144636335</span><span class="number">84611441402530</span><span class="number">49574051210915</span><span class="number">82935931103028</span><span class="number">77577656935752</span><span class="number">23363302429504</span><span class="number">25986315856197</span><span class="number">53727611262630</span><span class="number">12934457186997</span><span class="number">24196297682185</span>,</span><br><span class="line"></span><br><span class="line">And n2:<span class="number">81788362905642</span><span class="number">60508894386108</span><span class="number">54875115586179</span><span class="number">93777165607440</span><span class="number">0107</span>.</span><br><span class="line"></span><br><span class="line">Information that can now be made public:the public key (n,e):(<span class="number">13475893246019</span><span class="number">20052609182365</span><span class="number">00150553431647</span><span class="number">46229114982225</span><span class="number">38299871839525</span><span class="number">84964933358197</span><span class="number">01532437931495</span><span class="number">19993328320889</span><span class="number">96329021727170</span><span class="number">42195817220122</span><span class="number">64653140947106</span><span class="number">15797810439788</span><span class="number">74356877015075</span><span class="number">53130506020703</span><span class="number">16491586775508</span><span class="number">15089443281555</span><span class="number">74546208157568</span><span class="number">46499330555987</span><span class="number">82621405102035</span><span class="number">07354784753277</span><span class="number">46396015500991</span><span class="number">26107397178418</span><span class="number">16155183323620</span><span class="number">71366644945758</span><span class="number">27542000472294</span><span class="number">72433191497072</span><span class="number">27172808312283</span><span class="number">86528286268380</span><span class="number">66494013655671</span><span class="number">71524612829378</span><span class="number">06690036827024</span><span class="number">67933508808517</span><span class="number">48107666592213</span><span class="number">67543805959223</span><span class="number">07488984725503</span><span class="number">57412457162072</span><span class="number">32342358634860</span><span class="number">90687183597538</span><span class="number">42242746612579</span><span class="number">71415414381791</span><span class="number">94175705681675</span><span class="number">76025564530571</span><span class="number">53431925455762</span><span class="number">66234351672136</span>7,<span class="number">6553</span>7)</span><br><span class="line"></span><br><span class="line">ok,now,tell me the value of the number (encode it for safe):<span class="number">74813694973973</span><span class="number">29771618615543</span><span class="number">49253504249244</span><span class="number">39491429422198</span><span class="number">65805966049582</span><span class="number">03910210164332</span><span class="number">16639918000093</span><span class="number">07651917950428</span><span class="number">57185351057882</span><span class="number">97415254139479</span><span class="number">58313785100279</span><span class="number">14698873350160</span><span class="number">60015545133706</span><span class="number">63175617575435</span><span class="number">88509022074201</span><span class="number">77785530384919</span><span class="number">17205767777664</span><span class="number">22294901041816</span><span class="number">90390020223797</span><span class="number">31305760779557</span><span class="number">78769368333817</span><span class="number">27034291333340</span><span class="number">57627981161030</span><span class="number">32243987714064</span><span class="number">93096186543962</span><span class="number">62076012479739</span><span class="number">38281426432633</span><span class="number">40872081673169</span><span class="number">91755811954640</span><span class="number">73453770537845</span><span class="number">85222114389730</span><span class="number">62235520352518</span><span class="number">28795596753379</span><span class="number">00849857162406</span><span class="number">45176274417277</span><span class="number">47110744922093</span><span class="number">27224740640939</span><span class="number">65893815035518</span><span class="number">44749873202155</span><span class="number">66063599435865</span><span class="number">52784921784611</span><span class="number">36073950341630</span><span class="number">60545013042048</span><span class="number">90559818145327</span></span><br><span class="line">It&#x27;s easy and interesting,didn&#x27;t it?</span><br><span class="line"></span><br><span class="line">This is the gift for you :flag&#123;eca<span class="number">6741</span>f-<span class="number">2746-4983</span>-8e33-4c<span class="number">539570</span>b885&#125;Hello,let&#x27;s play rsa<span class="symbol">~</span></span><br><span class="line"><span class="symbol"></span></span><br><span class="line"><span class="symbol">Now,I make some numbers,wait a second</span></span><br><span class="line"><span class="symbol"></span></span><br><span class="line"><span class="symbol">Ok,i will send two numbers to you,one of them was encoded.</span></span><br><span class="line"><span class="symbol"></span></span><br><span class="line"><span class="symbol">Encode n1</span>:<span class="number">8376791106482697829711147586692200645635184453040045083271123167200707038248236396536348140340518796059731874971878526224777862300117802953920357747143070687810386450866536158065770762570650777242160269100694490279188695780815776485119413634359709949150518964977449880837775970609411574837512895309365643688926709933140442311944479849113437719589286285950764842970198696290790449130233994554934908238744835735002465329706260591844313367329424800475241661867799451485833014927407681144636335846114414025304957405121091582935931103028775776569357522336330242950425986315856197537276112626301293445718699724196297682185</span>,</span><br><span class="line"></span><br><span class="line">And n2:<span class="number">817883629056426050889438610854875115586179937771656074400107</span>.</span><br><span class="line"></span><br><span class="line">Information that can now be made public:the public key (n,e):(<span class="number">13475893246019200526091823650015055343164746229114982225382998718395258496493335819701532437931495199933283208899632902172717042195817220122646531409471061579781043978874356877015075531305060207031649158677550815089443281555745462081575684649933055598782621405102035073547847532774639601550099126107397178418161551833236207136664494575827542000472294724331914970722717280831228386528286268380664940136556717152461282937806690036827024679335088085174810766659221367543805959223074889847255035741245716207232342358634860906871835975384224274661257971415414381791941757056816757602556453057153431925455762662343516721367</span>,<span class="number">65537</span>)</span><br><span class="line"></span><br><span class="line">ok,now,tell me the value of the number (encode it for safe):<span class="number">7481369497397329771618615543492535042492443949142942219865805966049582039102101643321663991800009307651917950428571853510578829741525413947958313785100279146988733501606001554513370663175617575435885090220742017778553038491917205767777664222949010418169039002022379731305760779557787693683338172703429133334057627981161030322439877140649309618654396262076012479739382814264326334087208167316991755811954640734537705378458522211438973062235520352518287955967533790084985716240645176274417277471107449220932722474064093965893815035518447498732021556606359943586552784921784611360739503416306054501304204890559818145327</span></span><br><span class="line">It&#x27;s easy and interesting,didn&#x27;t it?</span><br><span class="line"></span><br><span class="line">This is the gift for you :flag&#123;eca6741f-<span class="number">2746</span>-<span class="number">4983</span>-<span class="number">8</span>e33-<span class="number">4</span>c539570b885&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="exp-1"><a href="#exp-1" class="headerlink" title="exp"></a>exp</h2><figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">n2</span> <span class="operator">=</span><span class="number">817883629056426050889438610854875115586179937771656074400107</span></span><br><span class="line"><span class="attribute">n</span> <span class="operator">=</span><span class="number">13475893246019200526091823650015055343164746229114982225382998718395258496493335819701532437931495199933283208899632902172717042195817220122646531409471061579781043978874356877015075531305060207031649158677550815089443281555745462081575684649933055598782621405102035073547847532774639601550099126107397178418161551833236207136664494575827542000472294724331914970722717280831228386528286268380664940136556717152461282937806690036827024679335088085174810766659221367543805959223074889847255035741245716207232342358634860906871835975384224274661257971415414381791941757056816757602556453057153431925455762662343516721367</span></span><br><span class="line"><span class="attribute">e</span> <span class="operator">=</span><span class="number">65537</span></span><br><span class="line"><span class="attribute">c1</span> <span class="operator">=</span><span class="number">8376791106482697829711147586692200645635184453040045083271123167200707038248236396536348140340518796059731874971878526224777862300117802953920357747143070687810386450866536158065770762570650777242160269100694490279188695780815776485119413634359709949150518964977449880837775970609411574837512895309365643688926709933140442311944479849113437719589286285950764842970198696290790449130233994554934908238744835735002465329706260591844313367329424800475241661867799451485833014927407681144636335846114414025304957405121091582935931103028775776569357522336330242950425986315856197537276112626301293445718699724196297682185</span></span><br><span class="line"><span class="attribute">c</span> <span class="operator">=</span> (c1*(n2**e)%n)%n</span><br><span class="line">print(c)</span><br></pre></td></tr></table></figure>
+<h1 id="ezRSA"><a href="#ezRSA" class="headerlink" title="ezRSA"></a>ezRSA</h1><h2 id="task-2"><a href="#task-2" class="headerlink" title="task"></a>task</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> secret <span class="keyword">import</span> flag</span><br><span class="line"><span class="keyword">from</span> Crypto.Util.number <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">from</span> random <span class="keyword">import</span> getrandbits</span><br><span class="line"><span class="keyword">from</span> hashlib <span class="keyword">import</span> sha256</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">EzRsa</span>:</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self</span>):</span><br><span class="line">        self.E = <span class="number">0x10001</span></span><br><span class="line">        self.P = getPrime(<span class="number">1024</span>)</span><br><span class="line">        self.Q = getPrime(<span class="number">1024</span>)</span><br><span class="line">        <span class="keyword">while</span> GCD((self.P-<span class="number">1</span>)*(self.Q-<span class="number">1</span>), self.E) != <span class="number">1</span>:</span><br><span class="line">            self.Q = getPrime(<span class="number">1024</span>)</span><br><span class="line">        self.N = self.P*self.Q</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">encrypt</span>(<span class="params">self</span>):</span><br><span class="line">        f = getrandbits(<span class="number">32</span>)</span><br><span class="line">        c = <span class="built_in">pow</span>(f, self.E, self.N)</span><br><span class="line">        <span class="keyword">return</span> (f, c)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">encrypt_flag</span>(<span class="params">self, flag</span>):</span><br><span class="line">        f = bytes_to_long(flag)</span><br><span class="line">        c = <span class="built_in">pow</span>(f, self.E, self.N)</span><br><span class="line">        <span class="keyword">return</span> c</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">proof</span>():</span><br><span class="line">    seed = getrandbits(<span class="number">32</span>)</span><br><span class="line">    <span class="built_in">print</span>(seed)</span><br><span class="line">    sha = sha256(<span class="built_in">str</span>(seed).encode()).hexdigest()<span class="comment">#将seed进行sha256加密</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">f&quot;sha256(<span class="subst">&#123;seed&gt;&gt;<span class="number">18</span>&#125;</span>...).hexdigest() = <span class="subst">&#123;sha&#125;</span>&quot;</span>)</span><br><span class="line">    sha_i = <span class="built_in">input</span>(<span class="string">&quot;plz enter seed: &quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> sha256(sha_i.encode()).hexdigest() != sha:</span><br><span class="line">        exit(<span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&quot;__main__&quot;</span>:</span><br><span class="line">    proof()</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;welcome to EzRsa&quot;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1. Get flag</span></span><br><span class="line"><span class="string">    2. Encrypt</span></span><br><span class="line"><span class="string">    3. Insert</span></span><br><span class="line"><span class="string">    4. Exit</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span>)</span><br><span class="line">    A = EzRsa()</span><br><span class="line">    coin = <span class="number">5</span></span><br><span class="line">    <span class="keyword">while</span> coin &gt; <span class="number">0</span>:</span><br><span class="line">        choose = <span class="built_in">input</span>(<span class="string">&quot;&gt; &quot;</span>)</span><br><span class="line">        <span class="keyword">if</span> choose == <span class="string">&quot;1&quot;</span>:</span><br><span class="line">            <span class="built_in">print</span>(</span><br><span class="line">                <span class="string">f&quot;pow(flag,e,n) = <span class="subst">&#123;A.encrypt_flag(flag)&#125;</span>\ne = 0x10001&quot;</span>)</span><br><span class="line">            exit(<span class="number">0</span>)</span><br><span class="line">        <span class="keyword">elif</span> choose == <span class="string">&quot;2&quot;</span>:</span><br><span class="line">            f, c = A.encrypt()</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;plain = <span class="subst">&#123;f&#125;</span>\ncipher = <span class="subst">&#123;c&#125;</span>&quot;</span>)</span><br><span class="line">            coin -= <span class="number">1</span></span><br><span class="line">        <span class="keyword">elif</span> choose == <span class="string">&quot;3&quot;</span>:</span><br><span class="line">            q = getrandbits(<span class="number">1024</span>)</span><br><span class="line">            n = A.P*q</span><br><span class="line">            f = getrandbits(<span class="number">32</span>)</span><br><span class="line">            c = <span class="built_in">pow</span>(f, <span class="number">0x10001</span>, n)</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">f&quot;plain = <span class="subst">&#123;f&#125;</span>\ncipher = <span class="subst">&#123;c&#125;</span>&quot;</span>)</span><br><span class="line">            coin -= <span class="number">1</span></span><br><span class="line">        <span class="keyword">elif</span> choose == <span class="string">&quot;4&quot;</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;bye~&quot;</span>)</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">print</span>(<span class="string">&quot;wrong input&quot;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Now you get the flag right?&quot;</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="分析-2"><a href="#分析-2" class="headerlink" title="分析"></a>分析</h3><p>连接靶机</p>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">3920672166</span><br><span class="line">sha256(14956<span class="built_in">..</span>.).hexdigest() = 4f97152f2314a3267380e3a736c7b83642c665e0b7ce4735aa58f153165c03a8</span><br><span class="line">plz enter seed: 3920672166</span><br><span class="line">welcome <span class="keyword">to</span> EzRsa</span><br><span class="line"></span><br><span class="line">    1. <span class="built_in">Get</span> flag</span><br><span class="line">    2. Encrypt</span><br><span class="line">    3. Insert</span><br><span class="line">    4. Exit</span><br><span class="line"></span><br><span class="line">&gt; 2</span><br><span class="line">plain = 246172596	#f1 <span class="attribute">N</span>=P*Q <span class="attribute">c1</span>=pow(f1, E, N)</span><br><span class="line">cipher = 10173233764406169095899483354963164571737209784008701622335544928694259063855518018704769921525166009249126681224283840128044370905317577973950303992043749468525570047970338729747081004025643131749570347673777168867709262619232591961400442015821054455787154014989512204495733006844568897192918774690658866146310997606018573720337022125940979650505605308894992728509291235175469398004506434879836506552302171990021309618235906862685991344063877849627585878246567505089830151036166885190902668104134461995296503098876736843810806165642362870222973336497293214313805248517763740264632510733197696485690344651088941929152</span><br><span class="line">&gt; 2	</span><br><span class="line">plain = 1625353687	#f2 <span class="attribute">N</span>=P*Q <span class="attribute">c2</span>=pow(f2, E, N)</span><br><span class="line">cipher = 12307584975251008411516787731127057807459606148509564084565235331743959393183926255630699543466181645936984428560120544513772238200891009720751041149318752451164580269097210103342551596366092114461811872647728479216808541966617422679765592022060940058856123807698152639126817576541773740289677169367448433499272854918536954953586829556954898997330873611935553127971629608674277626930145539545752160151113674651634185742437848591314779194625067525110624869286078410977406348316939155625181843174226781998931484808400662628812790184706505753694785130261133992233308165253423676907297761585356002589809511257085134236964</span><br><span class="line">&gt; 3</span><br><span class="line">plain = 1535865823	#f3 <span class="attribute">N</span>=P*q1 <span class="attribute">c3</span>=pow(f3, 0x10001, N)</span><br><span class="line">cipher = 5616148217702256813794782016282980002529311657904079448102815350827300993213449299006217890376411480585190233723226978006569715343730543373265994884145037587800253418834041446705167175279746103443102685952718602721464856421481096427552716126453841320699769465067611503421803643702426542935539828009090722947255684407777585314577198743093794188613266146795749296649916546057006799507388720568391067773154094194812970556251176281392083962949437562134531212873820606542551630047805282566962382807038103089098675388219245954070941558343858135476221921795190935468334759042551978239277293268509286506173756116737043936943</span><br><span class="line">&gt; 3</span><br><span class="line">plain = 1806634535	#f4 <span class="attribute">N</span>=P*q2 <span class="attribute">c4</span>=pow(f4, 0x10001, N)</span><br><span class="line">cipher = 1427709639342522954034253242140207749627023419576583331730127575462062495420567697255676374994381638227840222684605853556198230028477711368795852167093005987576867345915879259532923389327437262878433999411334625993538741920567821778777971634816928563383696587344978185954409805177042287392341975793514392686090415420796326167619282928611766169354655318528679241861479684193583683513186645781523448313877362554888036649202783338675136799061464085846904925026432714698611256763637705540929617439668980881972979779903418025094476825847712169957276029258203376181771818942998146920133314293800851161421416836951302303785</span><br><span class="line">&gt; 1</span><br><span class="line">pow(flag,e,n) = 7660616915748658759372848886104469196651926239822942076995644477738724166975848721917259876106979567511672242425196380649367137611601528140465592052571663722864145442933465949602304530816238877079912508461818866021771870602248273656899938554330192447982057520436958060107921356390766845123076457239058840505970721528034331057342412446177706634527511924482698967109095424775131001113765235898191627354250140417118522771203515918975157123189261089037479427068251466167776458422443579472966565395255293992193547180546786143992999938350618040069485840155303775801800121282206941241276065528410190257291809049557518583367</span><br><span class="line">e = 0x10001		#<span class="attribute">c</span>=pow(flag, E, N) <span class="attribute">N</span>=P*Q</span><br></pre></td></tr></table></figure>
+<h3 id="化简-1"><a href="#化简-1" class="headerlink" title="化简"></a>化简</h3><p>1.通过1、2可知，其中只有N未知，所以求N</p>
 <script type="math/tex; mode=display">
 f_1^e\bmod N=c_1 \\
 f_2^e\bmod N=c_2</script><p>变换得</p>
@@ -394,263 +143,13 @@ f_3^{65537}\bmod (P*q_1)=c3 \\
 f_4^{65537}\bmod (P*q_2)=c4</script><script type="math/tex; mode=display">
 f_3^{65537}-c_3=k_1*(P*q_1) \\
 f_4^{65537}-c_4=k_2*(P*q_2)</script><p>同样两式的右边都含有相同的因数P，即$gcd(f_3^{65537}-c_3,f_4^{65537}-c_4)$即可求出P，若系数$k_1,k_2$不互素，则求出的是P的倍数，设为$xP$，进而将问题转换成普通RSA求解</p>
-<h2 id="exp-2"><a href="#exp-2" class="headerlink" title="exp"></a>exp</h2><pre><code>import gmpy2 as g2
-from Crypto.Util.number import *
-
-def get_(x):
-    k = 1
-    while True:
-        p = x // k
-        k = k + 1
-        if g2.is_prime(p):
-            return p
-
-f1 = 246172596
-c1 = 10173233764406169095899483354963164571737209784008701622335544928694259063855518018704769921525166009249126681224283840128044370905317577973950303992043749468525570047970338729747081004025643131749570347673777168867709262619232591961400442015821054455787154014989512204495733006844568897192918774690658866146310997606018573720337022125940979650505605308894992728509291235175469398004506434879836506552302171990021309618235906862685991344063877849627585878246567505089830151036166885190902668104134461995296503098876736843810806165642362870222973336497293214313805248517763740264632510733197696485690344651088941929152
-
-f2 = 1625353687
-c2 = 12307584975251008411516787731127057807459606148509564084565235331743959393183926255630699543466181645936984428560120544513772238200891009720751041149318752451164580269097210103342551596366092114461811872647728479216808541966617422679765592022060940058856123807698152639126817576541773740289677169367448433499272854918536954953586829556954898997330873611935553127971629608674277626930145539545752160151113674651634185742437848591314779194625067525110624869286078410977406348316939155625181843174226781998931484808400662628812790184706505753694785130261133992233308165253423676907297761585356002589809511257085134236964
-
-f3 = 1535865823
-c3 =  5616148217702256813794782016282980002529311657904079448102815350827300993213449299006217890376411480585190233723226978006569715343730543373265994884145037587800253418834041446705167175279746103443102685952718602721464856421481096427552716126453841320699769465067611503421803643702426542935539828009090722947255684407777585314577198743093794188613266146795749296649916546057006799507388720568391067773154094194812970556251176281392083962949437562134531212873820606542551630047805282566962382807038103089098675388219245954070941558343858135476221921795190935468334759042551978239277293268509286506173756116737043936943
-
-f4 = 1806634535
-c4 = 1427709639342522954034253242140207749627023419576583331730127575462062495420567697255676374994381638227840222684605853556198230028477711368795852167093005987576867345915879259532923389327437262878433999411334625993538741920567821778777971634816928563383696587344978185954409805177042287392341975793514392686090415420796326167619282928611766169354655318528679241861479684193583683513186645781523448313877362554888036649202783338675136799061464085846904925026432714698611256763637705540929617439668980881972979779903418025094476825847712169957276029258203376181771818942998146920133314293800851161421416836951302303785
-
-e = 65537
-
-c = 7660616915748658759372848886104469196651926239822942076995644477738724166975848721917259876106979567511672242425196380649367137611601528140465592052571663722864145442933465949602304530816238877079912508461818866021771870602248273656899938554330192447982057520436958060107921356390766845123076457239058840505970721528034331057342412446177706634527511924482698967109095424775131001113765235898191627354250140417118522771203515918975157123189261089037479427068251466167776458422443579472966565395255293992193547180546786143992999938350618040069485840155303775801800121282206941241276065528410190257291809049557518583367
-
-xN = g2.gcd(f1**e-c1,f2**e-c2)
-xP = g2.gcd(f3**e-c3,f4**e-c4)
-
-P = get_(xP)
-xq = xN // P
-Q = get_(xq)
-
-N = P * Q
-
-d = g2.invert(e,(P-1)*(Q-1))
-flag = g2.powmod(c,d,N)
-
-print(long_to_bytes(flag))
-
-===================== RESTART: C:\Users\Users\Desktop\ep.py ====================
-b&#39;flag&#123;f82a0696-55de-42c9-b0f1-1a4d4c21c954&#125;&#39;
-&gt;&gt;&gt;
-</code></pre>]]></content>
+<h2 id="exp-2"><a href="#exp-2" class="headerlink" title="exp"></a>exp</h2><figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line">import gmpy2 as g2</span><br><span class="line">from Crypto.Util.number import *</span><br><span class="line"></span><br><span class="line">def get_(x):</span><br><span class="line">    k = 1</span><br><span class="line">    while True:</span><br><span class="line">        p = x // k</span><br><span class="line">        k = k + 1</span><br><span class="line">        if g2.is_prime(p):</span><br><span class="line">            return p</span><br><span class="line">                </span><br><span class="line">f1 = 246172596</span><br><span class="line">c1 = 10173233764406169095899483354963164571737209784008701622335544928694259063855518018704769921525166009249126681224283840128044370905317577973950303992043749468525570047970338729747081004025643131749570347673777168867709262619232591961400442015821054455787154014989512204495733006844568897192918774690658866146310997606018573720337022125940979650505605308894992728509291235175469398004506434879836506552302171990021309618235906862685991344063877849627585878246567505089830151036166885190902668104134461995296503098876736843810806165642362870222973336497293214313805248517763740264632510733197696485690344651088941929152</span><br><span class="line"></span><br><span class="line">f2 = 1625353687</span><br><span class="line">c2 = 12307584975251008411516787731127057807459606148509564084565235331743959393183926255630699543466181645936984428560120544513772238200891009720751041149318752451164580269097210103342551596366092114461811872647728479216808541966617422679765592022060940058856123807698152639126817576541773740289677169367448433499272854918536954953586829556954898997330873611935553127971629608674277626930145539545752160151113674651634185742437848591314779194625067525110624869286078410977406348316939155625181843174226781998931484808400662628812790184706505753694785130261133992233308165253423676907297761585356002589809511257085134236964</span><br><span class="line"></span><br><span class="line">f3 = 1535865823</span><br><span class="line">c3 =  5616148217702256813794782016282980002529311657904079448102815350827300993213449299006217890376411480585190233723226978006569715343730543373265994884145037587800253418834041446705167175279746103443102685952718602721464856421481096427552716126453841320699769465067611503421803643702426542935539828009090722947255684407777585314577198743093794188613266146795749296649916546057006799507388720568391067773154094194812970556251176281392083962949437562134531212873820606542551630047805282566962382807038103089098675388219245954070941558343858135476221921795190935468334759042551978239277293268509286506173756116737043936943</span><br><span class="line"></span><br><span class="line">f4 = 1806634535</span><br><span class="line">c4 = 1427709639342522954034253242140207749627023419576583331730127575462062495420567697255676374994381638227840222684605853556198230028477711368795852167093005987576867345915879259532923389327437262878433999411334625993538741920567821778777971634816928563383696587344978185954409805177042287392341975793514392686090415420796326167619282928611766169354655318528679241861479684193583683513186645781523448313877362554888036649202783338675136799061464085846904925026432714698611256763637705540929617439668980881972979779903418025094476825847712169957276029258203376181771818942998146920133314293800851161421416836951302303785</span><br><span class="line"></span><br><span class="line">e = 65537</span><br><span class="line"></span><br><span class="line">c = 7660616915748658759372848886104469196651926239822942076995644477738724166975848721917259876106979567511672242425196380649367137611601528140465592052571663722864145442933465949602304530816238877079912508461818866021771870602248273656899938554330192447982057520436958060107921356390766845123076457239058840505970721528034331057342412446177706634527511924482698967109095424775131001113765235898191627354250140417118522771203515918975157123189261089037479427068251466167776458422443579472966565395255293992193547180546786143992999938350618040069485840155303775801800121282206941241276065528410190257291809049557518583367</span><br><span class="line"></span><br><span class="line">xN = g2.gcd(f1**e-c1,f2**e-c2)</span><br><span class="line">xP = g2.gcd(f3**e-c3,f4**e-c4)</span><br><span class="line"></span><br><span class="line">P = get_(xP)</span><br><span class="line">xq = xN // P</span><br><span class="line">Q = get_(xq)</span><br><span class="line"></span><br><span class="line">N = P * Q</span><br><span class="line"></span><br><span class="line">d = g2.invert(e,(P-1)*(Q-1))</span><br><span class="line">flag = g2.powmod(c,d,N)</span><br><span class="line"></span><br><span class="line">print(long_to_bytes(flag))</span><br><span class="line"></span><br><span class="line">===================== RESTART: C:\Users\Users\Desktop\ep.py ====================</span><br><span class="line">b&#x27;flag&#123;f82a0696-55de-42c9-b0f1-1a4d4c21c954&#125;&#x27;</span><br><span class="line">&gt;&gt;&gt; </span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
         <category>CTF</category>
       </categories>
       <tags>
         <tag>Crypto</tag>
-        <tag>CTF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022安洵杯</title>
-    <url>/2022/11/29/2022%E5%AE%89%E6%B4%B5%E6%9D%AF/</url>
-    <content><![CDATA[<p>三道密码＋一道misc 记录</p>
-<span id="more"></span>
-<h1 id="2022安洵杯"><a href="#2022安洵杯" class="headerlink" title="2022安洵杯"></a>2022安洵杯</h1><h1 id="1-Cry1"><a href="#1-Cry1" class="headerlink" title="1.Cry1"></a>1.Cry1</h1><p>签到题，nc连接之后猜对数字即可得到flag。</p>
-<h1 id="2-Cry2"><a href="#2-Cry2" class="headerlink" title="2.Cry2"></a>2.Cry2</h1><p>AES 128位填充攻击，在ECB模式下相同块加密得到相同的密文。更改每次填充的iMessage长度，并修改输入的最后一位，按位进行攻击。得到flag的后16位，以此作为Key，AES_ECB模式解第一个密文块得到flag。</p>
-<h2 id="exp"><a href="#exp" class="headerlink" title="exp"></a>exp</h2><pre><code class="lang-python"># -*- coding:utf-8 -*-
-from pwn import *
-import string
-from hashlib import sha256
-from Crypto.Cipher import AES
-import itertools
-# context.log_level = &#39;debug&#39;
-
-def decrypt(key, message):
-    aes = AES.new(key, AES.MODE_ECB)
-    return aes.decrypt(message)
-
-def Proof(broke, Hash):
-    assert len(broke) == 16 and len(Hash) == 64
-    shaTable = string.ascii_letters + string.digits
-    for ii in itertools.permutations(shaTable, 4):
-        x = &#39;&#39;.join(ii)
-        s = x + broke
-        if sha256(s.encode()).hexdigest() == Hash:
-            return x
-
-def main():
-    table = string.ascii_letters + string.digits
-    r = remote(&#39;120.78.131.38&#39;, 10086)
-    data1 = r.recvuntil(b&#39;Give Me XXXX:\n&#39;)
-    flag1, flag2 = b&#39;&#39;, b&#39;&#39;
-    x = (Proof(data1[14:30].decode(), data1[32:96].decode())).encode()
-    r.sendline(x)
-    for i in range(23, 3, -1):
-        r.recv()
-        sendMessage = b&#39;*&#39; * i
-        r.sendline(sendMessage)
-        a = r.recv()
-        ecbCipher = str(a)[25:-4][32:64]
-        flag1 = a[23:-2]
-        for guess in table:
-            r.recv()
-            r.sendline(sendMessage + flag2 + guess.encode())
-            b = r.recv()
-            if str(b)[25:-2][32:64] == ecbCipher:
-                flag2 += guess.encode()
-                break
-        if len(flag2) == 15:
-            break
-    print(flag2)
-    flag2 = flag2 + b&#39;&#125;&#39;
-    flag1 = decrypt(flag2, binascii.unhexlify(flag1))
-    print(flag1[:8]+flag2)
-
-if __name__ == &#39;__main__&#39;:
-    main()
-</code></pre>
-<pre><code class="lang-python">b&#39;IDl8FuWPu01RHZt&#39;
-b&#39;D0g3&#123;o7sIDl8FuWPu01RHZt&#125;&#39;
-</code></pre>
-<h1 id="3-Cry3"><a href="#3-Cry3" class="headerlink" title="3.Cry3"></a>3.Cry3</h1><pre><code class="lang-python">aes = AES.new(key, AES.MODE_CBC, iv=b&#39;\x00&#39; * AES.block_size)
-</code></pre>
-<p>CBC模式下，初始向量IV为0，可知为CBC MAC消息认证，将mac与第一明文块异或，由</p>
-<pre><code class="lang-python">sMen = msg + xor(bytes.fromhex(mac), b1) + b2
-</code></pre>
-<p>得到的发送数据sMen，经过CBC MAC认证后得到的消息认证码MAC与msg的相同，即可绕过认证。得到一组由RSA加密得到的密文，是在e不互素下的共模攻击。</p>
-<h2 id="exp-1"><a href="#exp-1" class="headerlink" title="exp"></a>exp</h2><pre><code class="lang-python">import itertools
-import string
-from hashlib import sha256
-import gmpy2
-from Crypto.Util.number import long_to_bytes
-from pwn import remote, context, xor
-from Crypto.Util.Padding import pad
-
-# context.log_level = &#39;debug&#39;
-
-
-def Proof(broke, Hash):
-    assert len(broke) == 16 and len(Hash) == 64
-    shaTable = string.ascii_letters + string.digits
-    for ii in itertools.permutations(shaTable, 4):
-        x = &#39;&#39;.join(ii)
-        s = x + broke
-        if sha256(s.encode()).hexdigest() == Hash:
-            return x
-
-
-def exgcd(a, b):
-    if b == 0:
-        return 1, 0, a
-    else:
-        x, y, gcd = exgcd(b, a % b)
-        x, y = y, (x - (a // b) * y)
-        return x, y, gcd
-
-
-def cbcMAC():
-    p = remote(&quot;120.78.131.38&quot;, 10010)
-    data1 = p.recvuntil(b&#39;Give Me XXXX:\n&#39;)
-    x = (Proof(data1[14:30].decode(), data1[32:96].decode())).encode()
-    p.sendline(x)
-    data2 = p.recvuntil(b&#39;--&gt; &#39;).decode()
-    mac = data2.strip()[-36:-4]
-    msg = &#39;Whitfield__Diffie&#39;
-    b1, b2 = msg[:16].encode(), msg[16:].encode()  # first block
-    msg = pad(msg.encode(), 16)
-    sMen = msg + xor(bytes.fromhex(mac), b1) + b2
-    p.send(sMen)
-    p.recvuntil(b&#39;penetrated.\n&#39;)
-    c = p.recvuntil(b&#39;)&#39;)
-    return c[34:]
-
-
-def sameMod():
-    c = cbcMAC().decode()[1:-1].split(&#39;, &#39;)
-    cipher = [int(i) for i in c]
-    n, e1, e2, e3, c1, c2, c3 = cipher[0], cipher[1], cipher[2], cipher[3], cipher[4], cipher[5], cipher[6]
-    a = gmpy2.gcd(e1, e2)
-    b = gmpy2.gcd(e1, e3)
-    c = gmpy2.gcd(e2, e3)
-
-    x1 = exgcd(b, c)
-    C1 = gmpy2.powmod(c1, x1[0], n) * gmpy2.powmod(c2, x1[1], n) % n
-
-    x2 = exgcd(a, b)
-    C2 = gmpy2.powmod(c2, x2[0], n) * gmpy2.powmod(c3, x2[1], n) % n
-
-    x3 = exgcd(a, c)
-    flag = gmpy2.powmod(C1, x3[0], n) * gmpy2.powmod(C2, x3[1], n) % n
-    print(long_to_bytes(flag))
-
-
-if __name__ == &#39;__main__&#39;:
-    sameMod()
-</code></pre>
-<pre><code class="lang-python">b&#39;D0g3&#123;New_3ra_@f_PK_Crypt0graphy_1976&#125;&#39;
-</code></pre>
-<h1 id="4-Redcoast"><a href="#4-Redcoast" class="headerlink" title="4.Redcoast"></a>4.Redcoast</h1><p>将文件中二进制转十六进制得到开头有504b，可知为一个压缩包</p>
-<pre><code class="lang-python">with open(&#39;Signal.txt&#39;) as f:
-    data = f.read()
-    data = hex(int(data, 2))[2:]
-    with open(&#39;Misc1.txt&#39;, &#39;w&#39;) as ff:
-        ff.write(data)
-</code></pre>
-<p>压缩包中有625张黑白图片，将其转为25*25的一张大图，得到二维码</p>
-<pre><code class="lang-python">from PIL import Image
-import binascii
-import base64
-
-def jigsawPuzzleQrcode():
-    makeImg = Image.new(&#39;RGB&#39;, (2500, 2500), &#39;white&#39;)
-    n = 0
-    for i in range(25):
-        for j in range(25):
-            block = Image.open(f&#39;./Misc1/&#123;n&#125;.png&#39;)
-            makeImg.paste(block, (100 * j, 100 * i))
-            n += 1
-    makeImg.save(&#39;Misc.png&#39;)
-</code></pre>
-<p>扫描二维码得出压缩包的key</p>
-<pre><code class="lang-python">&#39;--&gt;key: 187J3X1&amp;DX3906@!&#39;
-</code></pre>
-<p>解压得到</p>
-<pre><code class="lang-python">6956424f5277304b47676f414141414e5355684555674141424c414141414c7543414941414141784633676c4141454141456c45515652346e4f7a39615a416c323345654350714e3557365a575a6c563966616465414165466749677851556b52413546456f3855745a41745571316c724e57537a5a417a6d6d6c744c636d6d6532784d317461746f566d62716257775255317a4e4771526f6b67516f41434b424e6b434b59674e63594e4553534146415149496b414378764b336571337056575a6c3574316a752f50414
-</code></pre>
-<p>解16进制得到开头为iVB，可知为base64的png文件</p>
-<pre><code class="lang-python">b&#39;iVBORw0KGgoAAAANSUhEUgAABLAAAALuCAIAAAAxF3glAAEAAElEQVR4nOz9aZAl23EeCPqN5W6ZWZlV9fadeAAeFgIgxQUkRA5FEo8UtZAtUq1lrNWSzZAzmmltLcmme2xM1tatoVmbqbWwRU1zNGqRokgQoACKBNkCKYgNcYNESSAFAQIIkACxvK3eq3pVWZl5t1ju&#39;
-</code></pre>
-<p>写脚本得到图片</p>
-<pre><code class="lang-python">def BaseToPng():
-    with open(&#39;png.txt&#39;, &#39;rb&#39;) as f:
-        base64png = f.read().decode()
-        base64data = binascii.unhexlify(base64png)
-        imgdata = base64.b64decode(base64data)
-        with open(&#39;flag.png&#39;, &#39;wb&#39;) as ff:
-            ff.write(imgdata)
-</code></pre>
-<p>得到一张三体中的图片，可以看到图中有很多像素点不对，图片为RGB模式，读取每个像素点，将其转为ASCII码</p>
-<p><img src="https://cdn.jsdelivr.net/gh/iH0lmes/img_data/img/flag.png" alt=""></p>
-<pre><code class="lang-python">def readRGB():
-    img = Image.open(&#39;flag.png&#39;)
-    pixel = []
-    imgSize = img.size
-    x, y = imgSize[0], imgSize[1]  # (x1200, y750)
-    for i in range(y):
-        for j in range(x):
-            pixel.append(img.getpixel((j, i)))
-    message = &#39;&#39;
-    for i in pixel:
-        for j in i:
-            message += chr(j)
-    with open(&#39;flag.txt&#39;, &#39;a&#39;, encoding=&#39;utf-8&#39;) as f:
-        f.write(message)
-        f.close()
-</code></pre>
-<p>得到flag</p>
-<pre><code>Ye Wenjie&#39;s heart beats hard, like a string about to break. The black fog begins to appear in front of her. She uses her last energy to persist. Before everything goes into the eternal darkness, she wants to see the sunset of the Red Bank Base again. In the western sky, the setting sun, which is sinking in the sea of clouds, seems to be melting, and the sun&#39;s blood diffuses in the sea of clouds and sky, reflecting a large piece of magnificent blood red. &quot;This is the sunset of mankind...D0g3&#123;W3Lc0Me_T@_E4rth!!&#125;&quot; said Ye Wenjie gently.
-</code></pre>]]></content>
-      <categories>
-        <category>CTF</category>
-      </categories>
-      <tags>
         <tag>CTF</tag>
       </tags>
   </entry>
@@ -661,112 +160,91 @@ def jigsawPuzzleQrcode():
 <span id="more"></span>
 <h2 id="换源"><a href="#换源" class="headerlink" title="换源"></a>换源</h2><p>全部替换</p>
 <p>etc/apt/sources.list</p>
-<pre><code>deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
-
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
-
-# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
-</code></pre><h2 id="更新软件列表"><a href="#更新软件列表" class="headerlink" title="更新软件列表"></a>更新软件列表</h2><pre><code class="lang-shell">apt update
-</code></pre>
-<h3 id="可能会遇到的问题"><a href="#可能会遇到的问题" class="headerlink" title="可能会遇到的问题"></a>可能会遇到的问题</h3><pre><code class="lang-shell">E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal Release&#39; does not have a Release file.
-N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-updates Release&#39; does not have a Release file.
-N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-backports Release&#39; does not have a Release file.
-N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-E: The repository &#39;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-security Release&#39; does not have a Release file.
-N: Updating from such a repository can&#39;t be done securely, and is therefore disabled by default.
-N: See apt-secure(8) manpage for repository creation and user configuration details.
-</code></pre>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">deb http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal main restricted universe multiverse</span><br><span class="line">deb-src http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal main restricted universe multiverse</span><br><span class="line">deb http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-security main restricted universe multiverse</span><br><span class="line">deb-src http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-security main restricted universe multiverse</span><br><span class="line">deb http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-updates main restricted universe multiverse</span><br><span class="line">deb-src http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-updates main restricted universe multiverse</span><br><span class="line">deb http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-proposed main restricted universe multiverse</span><br><span class="line">deb-src http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-proposed main restricted universe multiverse</span><br><span class="line">deb http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-backports main restricted universe multiverse</span><br><span class="line">deb-src http:<span class="regexp">//mi</span>rrors.aliyun.com<span class="regexp">/ubuntu/</span> focal-backports main restricted universe multiverse</span><br><span class="line"></span><br><span class="line">deb https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/ubuntu/</span> focal main restricted universe multiverse</span><br><span class="line"><span class="comment"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse</span></span><br><span class="line">deb https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/ubuntu/</span> focal-updates main restricted universe multiverse</span><br><span class="line"><span class="comment"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse</span></span><br><span class="line">deb https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/ubuntu/</span> focal-backports main restricted universe multiverse</span><br><span class="line"><span class="comment"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse</span></span><br><span class="line">deb https:<span class="regexp">//mi</span>rrors.tuna.tsinghua.edu.cn<span class="regexp">/ubuntu/</span> focal-security main restricted universe multiverse</span><br><span class="line"><span class="comment"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span></span><br><span class="line"><span class="comment"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span></span><br></pre></td></tr></table></figure>
+<h2 id="更新软件列表"><a href="#更新软件列表" class="headerlink" title="更新软件列表"></a>更新软件列表</h2><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apt update</span><br></pre></td></tr></table></figure>
+<h3 id="可能会遇到的问题"><a href="#可能会遇到的问题" class="headerlink" title="可能会遇到的问题"></a>可能会遇到的问题</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">E: The repository &#x27;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal Release&#x27; does not have a Release file.</span><br><span class="line">N: Updating from such a repository can&#x27;t be done securely, and is therefore disabled by default.</span><br><span class="line">N: See apt-secure(8) manpage for repository creation and user configuration details.</span><br><span class="line">E: The repository &#x27;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-updates Release&#x27; does not have a Release file.</span><br><span class="line">N: Updating from such a repository can&#x27;t be done securely, and is therefore disabled by default.</span><br><span class="line">N: See apt-secure(8) manpage for repository creation and user configuration details.</span><br><span class="line">E: The repository &#x27;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-backports Release&#x27; does not have a Release file.</span><br><span class="line">N: Updating from such a repository can&#x27;t be done securely, and is therefore disabled by default.</span><br><span class="line">N: See apt-secure(8) manpage for repository creation and user configuration details.</span><br><span class="line">E: The repository &#x27;https://mirrors.tuna.tsinghua.edu.cn/ubuntu focal-security Release&#x27; does not have a Release file.</span><br><span class="line">N: Updating from such a repository can&#x27;t be done securely, and is therefore disabled by default.</span><br><span class="line">N: See apt-secure(8) manpage for repository creation and user configuration details.</span><br></pre></td></tr></table></figure>
 <p>因为默认的源是http 的，但是准备使用的镜像源是https的，所以需要额外的安装有关HTTPS的包</p>
-<pre><code>sudo apt install apt-transport-https
-sudo apt install ca-certificates
-</code></pre><p>再次使用</p>
-<pre><code>apt update
-</code></pre><p>没有报错</p>
-<pre><code class="lang-shell">Reading package lists... Done
-Building dependency tree       
-Reading state information... Done
-275 packages can be upgraded. Run &#39;apt list --upgradable&#39; to see them.
-</code></pre>
+<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line">sudo apt <span class="keyword">install</span> apt-transport-https</span><br><span class="line">sudo apt <span class="keyword">install</span> ca-certificates</span><br></pre></td></tr></table></figure>
+<p>再次使用</p>
+<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">apt update</span></span><br></pre></td></tr></table></figure>
+<p>没有报错</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">Reading package lists... Done</span><br><span class="line">Building dependency tree       </span><br><span class="line">Reading state information... Done</span><br><span class="line">275 packages can be upgraded. Run &#x27;apt list --upgradable&#x27; to see them.</span><br></pre></td></tr></table></figure>
 <h2 id="安装java"><a href="#安装java" class="headerlink" title="安装java"></a>安装java</h2><p>搜索并安装最新版的java</p>
-<pre><code>apt search openjdk
-apt install openjdk-17-jdk -y
-</code></pre><h2 id="安装MC服务端"><a href="#安装MC服务端" class="headerlink" title="安装MC服务端"></a>安装MC服务端</h2><pre><code>网址：https://mcversions.net/
-</code></pre><p>找到最新的Stable Releases稳定版本下载，这里现在是1.19.3</p>
-<pre><code>https://mcversions.net/download/1.19.3
-</code></pre><p>右键Server jar获取链接，稍后使用</p>
-<pre><code>https://piston-data.mojang.com/v1/objects/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/server.jar
-</code></pre><p>在服务器当前目录下创建一个文件夹</p>
-<pre><code>mkdir mcserver
-cd mcserver
-</code></pre><p>在此文件夹下下载服务端</p>
-<pre><code>wget https://piston-data.mojang.com/v1/objects/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/server.jar
-</code></pre><h2 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h2><p>在当前目录下使用</p>
-<pre><code>java -jar server.jar nogui
-</code></pre><p>第一次运行会有如下提示，需要同意eula条款</p>
-<pre><code>[16:35:43] [ServerMain/INFO]: Building unoptimized datafixer
-[16:35:48] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-[16:35:48] [ServerMain/WARN]: Failed to load eula.txt
-[16:35:48] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
-</code></pre><p>修改eula.txt</p>
-<pre><code>#Sat Dec 10 16:35:48 CST 2022
-eula=true
-</code></pre><p>再次运行启动命令，生成世界（过程可能会有点慢）</p>
-<pre><code>[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
-[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
-[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
-[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 76%
-[16:40:33] [Worker-Main-7/INFO]: Preparing spawn area: 96%
-[16:40:36] [Server thread/INFO]: Time elapsed: 101788 ms
-[16:40:36] [Server thread/INFO]: Done (120.154s)! For help, type &quot;help&quot;
-</code></pre><p>生成完毕</p>
+<figure class="highlight mipsasm"><table><tr><td class="code"><pre><span class="line">apt search openjdk</span><br><span class="line">apt <span class="keyword">install </span>openjdk<span class="number">-17</span>-<span class="keyword">jdk </span>-y</span><br></pre></td></tr></table></figure>
+<h2 id="安装MC服务端"><a href="#安装MC服务端" class="headerlink" title="安装MC服务端"></a>安装MC服务端</h2><figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">网址：https:<span class="regexp">//m</span>cversions.net/</span><br></pre></td></tr></table></figure>
+<p>找到最新的Stable Releases稳定版本下载，这里现在是1.19.3</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">https:<span class="regexp">//m</span>cversions.net<span class="regexp">/download/</span><span class="number">1.19</span>.<span class="number">3</span></span><br></pre></td></tr></table></figure>
+<p>右键Server jar获取链接，稍后使用</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">https:<span class="regexp">//</span>piston-data.mojang.com<span class="regexp">/v1/</span>objects<span class="regexp">/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/</span>server.jar</span><br></pre></td></tr></table></figure>
+<p>在服务器当前目录下创建一个文件夹</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> mcserver</span><br><span class="line"><span class="built_in">cd</span> mcserver</span><br></pre></td></tr></table></figure>
+<p>在此文件夹下下载服务端</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">wget https:<span class="regexp">//</span>piston-data.mojang.com<span class="regexp">/v1/</span>objects<span class="regexp">/c9df48efed58511cdd0213c56b9013a7b5c9ac1f/</span>server.jar</span><br></pre></td></tr></table></figure>
+<h2 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h2><p>在当前目录下使用</p>
+<figure class="highlight mipsasm"><table><tr><td class="code"><pre><span class="line"><span class="keyword">java </span>-<span class="keyword">jar </span>server.<span class="keyword">jar </span>nogui</span><br></pre></td></tr></table></figure>
+<p>第一次运行会有如下提示，需要同意eula条款</p>
+<figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">[<span class="number">16</span>:<span class="number">35</span>:<span class="number">43</span>] [ServerMain/<span class="keyword">INFO</span>]: Building unoptimized datafixer</span><br><span class="line">[<span class="number">16</span>:<span class="number">35</span>:<span class="number">48</span>] [ServerMain/ERROR]: Failed <span class="keyword">to</span> <span class="keyword">load</span> properties <span class="keyword">from</span> file: <span class="keyword">server</span>.properties</span><br><span class="line">[<span class="number">16</span>:<span class="number">35</span>:<span class="number">48</span>] [ServerMain/WARN]: Failed <span class="keyword">to</span> <span class="keyword">load</span> eula.txt</span><br><span class="line">[<span class="number">16</span>:<span class="number">35</span>:<span class="number">48</span>] [ServerMain/<span class="keyword">INFO</span>]: You need <span class="keyword">to</span> agree <span class="keyword">to</span> the EULA <span class="keyword">in</span> <span class="keyword">order</span> <span class="keyword">to</span> run the <span class="keyword">server</span>. Go <span class="keyword">to</span> eula.txt <span class="keyword">for</span> more <span class="keyword">info</span>.</span><br></pre></td></tr></table></figure>
+<p>修改eula.txt</p>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="comment">#Sat Dec 10 16:35:48 CST 2022</span></span><br><span class="line"><span class="attr">eula</span>=<span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p>再次运行启动命令，生成世界（过程可能会有点慢）</p>
+<figure class="highlight prolog"><table><tr><td class="code"><pre><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">33</span>] [<span class="symbol">Worker</span>-<span class="symbol">Main</span><span class="number">-7</span>/<span class="symbol">INFO</span>]: <span class="symbol">Preparing</span> spawn area: <span class="number">76</span><span class="comment">%</span></span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">33</span>] [<span class="symbol">Worker</span>-<span class="symbol">Main</span><span class="number">-7</span>/<span class="symbol">INFO</span>]: <span class="symbol">Preparing</span> spawn area: <span class="number">76</span><span class="comment">%</span></span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">33</span>] [<span class="symbol">Worker</span>-<span class="symbol">Main</span><span class="number">-7</span>/<span class="symbol">INFO</span>]: <span class="symbol">Preparing</span> spawn area: <span class="number">76</span><span class="comment">%</span></span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">33</span>] [<span class="symbol">Worker</span>-<span class="symbol">Main</span><span class="number">-7</span>/<span class="symbol">INFO</span>]: <span class="symbol">Preparing</span> spawn area: <span class="number">76</span><span class="comment">%</span></span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">33</span>] [<span class="symbol">Worker</span>-<span class="symbol">Main</span><span class="number">-7</span>/<span class="symbol">INFO</span>]: <span class="symbol">Preparing</span> spawn area: <span class="number">96</span><span class="comment">%</span></span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">36</span>] [<span class="symbol">Server</span> thread/<span class="symbol">INFO</span>]: <span class="symbol">Time</span> elapsed: <span class="number">101788</span> ms</span><br><span class="line">[<span class="number">16</span>:<span class="number">40</span>:<span class="number">36</span>] [<span class="symbol">Server</span> thread/<span class="symbol">INFO</span>]: <span class="symbol">Done</span> (<span class="number">120.154</span>s)! <span class="symbol">For</span> help, type <span class="string">&quot;help&quot;</span></span><br></pre></td></tr></table></figure>
+<p>生成完毕</p>
 <h2 id="一些设置"><a href="#一些设置" class="headerlink" title="一些设置"></a>一些设置</h2><h3 id="给自己管理员权限"><a href="#给自己管理员权限" class="headerlink" title="给自己管理员权限"></a>给自己管理员权限</h3><p>现在登录游戏，端口号默认是25565，在服务端</p>
-<pre><code>op [名字]
-</code></pre><h3 id="将服务挂在后台"><a href="#将服务挂在后台" class="headerlink" title="将服务挂在后台"></a>将服务挂在后台</h3><h4 id="方法一：nohup"><a href="#方法一：nohup" class="headerlink" title="方法一：nohup"></a><strong>方法一：nohup</strong></h4><p>将进程挂在后台</p>
-<pre><code>nohup java -jar server.jar nogui &amp;
-</code></pre><h4 id="方法二：screen"><a href="#方法二：screen" class="headerlink" title="方法二：screen"></a><strong>方法二：screen</strong></h4><pre><code>apt-get install screen
-screen -S mc
-java -jar server.jar nogui
-</code></pre><p>等待服务器启动，按<strong>Ctrl+A+D</strong>退出窗口</p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">op</span><span class="meta"> [名字]</span></span><br></pre></td></tr></table></figure>
+<h3 id="将服务挂在后台"><a href="#将服务挂在后台" class="headerlink" title="将服务挂在后台"></a>将服务挂在后台</h3><h4 id="方法一：nohup"><a href="#方法一：nohup" class="headerlink" title="方法一：nohup"></a><strong>方法一：nohup</strong></h4><p>将进程挂在后台</p>
+<figure class="highlight mipsasm"><table><tr><td class="code"><pre><span class="line">nohup <span class="keyword">java </span>-<span class="keyword">jar </span>server.<span class="keyword">jar </span>nogui &amp;</span><br></pre></td></tr></table></figure>
+<h4 id="方法二：screen"><a href="#方法二：screen" class="headerlink" title="方法二：screen"></a><strong>方法二：screen</strong></h4><figure class="highlight mipsasm"><table><tr><td class="code"><pre><span class="line">apt-get <span class="keyword">install </span><span class="keyword">screen</span></span><br><span class="line"><span class="keyword"></span><span class="keyword">screen </span>-S mc</span><br><span class="line"><span class="keyword">java </span>-<span class="keyword">jar </span>server.<span class="keyword">jar </span>nogui</span><br></pre></td></tr></table></figure>
+<p>等待服务器启动，按<strong>Ctrl+A+D</strong>退出窗口</p>
 <p>查看窗口</p>
-<pre><code>screen -ls
-
-There is a screen on:
-        272617.mc       (12/11/2022 11:28:47 AM)        (Detached)
-1 Socket in /run/screen/S-root.
-</code></pre><p>打开窗口</p>
-<pre><code>screen -r mc
-screen -r 272617.mc
-screen -r 272617
-</code></pre><p>删除窗口</p>
-<pre><code>screen -S mc -X quit
-</code></pre>]]></content>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">screen</span> -ls</span><br><span class="line"></span><br><span class="line"><span class="attribute">There</span> is a screen <span class="literal">on</span>:</span><br><span class="line">        <span class="attribute">272617</span>.mc       (<span class="number">12</span>/<span class="number">11</span>/<span class="number">2022</span> <span class="number">11</span>:<span class="number">28</span>:<span class="number">47</span> AM)        (Detached)</span><br><span class="line"><span class="attribute">1</span> Socket in /run/screen/S-root.</span><br></pre></td></tr></table></figure>
+<p>打开窗口</p>
+<figure class="highlight gauss"><table><tr><td class="code"><pre><span class="line"><span class="keyword">screen</span> -r mc</span><br><span class="line"><span class="keyword">screen</span> -r <span class="number">272617.</span>mc</span><br><span class="line"><span class="keyword">screen</span> -r <span class="number">272617</span></span><br></pre></td></tr></table></figure>
+<p>删除窗口</p>
+<figure class="highlight cos"><table><tr><td class="code"><pre><span class="line">screen -<span class="keyword">S</span> mc -<span class="keyword">X</span> <span class="keyword">quit</span></span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
         <category>Game</category>
       </categories>
       <tags>
         <tag>Minecraft</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>zer0ptsCTF2022</title>
+    <url>/2022/06/22/zer0ptsCTF2022/</url>
+    <content><![CDATA[<p>一种费马分解</p>
+<span id="more"></span>
+<div class="note warning"><p></p></div>
+
+<h2 id="Anti-Fermat"><a href="#Anti-Fermat" class="headerlink" title="Anti-Fermat"></a>Anti-Fermat</h2><h2 id="task"><a href="#task" class="headerlink" title="task"></a>task</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> Crypto.Util.number <span class="keyword">import</span> isPrime, getStrongPrime</span><br><span class="line"><span class="keyword">from</span> gmpy <span class="keyword">import</span> next_prime</span><br><span class="line"><span class="keyword">from</span> secret <span class="keyword">import</span> flag</span><br><span class="line"></span><br><span class="line"><span class="comment"># Anti-Fermat Key Generation</span></span><br><span class="line">p = getStrongPrime(<span class="number">1024</span>)</span><br><span class="line">q = next_prime(q0)</span><br><span class="line">n = p * q</span><br><span class="line">e = <span class="number">65537</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Encryption</span></span><br><span class="line">m = <span class="built_in">int</span>.from_bytes(flag, <span class="string">&#x27;big&#x27;</span>)</span><br><span class="line"><span class="keyword">assert</span> m &lt; n</span><br><span class="line">c = <span class="built_in">pow</span>(m, e, n)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;n = &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(<span class="built_in">hex</span>(n)))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;c = &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(<span class="built_in">hex</span>(c)))</span><br></pre></td></tr></table></figure>
+<h2 id="output"><a href="#output" class="headerlink" title="output"></a>output</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line">n = <span class="number">0x1ffc7dc6b9667b0dcd00d6ae92fb34ed0f3d84285364c73fbf6a572c9081931be0b0610464152de7e0468ca7452c738611656f1f9217a944e64ca2b3a89d889ffc06e6503cfec3ccb491e9b6176ec468687bf4763c6591f89e750bf1e4f9d6855752c19de4289d1a7cea33b077bdcda3c84f6f3762dc9d96d2853f94cc688b3c9d8e67386a147524a2b23b1092f0be1aa286f2aa13aafba62604435acbaa79f4e53dea93ae8a22655287f4d2fa95269877991c57da6fdeeb3d46270cd69b6bfa537bfd14c926cf39b94d0f06228313d21ec6be2311f526e6515069dbb1b06fe3cf1f62c0962da2bc98fa4808c201e4efe7a252f9f823e710d6ad2fb974949751</span></span><br><span class="line">c = <span class="number">0x60160bfed79384048d0d46b807322e65c037fa90fac9fd08b512a3931b6dca2a745443a9b90de2fa47aaf8a250287e34563e6b1a6761dc0ccb99cb9d67ae1c9f49699651eafb71a74b097fc0def77cf287010f1e7bd614dccfb411cdccbb84c60830e515c05481769bd95e656d839337d430db66abcd3a869c6348616b78d06eb903f8abd121c851696bd4cb2a1a40a07eea17c4e33c6a1beafb79d881d595472ab6ce3c61d6d62c4ef6fa8903149435c844a3fab9286d212da72b2548f087e37105f4657d5a946afd12b1822ceb99c3b407bb40e21163c1466d116d67c16a2a3a79e5cc9d1f6a1054d6be6731e3cd19abbd9e9b23309f87bfe51a822410a62</span></span><br></pre></td></tr></table></figure>
+<h2 id="solve"><a href="#solve" class="headerlink" title="solve"></a>solve</h2><p>设</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">p ^ ((<span class="number">1</span>&lt;&lt;<span class="number">1024</span>)-<span class="number">1</span>) = q0</span><br></pre></td></tr></table></figure>
+<p>则</p>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">p</span> + q0 = (<span class="number">1</span>&lt;&lt;<span class="number">1024</span>)-<span class="number">1</span> = <span class="number">2</span>**<span class="number">1024</span> - <span class="number">1</span></span><br></pre></td></tr></table></figure>
+<p>p是1024bit的素数，q是p的每一位相反数的下一个素数，有:</p>
+<script type="math/tex; mode=display">
+p+q_0=((1<<1024)-1)=2^{1024}-1</script><script type="math/tex; mode=display">
+q_0=2^{1024}-1-p</script><p>我们就可以用$q_0$找到$q$，因为$q$是$q_0$的下一个素数，所以$q&gt;q_0$，即</p>
+<script type="math/tex; mode=display">
+q=q_0 + k=2^{1024}-1-p+k</script><p>所以模数n</p>
+<script type="math/tex; mode=display">
+n=p*q=p*(2^{1024}-1-p+k)</script><p>设$2^{1024}-1=A$，原式等于$p*(A-p+k)$，因式分解为完全平方式</p>
+<script type="math/tex; mode=display">
+p*(A-p+k)=p*A-p^2+p*k=p*(A+k)-p^2</script><script type="math/tex; mode=display">
+n=(\frac{A+k}{2})^2-(\frac{A+k}{2}-p)^2</script><script type="math/tex; mode=display">
+=\frac{(A+k)^2}{4}-(\frac{(A+k)^2}{4}-2*\frac{A+k}{2}*p+p^2)</script><script type="math/tex; mode=display">
+=p*(A+k)-p^2=n</script><p>设$a=\frac{A+k}{2}$，$b=\frac{A+k}{2}-p$，利用费马分解</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> isqrt</span><br><span class="line"><span class="keyword">import</span> gmpy2</span><br><span class="line"><span class="keyword">from</span> Crypto.Util.number <span class="keyword">import</span> *</span><br><span class="line">n = <span class="number">0x1ffc7dc6b9667b0dcd00d6ae92fb34ed0f3d84285364c73fbf6a572c9081931be0b0610464152de7e0468ca7452c738611656f1f9217a944e64ca2b3a89d889ffc06e6503cfec3ccb491e9b6176ec468687bf4763c6591f89e750bf1e4f9d6855752c19de4289d1a7cea33b077bdcda3c84f6f3762dc9d96d2853f94cc688b3c9d8e67386a147524a2b23b1092f0be1aa286f2aa13aafba62604435acbaa79f4e53dea93ae8a22655287f4d2fa95269877991c57da6fdeeb3d46270cd69b6bfa537bfd14c926cf39b94d0f06228313d21ec6be2311f526e6515069dbb1b06fe3cf1f62c0962da2bc98fa4808c201e4efe7a252f9f823e710d6ad2fb974949751</span></span><br><span class="line">c = <span class="number">0x60160bfed79384048d0d46b807322e65c037fa90fac9fd08b512a3931b6dca2a745443a9b90de2fa47aaf8a250287e34563e6b1a6761dc0ccb99cb9d67ae1c9f49699651eafb71a74b097fc0def77cf287010f1e7bd614dccfb411cdccbb84c60830e515c05481769bd95e656d839337d430db66abcd3a869c6348616b78d06eb903f8abd121c851696bd4cb2a1a40a07eea17c4e33c6a1beafb79d881d595472ab6ce3c61d6d62c4ef6fa8903149435c844a3fab9286d212da72b2548f087e37105f4657d5a946afd12b1822ceb99c3b407bb40e21163c1466d116d67c16a2a3a79e5cc9d1f6a1054d6be6731e3cd19abbd9e9b23309f87bfe51a822410a62</span></span><br><span class="line"></span><br><span class="line">a = (<span class="number">2</span>**<span class="number">1024</span>-<span class="number">1</span>) // <span class="number">2</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">while True:</span></span><br><span class="line"><span class="string">    b1 = a**2 - n</span></span><br><span class="line"><span class="string">    b = isqrt(b1)</span></span><br><span class="line"><span class="string">    if b*b == a*a - n:</span></span><br><span class="line"><span class="string">        print(a+b, a-b)</span></span><br><span class="line"><span class="string">    a += 1</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line">p = <span class="number">153456316755201256456077648680293404551531181234956990242779099773886170192558263224753907666532907469313954439789378399786631549347700474488574017322863270205683350905558827922567834954626909259763623105532668671134932118937640401627676913585506492102157561689678418157863742997375967679975824876706628973287</span></span><br><span class="line">q = <span class="number">26312996731030334316852870398609068810266516659273667030650981383846505612942699907954569655874628551806159440082014957872158219466716148004273413316610854172084542519306657353734384646619184859689459846552337097703218563404822479846236196955320745061192948994907880082083502941103748624859531452917595165959</span></span><br><span class="line">phi = (p-<span class="number">1</span>)*(q-<span class="number">1</span>)</span><br><span class="line">e = <span class="number">65537</span></span><br><span class="line">d = gmpy2.invert(e, phi)</span><br><span class="line"><span class="built_in">print</span>(long_to_bytes(gmpy2.powmod(c,d,n)))</span><br></pre></td></tr></table></figure>
+<p>output</p>
+<figure class="highlight asciidoc"><table><tr><td class="code"><pre><span class="line"><span class="section">b&#x27;Good job! Here is the flag:</span></span><br><span class="line"><span class="section">+-----------------------------------------------------------+</span></span><br><span class="line">| zer0pts&#123;F3rm4t,y0ur_m3th0d_n0_l0ng3r_w0rks.y0u_4r3_f1r3d&#125; |</span><br><span class="line"><span class="code">+-----------------------------------------------------------+</span>&#x27;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>RSA</category>
+      </categories>
+      <tags>
+        <tag>Crypto</tag>
+        <tag>CTF</tag>
       </tags>
   </entry>
 </search>
