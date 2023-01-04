@@ -21,21 +21,20 @@
   </script>
 
 
-  <meta name="description" content="奇怪的编程—-但丁地狱">
+  <meta name="description" content="bilibili客户端下载的视频分为两个.m4s文件，一个是音乐一个是视频，用FFmpeg来将两个.m4s文件合成一个MP4文件。写python脚本来调用实现快速转换。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="1337UPCTF2022-Crypto">
-<meta property="og:url" content="http://example.com/2022/06/22/1337UPCTF2022-Crypto/index.html">
+<meta property="og:title" content="Bilibili下载文件格式转换">
+<meta property="og:url" content="http://example.com/2023/01/04/Bilibili%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/index.html">
 <meta property="og:site_name" content="iH0lmes的知识树">
-<meta property="og:description" content="奇怪的编程—-但丁地狱">
+<meta property="og:description" content="bilibili客户端下载的视频分为两个.m4s文件，一个是音乐一个是视频，用FFmpeg来将两个.m4s文件合成一个MP4文件。写python脚本来调用实现快速转换。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-06-21T23:47:17.716Z">
-<meta property="article:modified_time" content="2022-11-29T08:03:23.048Z">
+<meta property="article:published_time" content="2023-01-03T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-01-04T11:28:03.850Z">
 <meta property="article:author" content="iH0lmes">
-<meta property="article:tag" content="Crypto">
-<meta property="article:tag" content="CTF">
+<meta property="article:tag" content="Misc">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/2022/06/22/1337UPCTF2022-Crypto/">
+<link rel="canonical" href="http://example.com/2023/01/04/Bilibili%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/">
 
 
 <script id="page-configurations">
@@ -48,7 +47,7 @@
   };
 </script>
 
-  <title>1337UPCTF2022-Crypto | iH0lmes的知识树</title>
+  <title>Bilibili下载文件格式转换 | iH0lmes的知识树</title>
   
 
 
@@ -202,7 +201,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/22/1337UPCTF2022-Crypto/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/01/04/Bilibili%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E8%BD%AC%E6%8D%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -215,7 +214,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          1337UPCTF2022-Crypto
+          Bilibili下载文件格式转换
         </h1>
 
         <div class="post-meta">
@@ -224,23 +223,17 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2022-06-22 07:47:17" itemprop="dateCreated datePublished" datetime="2022-06-22T07:47:17+08:00">2022-06-22</time>
+              <time title="创建时间：2023-01-04 00:00:00 / 修改时间：19:28:03" itemprop="dateCreated datePublished" datetime="2023-01-04T00:00:00+08:00">2023-01-04</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-11-29 16:03:23" itemprop="dateModified" datetime="2022-11-29T16:03:23+08:00">2022-11-29</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">编程语言</span></a>
+                  <a href="/categories/Media/" itemprop="url" rel="index"><span itemprop="name">Media</span></a>
                 </span>
             </span>
 
@@ -257,14 +250,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>3.4k</span>
+              <span>1.5k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>3 分钟</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -276,16 +269,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>奇怪的编程—-但丁地狱</p>
+        <p>bilibili客户端下载的视频分为两个.m4s文件，一个是音乐一个是视频，用FFmpeg来将两个.m4s文件合成一个MP4文件。写python脚本来调用实现快速转换。</p>
 <span id="more"></span>
-<h1 id="Dante’s-Inferno"><a href="#Dante’s-Inferno" class="headerlink" title="Dante’s Inferno"></a>Dante’s Inferno</h1><p>​        题目只有一个unknown文件，在其16进制中发现PK字符，猜测是一个压缩包，尝试解压后发现损坏。猜测是缺少头文件，所以便添加一个50 4B 03 04在前面，能提取出一个txt文件，其中有密文：</p>
-<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">Hey</span> there, it&#x27;s Ben I forgot the key to unlock my omnitrix help me to decrypt the key.</span><br><span class="line"></span><br><span class="line"><span class="attribute">This</span> was the data Azmuth found in the ROOT of omnitrix :</span><br><span class="line"></span><br><span class="line"><span class="attribute">D</span>&#x27;`r_<span class="string">&quot;\!65|&#123;8yTBu-,P0&lt;L&#x27;]m7)iE3ffT&quot;</span>b~=+&lt;)([wvo5Vlqping-kjihgfH%cb[`Y&#125;@VUyxXQPUTMLpPOHMFj-,HGF?&gt;bBA:?&gt;<span class="number">7</span>[;:<span class="number">9870</span>v.<span class="number">3</span>,PO/.&#x27;K%*)<span class="string">&quot;F&amp;%ed&quot;</span>y~w=uzsr8potml21oQmf,diha`e^$\aZ_^W&#123;[=&lt;XWPOs65KPIHGFjJIHG@?c=B;@?&gt;<span class="number">7</span>[;<span class="number">4981</span>U5.R21q)M-&amp;%I#(&#x27;~D<span class="variable">$&#123;&quot;y?wv&#123;t:9qYun4rkSonmlkdihg`&amp;d]\aZY&#125;</span>@V[ZYXQuU76LKo2HGFjiCHA@?c=B;@?&gt;<span class="number">7</span>[;<span class="number">4981</span>UT4321q)M&#x27;&amp;%$)<span class="string">&quot;!E%e&#123;z@~&#125;_uzs9wvotsrk1onPle+*)a`e^$\aZY&#125;W\[TSwvVUTMLpPIHGLEiIHG@(&gt;baA:^!~&lt;;:921U54t2+*N.&#x27;&amp;%*)&quot;</span>FEfe&#123;<span class="string">&quot;y?&gt;v&#123;zsxqp6nVl2pohg-ejib(&#x27;_^]b[Z~^@?UZSRvPONr54JImGLKDIBfe(&gt;=&lt;`#&quot;</span>&gt;=<span class="number">65</span>Y987w/<span class="number">43</span>,P0)o-,+$H(&#x27;&amp;%|B<span class="string">&quot;!~w|&#123;t:xZpo5Vlqjinmled*Ka`edc\&quot;Z_^]Vz=YXQPtN6LKoO10FKDhHAF?cCBA#&quot;</span><span class="number">8</span>\<span class="number">65</span>Y987w/<span class="number">43</span>,P*p.-&amp;J*#i&#x27;&amp;&#125;C#<span class="string">&quot;!x&gt;|&#123;zyr8ponmrqj0/mfNjibg`_^$b[Z_X]VUySRQPUNr54JImMLEDhHA@dD=B;:^8=6;4X2Vwv4-,+*N(-,%$H(!&amp;&#125;C#&quot;</span>!xwv&lt;zyxZpo5Vrkjongf,jibJ`_^$\aZ_^]VzTYRWVOsSRQJn1MFKJCBf)(&gt;=&lt;`#<span class="string">&quot;8\654XW165.-Q10)(&#x27;K+$#G&#x27;&amp;fe#&quot;</span>y?&#125;vuzyxq7utsrkj0hgfkjihg`_^$\[ZY&#125;|V[ZSRWPtT6LKJIm0/KDIHAeEDC&lt;;:<span class="number">9</span>]\<span class="number">6</span>Z4z816/<span class="number">4</span>-,P0/.&#x27;&amp;%$H(&#x27;&amp;%ed<span class="string">&quot;y~w=&#123;tsr8vo5mlqponmf,diba`ed]#&quot;</span>Z_X]V[TxRQVONMLp3INGFEi,HAF?c=&lt;;@<span class="number">9876</span>Z&#123;<span class="number">921</span>U/<span class="number">432</span>+O)o&#x27;&amp;%I#(!&amp;%<span class="variable">$&#123;A@~&#125;</span>|&#123;ts9qpun4lkpi/glkdcba&#x27;_dcbaZY&#125;]\UyS;QVUNrq4JIHMFj-,BGF?cCBA#<span class="string">&quot;8=6Z:98705.-Q1*p.-&amp;JI#&quot;</span>!~&#125;C&#123;<span class="string">&quot;!~&#125;v&lt;tsrqp6Wsl2jinmlkdcba&#x27;e^cb[Z~^@?UZSRv98TSLKo2NMFEJIBf)EDC&lt;;_98=6;4X2765.-Q10)o&#x27;&amp;%I#i&#x27;&amp;&#125;C&#123;&quot;</span>y~w=utyrqp6tsrqSi/g-ediha&#x27;eG]#[ZY&#125;@VzTYXWVOs6LKo2NMFKJCBf@ED=a;@<span class="number">9</span>]=&lt;<span class="number">54</span>XW765.-Q1q)ML,%*)<span class="string">&quot;!~&#125;C&#123;&quot;</span>yx&#125;v&lt;;yrwvo5slqpohg-kdchgf_%]\[Z~&#125;@VzZYRWVOsSRQJnN0/EDCg*)E&gt;b&lt;;@?<span class="number">8</span>=<span class="number">6</span>Z:<span class="number">9810</span>T4t2+*N(-,%$H(&#x27;gf|Bz!x&#125;|u;srqpon4lTjohg-kjiba&#x27;e^c\<span class="string">&quot;!Y^]\[TxXW9ONMLpPOHMFjDIHA@E&gt;b&lt;;:9]=6;492V65.R2+*N.&#x27;&amp;+*#G&#x27;~%|#&quot;</span>yx&gt;=uzsxwvun43kjohgf,jihgfe^$\[Z_^W&#123;[TYXWVOsSRQJONMLEiCHG@?cb%;@?<span class="number">8</span>\<span class="number">6</span>;<span class="number">492</span>VUTu-<span class="number">2</span>+ONon,+*#G!&amp;&#125;C#<span class="string">&quot;!x&gt;|u;yrwpun4lTjohg-eMib(fe^cb[!Y^]\Uy&lt;;WVONSLpJIHMFKDhU</span></span><br></pre></td></tr></table></figure>
-<p>看了wp才知道原来这是一种编程语言……<strong>Malbolge</strong></p>
-<p><a target="_blank" rel="noopener" href="https://malbolge.doleczek.pl/">https://malbolge.doleczek.pl/</a></p>
-<p>用上网站解出密文得到</p>
-<figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">ct</span> <span class="operator">=</span>  <span class="number">873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013</span></span><br></pre></td></tr></table></figure>
-<p>再尝试开三次方，得到flag</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">from</span> Crypto.Util.number <span class="keyword">import</span> *</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span><span class="keyword">import</span> gmpy2</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>gmpy2.iroot(<span class="number">873155658033286165345893055075219953448439133304998599826332294122364399613515391492517530741997313686269671365469457117326837553092248386584401016236110628510070270063568461732767950347057143066788600143225698168693961311821925168117751654884111332051719013</span>,<span class="number">3</span>)</span><br><span class="line">(mpz(<span class="number">95579309976104600502240991830192190518846753403800625853612609969212847649926782792317</span>), <span class="literal">True</span>)</span><br><span class="line"><span class="meta">&gt;&gt;&gt; </span>long_to_bytes(<span class="number">95579309976104600502240991830192190518846753403800625853612609969212847649926782792317</span>)</span><br><span class="line"><span class="string">b&#x27;1337UP&#123;U_d3CrYPt3D_th3_k3Y_30494762&#125;&#x27;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> shutil</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">ROOT = <span class="string">r&#x27;&#x27;</span>  <span class="comment"># bilibili下载目录</span></span><br><span class="line">FFMPEG_PATH = <span class="string">r&#x27;D:\download\bin\ffmpeg.exe&#x27;</span>  <span class="comment"># ffmpeg.exe路径</span></span><br><span class="line">OUTPUT_PATH = <span class="string">r&#x27;D:\bilibili\output&#x27;</span>  <span class="comment"># MP4储存路径</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 格式转换</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">m4sToMP4</span>():</span><br><span class="line">    filename = [i <span class="keyword">for</span> i <span class="keyword">in</span> os.listdir() <span class="keyword">if</span> i.isdigit()]</span><br><span class="line">    path = os.getcwd()</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> filename:</span><br><span class="line">        mediaPath = os.path.join(path, i)</span><br><span class="line">        os.chdir(mediaPath)  <span class="comment"># 切换工作路径</span></span><br><span class="line">        m4sFile = [k <span class="keyword">for</span> k <span class="keyword">in</span> os.listdir() <span class="keyword">if</span> k.endswith(<span class="string">&#x27;.m4s&#x27;</span>) <span class="keyword">and</span> <span class="built_in">len</span>(k) &gt; <span class="number">10</span>]</span><br><span class="line"></span><br><span class="line">        <span class="comment"># 格式转换</span></span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(m4sFile)):</span><br><span class="line">            <span class="keyword">with</span> <span class="built_in">open</span>(m4sFile[j], <span class="string">&#x27;rb+&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">                data = f.read()[<span class="number">9</span>:]</span><br><span class="line">                <span class="keyword">with</span> <span class="built_in">open</span>(<span class="built_in">str</span>(j) + <span class="string">&#x27;.m4s&#x27;</span>, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> ff:</span><br><span class="line">                    ff.write(data)</span><br><span class="line">                    ff.close()</span><br><span class="line"></span><br><span class="line">        cmd = FFMPEG_PATH + <span class="string">r&#x27; -i 0.m4s -i 1.m4s -codec copy 12.mp4&#x27;</span></span><br><span class="line">        os.system(cmd)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">moveMP4</span>():</span><br><span class="line">    os.chdir(ROOT)</span><br><span class="line">    filename = [i <span class="keyword">for</span> i <span class="keyword">in</span> os.listdir() <span class="keyword">if</span> i.isdigit()]</span><br><span class="line">    path = os.getcwd()</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> filename:</span><br><span class="line">        mediaPath = os.path.join(path, i)</span><br><span class="line">        os.chdir(mediaPath)  <span class="comment"># 切换工作路径</span></span><br><span class="line"></span><br><span class="line">        <span class="comment"># 获取文件名</span></span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;.videoInfo&#x27;</span>, <span class="string">&#x27;r&#x27;</span>, encoding=<span class="string">&#x27;UTF-8&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">            videoInfo = f.read()</span><br><span class="line">            title = re.findall(<span class="string">r&#x27;&quot;title&quot;:&quot;(.*?)&quot;,&quot;&#x27;</span>, videoInfo, re.S)</span><br><span class="line"></span><br><span class="line">        os.rename(<span class="string">&#x27;12.mp4&#x27;</span>, title[<span class="number">0</span>]+<span class="string">&#x27;.mp4&#x27;</span>)</span><br><span class="line">        shutil.move(title[<span class="number">0</span>] + <span class="string">&#x27;.mp4&#x27;</span>, OUTPUT_PATH)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">deleteFile</span>():</span><br><span class="line">    os.chdir(ROOT)</span><br><span class="line">    filename = [i <span class="keyword">for</span> i <span class="keyword">in</span> os.listdir() <span class="keyword">if</span> i.isdigit()]</span><br><span class="line">    path = os.getcwd()</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> filename:</span><br><span class="line">        mediaPath = os.path.join(path, i)</span><br><span class="line">        shutil.rmtree(mediaPath)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">m4sToMP4()</span><br><span class="line">moveMP4()</span><br><span class="line">deleteFile()</span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -295,8 +281,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Crypto/" rel="tag"># Crypto</a>
-              <a href="/tags/CTF/" rel="tag"># CTF</a>
+              <a href="/tags/Misc/" rel="tag"># Misc</a>
           </div>
 
         
@@ -305,13 +290,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2022/06/22/zer0ptsCTF2022/" rel="prev" title="zer0ptsCTF2022">
-      <i class="fa fa-chevron-left"></i> zer0ptsCTF2022
+    <a href="/2022/12/10/MC%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="prev" title="我的世界服务器搭建">
+      <i class="fa fa-chevron-left"></i> 我的世界服务器搭建
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2022/11/29/2022%E5%AE%89%E6%B4%B5%E6%9D%AF/" rel="next" title="2022安洵杯">
-      2022安洵杯 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -370,7 +352,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Dante%E2%80%99s-Inferno"><span class="nav-number">1.</span> <span class="nav-text">Dante’s Inferno</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -555,61 +536,6 @@ setInterval("createtime()",250);
   
 
   
-      
-
-<script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
-          load: ['[tex]/mhchem'],
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
-        }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-          packages: {'[+]': ['mhchem']},
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script>
-
-    
 
   
 
