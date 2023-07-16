@@ -430,7 +430,7 @@ n=(\frac{A+k}{2})^2-(\frac{A+k}{2}-p)^2</script><script type="math/tex; mode=dis
   </entry>
   <entry>
     <title>Python爬虫学习(二)</title>
-    <url>/2023/07/06/python%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0(%E4%BA%8C)/</url>
+    <url>/2023/07/08/python%E7%88%AC%E8%99%AB%E5%AD%A6%E4%B9%A0(%E4%BA%8C)/</url>
     <content><![CDATA[<p>使用多线程爬取代理IP，并测试在本机的可用性。</p>
 <span id="more"></span>
 <h2 id="ipPoolSpider-py"><a href="#ipPoolSpider-py" class="headerlink" title="ipPoolSpider.py"></a>ipPoolSpider.py</h2><p>用来爬取页面的代理IP，以json文件存储数据</p>
